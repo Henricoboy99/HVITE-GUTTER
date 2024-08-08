@@ -3,38 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HVITE GUTTER - Hjem</title>
+    <title>HVITE GUTTER - Påmelding</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            background-color: #000;
-        }
-        .navbar-nav .nav-link {
-            color: #fff;
-        }
-        .hero {
-            height: 100vh;
-            background: url('https://example.com/your-cool-image.jpg') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero h1 {
-            font-size: 4rem;
-        }
-    </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
+        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +20,7 @@
                     <a class="nav-link" href="index.html">Hjem</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pamelding.html">Påmelding</a>
+                    <a class="nav-link active" href="pamelding.html">Påmelding</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tabell.html">Tabell</a>
@@ -60,8 +36,20 @@
     </div>
 </nav>
 
-<div class="hero">
-    <h1>Velkommen til HVITE GUTTER</h1>
+<div class="container mt-5">
+    <h2>Påmelding</h2>
+    <p>Ved å melde seg på til Hvite Gutter Fantasy Premier League 24/25 så plikter du å betale tapt beløp til the champ innen 3 dager.</p>
+    <form>
+        <div class="mb-3">
+            <label for="navn" class="form-label">Navn</label>
+            <input type="text" class="form-control" id="navn" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">E-post</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Meld deg på</button>
+    </form>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -3,38 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HVITE GUTTER - Hjem</title>
+    <title>HVITE GUTTER - Nyheter</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            background-color: #000;
-        }
-        .navbar-nav .nav-link {
-            color: #fff;
-        }
-        .hero {
-            height: 100vh;
-            background: url('https://example.com/your-cool-image.jpg') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero h1 {
-            font-size: 4rem;
-        }
-    </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
+        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,7 +26,7 @@
                     <a class="nav-link" href="tabell.html">Tabell</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="nyheter.html">Nyheter</a>
+                    <a class="nav-link active" href="nyheter.html">Nyheter</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="kontakt.html">Kontakt</a>
@@ -60,8 +36,20 @@
     </div>
 </nav>
 
-<div class="hero">
-    <h1>Velkommen til HVITE GUTTER</h1>
+<div class="container mt-5">
+    <h2>Nyheter</h2>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Nyhet 1</h5>
+            <p class="card-text">Her er en nyhet om ligaen.</p>
+        </div>
+    </div>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Nyhet 2</h5>
+            <p class="card-text">Her er en annen nyhet om ligaen.</p>
+        </div>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
