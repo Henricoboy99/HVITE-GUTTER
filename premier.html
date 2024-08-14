@@ -10,6 +10,26 @@
             background-color: #f8f9fa;
             font-family: Arial, sans-serif;
         }
+        .navbar {
+            background-color: #000;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .premie-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .premie-list li {
+            margin-bottom: 1rem;
+        }
+        .premie-list strong {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -42,25 +62,14 @@
     </div>
 </nav>
 
-<div class="container mt-4">
+<div class="content">
     <h1>Premier</h1>
-    <ul>
-        <li><strong>Oppsett med 12 deltakere (12 000 kr pott)</strong></li>
-        <li><strong>Hovedpremie for sammenlagtvinner</strong></li>
-        <ul>
-            <li><strong>Premie:</strong> 5000 kr (41,67% av premiepotten)</li>
-            <li><strong>Beskrivelse:</strong> Går til den som vinner ligaen sammenlagt.</li>
-        </ul>
-        <li><strong>Andreplass</strong></li>
-        <ul>
-            <li><strong>Premie:</strong> 2000 kr (16,67% av premiepotten)</li>
-            <li><strong>Beskrivelse:</strong> Går til den som ender på andreplass sammenlagt.</li>
-        </ul>
-        <li><strong>Tredjeplass</strong></li>
-        <ul>
-            <li><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</li>
-            <li><strong>Beskrivelse:</strong> Går til den som ender på tredjeplass sammenlagt.</li>
-        </ul>
-        <li><strong>Månedens manager</strong></li>
-        <ul>
-            <li><strong>Premie:</strong> 2400 kr totalt (300 kr per måned x 8 måneder
+    <ul class="premie-list">
+        <li>
+            <strong>Oppsett med 12 deltakere (12 000 kr pott)</strong>
+            <strong>Hovedpremie for sammenlagtvinner</strong>
+            <p><strong>Premie:</strong> 5000 kr (41,67% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Går til den som vinner ligaen sammenlagt.</p>
+        </li>
+        <li>
+            <strong>Andre

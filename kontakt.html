@@ -1,27 +1,70 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>HVITE GUTTER - Kontakt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #000;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .address {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Hjem</a></li>
-                <li><a href="ligakode.html">Ligakode</a></li>
-                <li><a href="premier.html">Premier</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Hjem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ligakode.html">Ligakode</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="premier.html">Premier</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deltakere.html">Deltakere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Kontakt</h1>
-        <p>The White House</p>
-        <p>1600 Pennsylvania Ave NW</p>
-        <p>Washington, DC 20500</p>
-    </main>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="address">
+        The White House<br>
+        1600 Pennsylvania Ave NW<br>
+        Washington, DC 20500
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
