@@ -5,52 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premier - HVITE GUTTER</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             background-color: #f8f9fa;
             font-family: Arial, sans-serif;
-            margin: 0;
         }
         .navbar {
-            background-color: #343a40;
+            background-color: #343a40; /* Gråfarge for menyen */
         }
         .navbar-nav .nav-link {
-            color: #fff !important;
+            color: #fff;
         }
-        .content {
-            max-width: 800px;
-            margin: 80px auto; /* juster marginen for å matche navigasjonsbarens høyde */
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
+        .container {
+            margin-top: 30px;
+        }
+        .card {
+            border-radius: 10px;
+            border: none;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        .content h1 {
-            text-align: center;
-            margin-bottom: 20px;
+        .card-body {
+            padding: 20px;
         }
-        .prize {
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            border-bottom: 1px solid #ddd;
+            border-radius: 10px 10px 0 0;
+            padding: 15px;
+            font-size: 1.5rem;
+        }
+        .card-text {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        .card-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .card-link:hover {
+            text-decoration: underline;
+        }
+        .card-footer {
+            border-top: 1px solid #ddd;
+            padding: 15px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .premie-item {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
         }
-        .prize i {
-            font-size: 2rem;
-            color: #007bff;
+        .premie-item img {
+            width: 30px; /* Juster størrelsen på ikonet */
+            height: 30px;
             margin-right: 15px;
-        }
-        .prize p {
-            font-size: 1.25rem;
-            margin: 0;
         }
     </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
+        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -76,27 +94,82 @@
     </div>
 </nav>
 
-<div class="content">
-    <h1>Premier</h1>
-    <div class="prize">
-        <i class="fas fa-trophy"></i>
-        <p>1. plass: 5000 kr</p>
-    </div>
-    <div class="prize">
-        <i class="fas fa-medal"></i>
-        <p>2. plass: 3000 kr</p>
-    </div>
-    <div class="prize">
-        <i class="fas fa-certificate"></i>
-        <p>3. plass: 1000 kr</p>
-    </div>
-    <div class="prize">
-        <i class="fas fa-star"></i>
-        <p>Beste kaptein: 1000 kr</p>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Premier
+        </div>
+        <div class="card-body">
+            <p class="card-text">Her er oversikten over premiene for sesongen. Totalt er premiepotten på 14 000 kr, fordelt som følger:</p>
+            <div class="premie-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2265/2265980.png" alt="Kronen"> <!-- Kronen -->
+                <div>
+                    <strong>Hovedpremie for sammenlagtvinner</strong><br>
+                    Premie: 6000 kr (42,86% av premiepotten)<br>
+                    Beskrivelse: Går til den som vinner ligaen sammenlagt.
+                </div>
+            </div>
+            <div class="premie-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2731/2731440.png" alt="Sølvmedalje"> <!-- Sølvmedalje -->
+                <div>
+                    <strong>Andreplass</strong><br>
+                    Premie: 2500 kr (17,86% av premiepotten)<br>
+                    Beskrivelse: Går til den som ender på andreplass sammenlagt.
+                </div>
+            </div>
+            <div class="premie-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2731/2731467.png" alt="Bronsemedalje"> <!-- Bronsmedalje -->
+                <div>
+                    <strong>Tredjeplass</strong><br>
+                    Premie: 600 kr (4,29% av premiepotten)<br>
+                    Beskrivelse: Går til den som ender på tredjeplass sammenlagt.
+                </div>
+            </div>
+            <div class="premie-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/1007/1007737.png" alt="Kalender"> <!-- Kalender -->
+                <div>
+                    <strong>Månedens manager</strong><br>
+                    Premie: 2400 kr totalt (300 kr per måned x 8 måneder) (17,14% av premiepotten)<br>
+                    Beskrivelse: Den som får flest poeng i en måned vinner 300 kr. Dette gjelder hele sesongen, fra august til mai.
+                </div>
+            </div>
+            <div class="premie-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/619/619079.png" alt="Kaptein"> <!-- Kaptein -->
+                <div>
+                    <strong>Beste kaptein</strong><br>
+                    Premie: 1000 kr (7,14% av premiepotten)<br>
+                    Beskrivelse: Manageren med flest kapteinseiere gjennom sesongen vinner denne premien. Er det flere som får beste kapteinsvalg en runde, vil 1 poeng bli delt på antallet.
+                </div>
+            </div>
+            <div class="premie-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/743/743493.png" alt="H2H"> <!-- H2H -->
+                <div>
+                    <strong>Vinner av H2H-ligaen</strong><br>
+                    Premie: 750 kr (5,36% av premiepotten)<br>
+                    Beskrivelse: Går til den som vinner head-to-head ligaen.
+                </div>
+            </div>
+            <div class="premie-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/723/723457.png" alt="Cup"> <!-- Cup -->
+                <div>
+                    <strong>Vinner av cupen</strong><br>
+                    Premie: 750 kr (5,36% av premiepotten)<br>
+                    Beskrivelse: Går til den som vinner cupturneringen.
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <p>Total fordeling:<br>
+                Sammenlagt: 9100 kr (65% av potten fordelt på topp 3)<br>
+                Månedens manager: 2400 kr (17,14% av potten)<br>
+                Beste kaptein: 1000 kr (7,14% av potten)<br>
+                H2H-ligaen: 750 kr (5,36% av potten)<br>
+                Cupen: 750 kr (5,36% av potten)
+            </p>
+        </div>
     </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>
