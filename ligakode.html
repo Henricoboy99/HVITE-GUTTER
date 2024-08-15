@@ -9,6 +9,7 @@
         body {
             background-color: #f8f9fa;
             font-family: Arial, sans-serif;
+            margin: 0;
         }
         .navbar {
             background-color: #343a40;
@@ -18,22 +19,15 @@
         }
         .content {
             max-width: 800px;
-            margin: 20px auto;
+            margin: 80px auto; /* juster marginen for å matche navigasjonsbarens høyde */
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
         }
-        .link-section {
-            margin-top: 20px;
-        }
-        .link-section a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .link-section a:hover {
-            text-decoration: underline;
+        .content h1 {
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -70,18 +64,15 @@
 <div class="content">
     <h1>Ligakode</h1>
     <p>For å delta i Hvite Gutter 24/25 er man nødt til å melde seg opp i begge ligaene. Hver deltaker binder seg til en innsats på kr 1 000,-</p>
-    <div class="link-section">
-        <p><strong>HVITE GUTTER - 1000:</strong> ewwxf7</p>
-        <p><a href="https://fantasy.premierleague.com/leagues/auto-join/ewwxf7" target="_blank">Bli med i HVITE GUTTER</a></p>
+    <div class="league">
+        <h2>HVITE GUTTER - 1000: ewwxf7</h2>
+        <a href="https://fantasy.premierleague.com/leagues/auto-join/ewwxf7" target="_blank">Bli med</a>
     </div>
-    <div class="link-section">
-        <p><strong>H2H LIGA:</strong> h66iot</p>
-        <p><a href="https://fantasy.premierleague.com/leagues/auto-join/h66iot" target="_blank">Bli med i H2H LIGA</a></p>
+    <div class="league">
+        <h2>H2H LIGA: h66iot</h2>
+        <a href="https://fantasy.premierleague.com/leagues/auto-join/h66iot" target="_blank">Bli med</a>
     </div>
-    <div class="link-section">
-        <p><strong>About</strong></p>
-        <p>Vi ønsker alle gutta lykke til i årets sesong! Her handler det om å ha det gøy, utfordre hverandre, og selvfølgelig – å gå for seieren. La oss gjøre dette til den beste sesongen så langt. Måtte den beste manageren vinne! ⚽️</p>
-    </div>
+    <p>Vi ønsker alle gutta lykke til i årets sesong! Her handler det om å ha det gøy, utfordre hverandre, og selvfølgelig – å gå for seieren. La oss gjøre dette til den beste sesongen så langt. Måtte den beste manageren vinne! ⚽️</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
