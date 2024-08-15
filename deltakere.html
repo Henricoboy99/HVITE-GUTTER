@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HVITE GUTTER - Deltakere</title>
+    <title>Deltakere - HVITE GUTTER</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            background-color: #f9f9f9;
+            background-color: #f0f0f0;
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
@@ -24,42 +24,28 @@
             color: #fff !important;
         }
         .container {
-            max-width: 900px;
-            margin: 100px auto 20px auto;
+            max-width: 1200px;
+            margin: 100px auto;
             padding: 20px;
-            background-color: #ffffff;
+        }
+        .deltaker-kort {
+            background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            font-size: 2rem;
-            color: #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
-            text-align: center;
-        }
-        .deltakere-card {
+            padding: 20px;
             display: flex;
             align-items: center;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 10px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
-        .deltakere-card i {
-            font-size: 40px; /* Redusert størrelse */
-            margin-right: 20px; /* Økt mellomrom */
-            color: #f39c12; /* Gullfarge for kronen */
+        .deltaker-kort i {
+            font-size: 2rem;
+            color: #007bff; /* Farge på ikonene */
+            margin-right: 15px; /* Avstand mellom ikon og tekst */
         }
-        .deltakere-card h3 {
-            margin: 0;
+        .deltaker-kort .navn {
             font-size: 1.25rem;
+            font-weight: 600;
             color: #333;
-        }
-        .deltakere-card p {
-            margin: 5px 0;
-            color: #666;
         }
     </style>
 </head>
@@ -79,106 +65,62 @@
 </nav>
 
 <div class="container">
-    <h2>Deltakere</h2>
-    <p>Vi har totalt <strong>14</strong> deltakere i ligaen. Her er en oversikt over alle deltakerne og lagene deres:</p>
-    
-    <div class="deltakere-card">
+    <h1 class="mb-4">Deltakere (14)</h1>
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Aleksander Vikenes</h3>
-            <p>Lag: Unknown</p>
-        </div>
+        <div class="navn">Aleksander Vikenes - unknown</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Anders Hatlo Nedrelid</h3>
-            <p>Lag: Unknown</p>
-        </div>
+        <div class="navn">Anders Hatlo Nedrelid - unknown</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Bastian Ole Paus Råmunddal</h3>
-            <p>Lag: Slickford</p>
-        </div>
+        <div class="navn">Bastian Ole Paus Råmunddal - Slickford</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Felix Blom</h3>
-            <p>Lag: Unknown</p>
-        </div>
+        <div class="navn">Felix Blom - unknown</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Henrik Nielsen</h3>
-            <p>Lag: Gucci</p>
-        </div>
+        <div class="navn">Henrik Nielsen - Gucci</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Jens Christian Willas Syverstad</h3>
-            <p>Lag: Pjanic at the Disco</p>
-        </div>
+        <div class="navn">Jens Christian Willas Syverstad - Pjanic at the Disco</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Julius Råmunddal</h3>
-            <p>Lag: Team never lose</p>
-        </div>
+        <div class="navn">Julius Råmunddal - Team never lose</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Kasper Labourée Fossen</h3>
-            <p>Lag: Unknown</p>
-        </div>
+        <div class="navn">Kasper Labourée Fossen - unknown</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Marcus Bentzen</h3>
-            <p>Lag: FC Bentz</p>
-        </div>
+        <div class="navn">Marcus Bentzen - FC Bentz</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Nikolai Rypdal</h3>
-            <p>Lag: Gutta høyrebacker</p>
-        </div>
+        <div class="navn">Nikolai Rypdal - Gutta høyrebacker</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Sverre Futsæter</h3>
-            <p>Lag: SviDi Allstars</p>
-        </div>
+        <div class="navn">Sverre Futsæter - SviDi Allstars</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Sverre Nodland</h3>
-            <p>Lag: Unknown</p>
-        </div>
+        <div class="navn">Sverre Nodland - unknown</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Tor Olav Leksbø</h3>
-            <p>Lag: David N'goggins</p>
-        </div>
+        <div class="navn">Tor Olav Leksbø - David N'goggins</div>
     </div>
-    <div class="deltakere-card">
+    <div class="deltaker-kort">
         <i class="fas fa-crown"></i>
-        <div>
-            <h3>Torkel Mellin-Olsen</h3>
-            <p>Lag: I'm a Slot</p>
-        </div>
+        <div class="navn">Torkel Mellin-Olsen - I'm a Slot</div>
     </div>
 </div>
 
