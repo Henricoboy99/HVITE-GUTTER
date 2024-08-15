@@ -41,6 +41,8 @@
             padding: 0;
         }
         .premier-item {
+            display: flex;
+            align-items: center;
             background: #f1f1f1;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -50,8 +52,14 @@
         }
         .premier-item h3 {
             margin: 0;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             color: #333;
+            flex: 1;
+        }
+        .premier-item .icon {
+            font-size: 2rem;
+            margin-right: 15px;
+            color: #007bff;
         }
         .premier-item p {
             margin: 5px 0;
@@ -77,39 +85,60 @@
     <h2>Premier</h2>
     <ul class="premier-list">
         <li class="premier-item">
-            <h3>Hovedpremie for sammenlagtvinner</h3>
-            <p><strong>Premie:</strong> 5000 kr (41,67% av premiepotten)</p>
-            <p><strong>Beskrivelse:</strong> Går til den som vinner ligaen sammenlagt.</p>
+            <span class="icon">🏆</span>
+            <div>
+                <h3>Hovedpremie for sammenlagtvinner</h3>
+                <p><strong>Premie:</strong> 5000 kr (41,67% av premiepotten)</p>
+                <p><strong>Beskrivelse:</strong> Går til den som vinner ligaen sammenlagt.</p>
+            </div>
         </li>
         <li class="premier-item">
-            <h3>Andreplass</h3>
-            <p><strong>Premie:</strong> 2000 kr (16,67% av premiepotten)</p>
-            <p><strong>Beskrivelse:</strong> Går til den som ender på andreplass sammenlagt.</p>
+            <span class="icon">🥈</span>
+            <div>
+                <h3>Andreplass</h3>
+                <p><strong>Premie:</strong> 2000 kr (16,67% av premiepotten)</p>
+                <p><strong>Beskrivelse:</strong> Går til den som ender på andreplass sammenlagt.</p>
+            </div>
         </li>
         <li class="premier-item">
-            <h3>Tredjeplass</h3>
-            <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
-            <p><strong>Beskrivelse:</strong> Går til den som ender på tredjeplass sammenlagt.</p>
+            <span class="icon">🥉</span>
+            <div>
+                <h3>Tredjeplass</h3>
+                <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
+                <p><strong>Beskrivelse:</strong> Går til den som ender på tredjeplass sammenlagt.</p>
+            </div>
         </li>
         <li class="premier-item">
-            <h3>Månedens manager</h3>
-            <p><strong>Premie:</strong> 2400 kr totalt (300 kr per måned x 8 måneder) (20% av premiepotten)</p>
-            <p><strong>Beskrivelse:</strong> Den som får flest poeng i en måned vinner 300 kr. Dette skjer fra august til mai.</p>
+            <span class="icon">📅</span>
+            <div>
+                <h3>Månedens manager</h3>
+                <p><strong>Premie:</strong> 2400 kr totalt (300 kr per måned x 8 måneder) (20% av premiepotten)</p>
+                <p><strong>Beskrivelse:</strong> Den som får flest poeng i en måned vinner 300 kr. Dette skjer fra august til mai.</p>
+            </div>
         </li>
         <li class="premier-item">
-            <h3>Beste kaptein</h3>
-            <p><strong>Premie:</strong> 1000 kr (8,33% av premiepotten)</p>
-            <p><strong>Beskrivelse:</strong> Manageren med flest kapteinseiere gjennom sesongen vinner denne premien.</p>
+            <span class="icon">⭐</span>
+            <div>
+                <h3>Beste kaptein</h3>
+                <p><strong>Premie:</strong> 1000 kr (8,33% av premiepotten)</p>
+                <p><strong>Beskrivelse:</strong> Manageren med flest kapteinseiere gjennom sesongen vinner denne premien.</p>
+            </div>
         </li>
         <li class="premier-item">
-            <h3>Vinner av H2H-ligaen</h3>
-            <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
-            <p><strong>Beskrivelse:</strong> Går til den som vinner head-to-head ligaen.</p>
+            <span class="icon">🏆</span>
+            <div>
+                <h3>Vinner av H2H-ligaen</h3>
+                <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
+                <p><strong>Beskrivelse:</strong> Går til den som vinner head-to-head ligaen.</p>
+            </div>
         </li>
         <li class="premier-item">
-            <h3>Vinner av cupen</h3>
-            <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
-            <p><strong>Beskrivelse:</strong> Går til den som vinner cupturneringen.</p>
+            <span class="icon">🏆</span>
+            <div>
+                <h3>Vinner av cupen</h3>
+                <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
+                <p><strong>Beskrivelse:</strong> Går til den som vinner cupturneringen.</p>
+            </div>
         </li>
     </ul>
     <div class="alert-info">
