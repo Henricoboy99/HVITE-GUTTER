@@ -5,161 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HVITE GUTTER - Premier</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #f9f9f9;
             font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
         }
         .navbar {
-            background-color: #1a1a1a;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1030;
+            background-color: #343a40;
         }
         .navbar-nav .nav-link {
-            color: #fff;
-            font-weight: bold;
-            transition: color 0.3s;
+            color: #fff !important;
         }
-        .navbar-nav .nav-link:hover {
-            color: #ff6600;
-        }
-        .content {
+        .container {
             max-width: 800px;
-            margin: 50px auto;
+            margin: 100px auto 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #ffffff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            color: #1a1a1a;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-        .premie-item {
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #ddd;
-            padding: 10px 0;
-        }
-        .premie-item:last-child {
-            border-bottom: none;
-        }
-        .premie-icon {
             font-size: 2rem;
-            margin-right: 15px;
-            color: #ff6600;
-        }
-        .premie-description {
-            font-family: 'Roboto', sans-serif;
             color: #333;
-            font-size: 1rem;
-        }
-        .premie-title {
-            font-weight: bold;
-            color: #ff6600;
-        }
-        .footer {
-            background-color: #1a1a1a;
-            color: #fff;
-            padding: 20px 0;
+            margin-bottom: 20px;
             text-align: center;
         }
-        .footer p {
+        .premier-list {
+            list-style: none;
+            padding: 0;
+        }
+        .premier-item {
+            background: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .premier-item h3 {
             margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .premier-item p {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Hjem</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ligakode.html">Ligakode</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="premier.html">Premier</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="deltakere.html">Deltakere</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html">Kontakt</a>
-                </li>
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Hjem</a></li>
+            <li class="nav-item"><a class="nav-link" href="ligakode.html">Ligakode</a></li>
+            <li class="nav-item"><a class="nav-link" href="premier.html">Premier</a></li>
+            <li class="nav-item"><a class="nav-link" href="deltakere.html">Deltakere</a></li>
+            <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+        </ul>
     </div>
 </nav>
 
-<div class="content">
+<div class="container">
     <h2>Premier</h2>
-    <div class="premie-item">
-        <i class="fas fa-trophy premie-icon"></i>
-        <div class="premie-description">
-            <div class="premie-title">Hovedpremie for sammenlagtvinner</div>
-            <p>Premie: 5000 kr (41,67% av premiepotten)</p>
-            <p>Beskrivelse: Går til den som vinner ligaen sammenlagt.</p>
-        </div>
-    </div>
-    <div class="premie-item">
-        <i class="fas fa-medal premie-icon"></i>
-        <div class="premie-description">
-            <div class="premie-title">Andreplass</div>
-            <p>Premie: 2000 kr (16,67% av premiepotten)</p>
-            <p>Beskrivelse: Går til den som ender på andreplass sammenlagt.</p>
-        </div>
-    </div>
-    <div class="premie-item">
-        <i class="fas fa-medal premie-icon"></i>
-        <div class="premie-description">
-            <div class="premie-title">Tredjeplass</div>
-            <p>Premie: 500 kr (4,17% av premiepotten)</p>
-            <p>Beskrivelse: Går til den som ender på tredjeplass sammenlagt.</p>
-        </div>
-    </div>
-    <div class="premie-item">
-        <i class="fas fa-star premie-icon"></i>
-        <div class="premie-description">
-            <div class="premie-title">Månedens manager</div>
-            <p>Premie: 2400 kr totalt (300 kr per måned x 8 måneder) (20% av premiepotten)</p>
-            <p>Beskrivelse: Den som får flest poeng i en måned vinner 300 kr. Dette skjer fra august til mai.</p>
-        </div>
-    </div>
-    <div class="premie-item">
-        <i class="fas fa-star premie-icon"></i>
-        <div class="premie-description">
-            <div class="premie-title">Beste kaptein</div>
-            <p>Premie: 1000 kr (8,33% av premiepotten)</p>
-            <p>Beskrivelse: Manageren med flest kapteinseiere gjennom sesongen vinner denne premien.</p>
-        </div>
-    </div>
-    <div class="premie-item">
-        <i class="fas fa-trophy premie-icon"></i>
-        <div class="premie-description">
-            <div class="premie-title">Vinner av H2H-ligaen</div>
-            <p>Premie: 500 kr (4,17% av premiepotten)</p>
-            <p>Beskrivelse: Går til den som vinner head-to-head ligaen.</p>
-        </div>
-    </div>
-    <div class="premie-item">
-        <i class="fas fa-trophy premie-icon"></i>
-        <div class="premie-description">
-            <div class="premie-title">Vinner av cupen</div>
-            <p>Premie: 500 kr (4,17% av premiepotten)</p>
-            <p>Beskrivelse: Går til den som vinner cupturneringen.</p>
-        </div>
-    </div>
-    <div class="text-center mt-4">
-        <h4>Total fordeling:</h4>
+    <ul class="premier-list">
+        <li class="premier-item">
+            <h3>Hovedpremie for sammenlagtvinner</h3>
+            <p><strong>Premie:</strong> 5000 kr (41,67% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Går til den som vinner ligaen sammenlagt.</p>
+        </li>
+        <li class="premier-item">
+            <h3>Andreplass</h3>
+            <p><strong>Premie:</strong> 2000 kr (16,67% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Går til den som ender på andreplass sammenlagt.</p>
+        </li>
+        <li class="premier-item">
+            <h3>Tredjeplass</h3>
+            <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Går til den som ender på tredjeplass sammenlagt.</p>
+        </li>
+        <li class="premier-item">
+            <h3>Månedens manager</h3>
+            <p><strong>Premie:</strong> 2400 kr totalt (300 kr per måned x 8 måneder) (20% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Den som får flest poeng i en måned vinner 300 kr. Dette skjer fra august til mai.</p>
+        </li>
+        <li class="premier-item">
+            <h3>Beste kaptein</h3>
+            <p><strong>Premie:</strong> 1000 kr (8,33% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Manageren med flest kapteinseiere gjennom sesongen vinner denne premien.</p>
+        </li>
+        <li class="premier-item">
+            <h3>Vinner av H2H-ligaen</h3>
+            <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Går til den som vinner head-to-head ligaen.</p>
+        </li>
+        <li class="premier-item">
+            <h3>Vinner av cupen</h3>
+            <p><strong>Premie:</strong> 500 kr (4,17% av premiepotten)</p>
+            <p><strong>Beskrivelse:</strong> Går til den som vinner cupturneringen.</p>
+        </li>
+    </ul>
+    <div class="alert-info">
+        <p><strong>Total fordeling:</strong></p>
         <p>Sammenlagt: 7500 kr (62,5% av potten fordelt på de tre beste)</p>
         <p>Månedens manager: 2400 kr (20% av potten)</p>
         <p>Beste kaptein: 1000 kr (8,33% av potten)</p>
@@ -167,10 +121,6 @@
         <p>Cupen: 500 kr (4,17% av potten)</p>
     </div>
 </div>
-
-<footer class="footer">
-    <p>&copy; 2024 HVITE GUTTER. All rights reserved.</p>
-</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
