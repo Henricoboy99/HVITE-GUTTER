@@ -13,11 +13,18 @@
             padding: 0;
         }
         .navbar {
-            margin-bottom: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1030; /* Sørg for at menyen alltid er over innholdet */
+            background-color: #343a40;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
         }
         .container {
             max-width: 800px;
-            margin: 20px auto;
+            margin: 100px auto 20px auto; /* Margin for å unngå at innholdet skjuler menyen */
             padding: 20px;
             background-color: #ffffff;
             border-radius: 8px;
@@ -57,10 +64,10 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
     <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Hjem</a></li>
             <li class="nav-item"><a class="nav-link" href="ligakode.html">Ligakode</a></li>
             <li class="nav-item"><a class="nav-link" href="premier.html">Premier</a></li>
@@ -72,7 +79,7 @@
 
 <div class="container">
     <h2>Ligakode</h2>
-    <p>Deltakerne binder seg til en innsats på kr 1 000,-.</p>
+    <p>For å delta i Hvite Gutter 24/25 er man nødt til å melde seg opp i begge ligaene. Hver deltaker binder seg til en innsats på kr 1 000,-.</p>
 
     <div class="ligakode-box">
         <p><strong>HVITE GUTTER - 1000:</strong> <a href="https://fantasy.premierleague.com/leagues/auto-join/ewwxf7" target="_blank">ewwxf7</a></p>
@@ -82,7 +89,7 @@
     </div>
 
     <div class="alert-info">
-        Alle deltakere er klar over at innsatsen er 1000 kr per person.
+        Vi ønsker alle gutta lykke til i årets sesong! Her handler det om å ha det gøy, utfordre hverandre, og selvfølgelig – å gå for seieren. La oss gjøre dette til den beste sesongen så langt. Måtte den beste manageren vinne! ⚽️
     </div>
 </div>
 
