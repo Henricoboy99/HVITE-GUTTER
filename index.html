@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HVITE GUTTER</title>
+    <title>HVITE GUTTER - Hjem</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            margin: 0;
-            padding: 0;
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
         }
         .navbar {
             background-color: #343a40;
@@ -19,47 +18,51 @@
         }
         .hero {
             height: 100vh;
-            background: url('https://i.imghippo.com/files/gUrhR1723120847.png') no-repeat center center/cover; /* Bytt ut URL med din egen */
+            background: url(https://i.imghippo.com/files/gUrhR1723120847.png) no-repeat center center/cover;
             color: white;
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .navbar-toggler {
-            border-color: #fff; /* Farge på hamburger-menyen */
-        }
-        .navbar-toggler-icon {
-            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="%23ffffff" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
+        .hero h1 {
+            font-size: 4rem;
         }
     </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Hjem</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="ligakode.html">Ligakode</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="premier.html">Premier</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="deltakere.html">Deltakere</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="kontakt.html">Kontakt</a>
-            </li>
-        </ul>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Hjem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ligakode.html">Ligakode</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="premier.html">Premier</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deltakere.html">Deltakere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
-<div class="hero"></div>
+<div class="hero">
+    <h1>Velkommen til HVITE GUTTER</h1>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
