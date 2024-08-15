@@ -5,93 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HVITE GUTTER - Ligakode</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
             font-family: 'Montserrat', sans-serif;
         }
-        .navbar {
-            background-color: #1a1a1a;
-        }
-        .navbar-nav .nav-link {
-            color: #fff;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        .navbar-nav .nav-link:hover {
-            color: #ff6600;
-        }
-        .content {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        .container {
+            margin-top: 50px;
         }
         h2 {
-            color: #1a1a1a;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-        p {
-            font-family: 'Roboto', sans-serif;
+            font-size: 2rem;
             color: #333;
-            font-size: 1.2rem;
-        }
-        footer {
-            background-color: #1a1a1a;
-            color: #fff;
-            padding: 20px 0;
+            margin-bottom: 30px;
             text-align: center;
         }
-        footer p {
-            margin: 0;
+        p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .ligakode {
+            font-weight: bold;
+            color: #000;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .alert-info {
+            background-color: #e7f3fe;
+            color: #31708f;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Hjem</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ligakode.html">Ligakode</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="premier.html">Premier</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="deltakere.html">Deltakere</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html">Kontakt</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class="content">
+<div class="container">
     <h2>Ligakode</h2>
-    <p>Man må melde seg opp i begge ligaene for å være en del av turneringen. På premieoversikten står det fordelingen av innsatsen som spres mellom de ulike konkurransene.</p>
-    <p><strong>HVITE GUTTER - 1000:</strong> ewwxf7</p>
-    <p><strong>H2H LIGA:</strong> h66iot</p>
-</div>
+    <p>For å delta i turneringen, må alle deltakere melde seg opp i begge ligaene nedenfor. Vennligst sørg for at du har gjort dette før turneringen starter.</p>
 
-<footer>
-    <p>&copy; 2024 HVITE GUTTER. All rights reserved.</p>
-</footer>
+    <div class="ligakode">HVITE GUTTER - 1000: ewwxf7</div>
+    <div class="ligakode">H2H LIGA: h66iot</div>
+
+    <div class="alert-info">
+        Alle deltakere er klar over at innsatsen er 1000 kr per person.
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html
+</html>
