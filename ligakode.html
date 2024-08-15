@@ -9,33 +9,49 @@
         body {
             background-color: #f8f9fa;
             font-family: Arial, sans-serif;
-            margin: 0;
         }
         .navbar {
-            background-color: #343a40;
+            background-color: #000;
         }
         .navbar-nav .nav-link {
-            color: #fff !important;
+            color: #fff;
         }
-        .content {
-            max-width: 800px;
-            margin: 80px auto; /* juster marginen for å matche navigasjonsbarens høyde */
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
+        .container {
+            margin-top: 30px;
+        }
+        .card {
+            border-radius: 10px;
+            border: none;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
         }
-        .content h1 {
-            margin-bottom: 20px;
+        .card-body {
+            padding: 20px;
+        }
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            border-bottom: 1px solid #ddd;
+            border-radius: 10px 10px 0 0;
+            padding: 15px;
+            font-size: 1.5rem;
+        }
+        .card-text {
+            font-size: 1.1rem;
+        }
+        .card-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .card-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
+        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -61,18 +77,25 @@
     </div>
 </nav>
 
-<div class="content">
-    <h1>Ligakode</h1>
-    <p>For å delta i Hvite Gutter 24/25 er man nødt til å melde seg opp i begge ligaene. Hver deltaker binder seg til en innsats på kr 1 000,-</p>
-    <div class="league">
-        <h2>HVITE GUTTER - 1000: ewwxf7</h2>
-        <a href="https://fantasy.premierleague.com/leagues/auto-join/ewwxf7" target="_blank">Bli med</a>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Ligakode
+        </div>
+        <div class="card-body">
+            <p class="card-text">For å delta i Hvite Gutter 24/25 er man nødt til å melde seg opp i begge ligaene. Hver deltaker binder seg til en innsats på kr 1 000,-</p>
+            <ul>
+                <li>
+                    <strong>HVITE GUTTER - 1000:</strong> <a href="https://fantasy.premierleague.com/leagues/auto-join/ewwxf7" class="card-link">ewwxf7</a>
+                </li>
+                <li>
+                    <strong>H2H LIGA:</strong> <a href="https://fantasy.premierleague.com/leagues/auto-join/h66iot" class="card-link">h66iot</a>
+                </li>
+            </ul>
+            <p class="card-text mt-3">About</p>
+            <p class="card-text">Vi ønsker alle gutta lykke til i årets sesong! Her handler det om å ha det gøy, utfordre hverandre, og selvfølgelig – å gå for seieren. La oss gjøre dette til den beste sesongen så langt. Måtte den beste manageren vinne! ⚽️</p>
+        </div>
     </div>
-    <div class="league">
-        <h2>H2H LIGA: h66iot</h2>
-        <a href="https://fantasy.premierleague.com/leagues/auto-join/h66iot" target="_blank">Bli med</a>
-    </div>
-    <p>Vi ønsker alle gutta lykke til i årets sesong! Her handler det om å ha det gøy, utfordre hverandre, og selvfølgelig – å gå for seieren. La oss gjøre dette til den beste sesongen så langt. Måtte den beste manageren vinne! ⚽️</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
