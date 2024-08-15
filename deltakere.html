@@ -5,29 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HVITE GUTTER - Deltakere</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             background-color: #f8f9fa;
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
         }
         .navbar {
-            background-color: #000;
+            background-color: #1a1a1a;
         }
         .navbar-nav .nav-link {
             color: #fff;
-        }
-        .deltakere-list {
-            font-size: 1.5rem;
             font-weight: bold;
-            color: #333;
-            text-align: left;
-            max-width: 600px;
-            margin: 50px auto;
-            list-style-type: disc;
-            padding-left: 20px;
+            transition: color 0.3s;
         }
-        .deltakere-list li {
+        .navbar-nav .nav-link:hover {
+            color: #ff6600;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card-title {
+            font-weight: bold;
+            color: #ff6600;
             margin-bottom: 10px;
+        }
+        .card-subtitle {
+            font-size: 1rem;
+            color: #666666;
+            margin-bottom: 15px;
+        }
+        .row-cols-1 .card {
+            width: 100%;
+        }
+        .row-cols-2 .card {
+            width: calc(50% - 40px);
+        }
+        .row-cols-3 .card {
+            width: calc(33.333% - 40px);
+        }
+        .row-cols-4 .card {
+            width: calc(25% - 40px);
+        }
+        .row-cols-6 .card {
+            width: calc(16.666% - 40px);
         }
     </style>
 </head>
@@ -61,24 +98,99 @@
     </div>
 </nav>
 
-<div class="container">
-    <ul class="deltakere-list">
-        <li>Aleksander Vikenes</li>
-        <li>Anders Hatlo Nedrelid</li>
-        <li>Felix Blom</li>
-        <li>Henrik Nielsen</li>
-        <li>Jens Christian Willas Syverstad</li>
-        <li>Julius Råmunddal</li>
-        <li>Kasper Labourée Fossen</li>
-        <li>Nikolai Rypdal</li>
-        <li>Sverre Futsæter</li>
-        <li>Sverre Nodland</li>
-        <li>The King TOL8, Tor Olav Leksbø</li>
-        <li>Torkel Mellin-Olsen</li>
-    </ul>
+<div class="content">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Aleksander Vikenes</div>
+                <div class="card-subtitle">unknown</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Anders Hatlo Nedrelid</div>
+                <div class="card-subtitle">unknown</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Bastian Ole Paus Råmunddal</div>
+                <div class="card-subtitle">Slickford</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Felix Blom</div>
+                <div class="card-subtitle">unknown</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Henrik Nielsen</div>
+                <div class="card-subtitle">Gucci</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Jens Christian Willas Syverstad</div>
+                <div class="card-subtitle">Pjanic at the Disco</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Julius Råmunddal</div>
+                <div class="card-subtitle">Team never lose</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Kasper Labourée Fossen</div>
+                <div class="card-subtitle">unknown</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Marcus Bentzen</div>
+                <div class="card-subtitle">FC Bentz</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Nikolai Rypdal</div>
+                <div class="card-subtitle">Gutta høyrebacker</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Sverre Futsæter</div>
+                <div class="card-subtitle">SviDi Allstars</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Sverre Nodland</div>
+                <div class="card-subtitle">unknown</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Tor Olav Leksbø</div>
+                <div class="card-subtitle">David N'goggins</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-title">Torkel Mellin-Olsen</div>
+                <div class="card-subtitle">I'm a Slot</div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<footer class="footer">
+    <p>&copy; 2024 HVITE GUTTER. All rights reserved.</p>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
