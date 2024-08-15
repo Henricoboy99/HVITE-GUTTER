@@ -8,44 +8,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            background-color: #f0f0f0;
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
         }
         .navbar {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1030;
             background-color: #343a40;
         }
         .navbar-nav .nav-link {
             color: #fff !important;
         }
         .container {
-            max-width: 1200px;
-            margin: 100px auto;
-            padding: 20px;
+            max-width: 800px;
+            margin-top: 20px;
         }
-        .deltaker-kort {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-            padding: 20px;
+        .deltakere-list {
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
         }
-        .deltaker-kort i {
+        .deltaker-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: calc(50% - 20px);
+            text-align: center;
+        }
+        .deltaker-card .icon {
             font-size: 2rem;
-            color: #007bff; /* Farge på ikonene */
-            margin-right: 15px; /* Avstand mellom ikon og tekst */
+            color: #007bff; /* Kan endres til ønsket farge */
         }
-        .deltaker-kort .navn {
+        .deltaker-card .name {
+            margin-left: 20px;
             font-size: 1.25rem;
-            font-weight: 600;
-            color: #333;
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .deltaker-card {
+                width: calc(100% - 20px);
+            }
         }
     </style>
 </head>
@@ -53,78 +56,107 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
-    <div class="collapse navbar-collapse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Hjem</a></li>
-            <li class="nav-item"><a class="nav-link" href="ligakode.html">Ligakode</a></li>
-            <li class="nav-item"><a class="nav-link" href="premier.html">Premier</a></li>
-            <li class="nav-item"><a class="nav-link" href="deltakere.html">Deltakere</a></li>
-            <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Hjem</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ligakode.html">Ligakode</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="premier.html">Premier</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="deltakere.html">Deltakere</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
         </ul>
     </div>
 </nav>
 
 <div class="container">
-    <h1 class="mb-4">Deltakere (14)</h1>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Aleksander Vikenes - unknown</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Anders Hatlo Nedrelid - unknown</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Bastian Ole Paus Råmunddal - Slickford</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Felix Blom - unknown</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Henrik Nielsen - Gucci</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Jens Christian Willas Syverstad - Pjanic at the Disco</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Julius Råmunddal - Team never lose</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Kasper Labourée Fossen - unknown</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Marcus Bentzen - FC Bentz</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Nikolai Rypdal - Gutta høyrebacker</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Sverre Futsæter - SviDi Allstars</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Sverre Nodland - unknown</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Tor Olav Leksbø - David N'goggins</div>
-    </div>
-    <div class="deltaker-kort">
-        <i class="fas fa-crown"></i>
-        <div class="navn">Torkel Mellin-Olsen - I'm a Slot</div>
+    <h1 class="text-center mb-4">Deltakere</h1>
+    <p class="text-center mb-4">Antall deltakere: 14</p>
+    <div class="deltakere-list">
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Aleksander Vikenes</div>
+            <div class="team">unknown</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Anders Hatlo Nedrelid</div>
+            <div class="team">unknown</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Bastian Ole Paus Råmunddal</div>
+            <div class="team">Slickford</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Felix Blom</div>
+            <div class="team">unknown</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Henrik Nielsen</div>
+            <div class="team">Gucci</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Jens Christian Willas Syverstad</div>
+            <div class="team">Pjanic at the Disco</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Julius Råmunddal</div>
+            <div class="team">Team never lose</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Kasper Labourée Fossen</div>
+            <div class="team">unknown</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Marcus Bentzen</div>
+            <div class="team">FC Bentz</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Nikolai Rypdal</div>
+            <div class="team">Gutta høyrebacker</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Sverre Futsæter</div>
+            <div class="team">SviDi Allstars</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Sverre Nodland</div>
+            <div class="team">unknown</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Tor Olav Leksbø</div>
+            <div class="team">David N'goggins</div>
+        </div>
+        <div class="deltaker-card">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="name">Torkel Mellin-Olsen</div>
+            <div class="team">I'm a Slot</div>
+        </div>
     </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>
