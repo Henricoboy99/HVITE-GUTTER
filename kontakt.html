@@ -18,34 +18,26 @@
         .navbar-nav .nav-link {
             color: #fff !important;
         }
-        .container {
-            margin-top: 80px; /* juster marginen for å matche navigasjonsbarens høyde */
-        }
-        .card {
-            border-radius: 10px;
-            border: none;
+        .content {
+            max-width: 800px;
+            margin: 80px auto; /* juster marginen for å matche navigasjonsbarens høyde */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        .card-header {
-            background-color: #6c757d; /* Gråfarge for header */
-            color: #fff;
-            border-bottom: 1px solid #ddd;
-            border-radius: 10px 10px 0 0;
-            padding: 15px;
-            font-size: 1.5rem;
+        .content h1 {
+            text-align: center;
+            margin-bottom: 20px;
         }
-        .card-body {
-            padding: 20px;
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1rem;
         }
-        .card-text {
-            font-size: 1.1rem;
-            margin-bottom: 15px;
-        }
-        .card-footer {
-            border-top: 1px solid #ddd;
-            padding: 15px;
-            font-size: 0.9rem;
-            color: #555;
+        .contact-info p {
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -53,7 +45,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
+        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -82,16 +74,13 @@
     </div>
 </nav>
 
-<div class="container">
-    <div class="card contact-box">
-        <div class="card-header">
-            The White House
-        </div>
-        <div class="card-body">
-            <p class="contact-text">1600 Pennsylvania Ave NW, Washington, DC 20500</p>
-            <p class="contact-text">Håkon Sakariassen besvarer alle henvendelser fortløpende. Normal responstid er 37 sekunder.</p>
-            <p class="contact-text">Snap: h.sakariassen</p>
-        </div>
+<div class="content">
+    <h1>Kontakt</h1>
+    <div class="contact-info">
+        <p><strong>The White House</strong></p>
+        <p>1600 Pennsylvania Ave NW, Washington, DC 20500</p>
+        <p>Håkon Sakariassen besvarer alle henvendelser fortløpende. Normal responstid er 37 sekunder.</p>
+        <p>Snap: h.sakariassen</p>
     </div>
 </div>
 
