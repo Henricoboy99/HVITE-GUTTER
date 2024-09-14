@@ -9,10 +9,7 @@
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-        }
-        .table thead th {
-            background-color: #343a40;
-            color: white;
+            background-color: #f8f9fa;
         }
         .navbar {
             background-color: #343a40;
@@ -20,8 +17,23 @@
         .navbar-nav .nav-link {
             color: #fff !important;
         }
-        h2 {
+        h1, h2 {
             margin-top: 20px;
+            color: #343a40;
+        }
+        .table thead th {
+            background-color: #6c757d;
+            color: white;
+            font-weight: bold;
+        }
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #e9ecef;
+        }
+        .table th, .table td {
+            text-align: center;
+        }
+        .container {
+            margin-top: 70px; /* Adjusted for fixed navbar */
         }
     </style>
 </head>
@@ -58,7 +70,7 @@
     </div>
 </nav>
 
-<div class="container mt-5 pt-5">
+<div class="container">
     <h1 class="text-center">Live Oppdatering</h1>
 
     <h2>Deltakere og Poeng</h2>
@@ -92,7 +104,7 @@
         <thead>
             <tr>
                 <th>Runde</th>
-                <th>Poeng</th>
+                <th>Resultat</th>
             </tr>
         </thead>
         <tbody>
