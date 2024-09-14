@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Oppdatering - HVITE GUTTER</title>
+    <title>Live oppdatering - HVITE GUTTER</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -21,24 +21,41 @@
             margin-top: 20px;
             color: #343a40;
         }
+        .table {
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
         .table thead th {
-            background-color: #6c757d;
+            background-color: #343a40;
             color: white;
             font-weight: bold;
+            border: none;
         }
-        .table-striped tbody tr:nth-of-type(odd) {
+        .table tbody tr:nth-of-type(odd) {
             background-color: #e9ecef;
         }
-        .table th, .table td {
+        .table tbody tr:nth-of-type(even) {
+            background-color: #ffffff;
+        }
+        .table td, .table th {
             text-align: center;
+            vertical-align: middle;
+        }
+        .table .leader {
+            background-color: #ffd700; /* Gold color */
+            color: #000;
+            font-weight: bold;
+        }
+        .leader-pos {
+            color: #d4af37; /* Gold color for rank */
+            font-weight: bold;
+        }
+        .table td {
+            border: 1px solid #dee2e6;
         }
         .container {
             margin-top: 70px; /* Adjusted for fixed navbar */
-        }
-        .leader {
-            background-color: #ffd700; /* Gold color */
-            font-weight: bold;
-            color: #000;
         }
     </style>
 </head>
@@ -82,25 +99,82 @@
     <table class="table table-striped">
         <thead>
             <tr>
+                <th>Posisjon</th>
                 <th>Navn</th>
                 <th>Poeng</th>
             </tr>
         </thead>
         <tbody>
-            <tr><td>Felix Blom</td><td class="leader">11</td></tr>
-            <tr><td>Julius Råmunddal</td><td>3.5</td></tr>
-            <tr><td>Aleksander Vikenes</td><td>2.5</td></tr>
-            <tr><td>Marcus Bentzen</td><td>2.5</td></tr>
-            <tr><td>Anders Hatlo Nedrelid</td><td>1</td></tr>
-            <tr><td>Henrik Nielsen</td><td>1</td></tr>
-            <tr><td>Jens Christian Willas Syverstad</td><td>1</td></tr>
-            <tr><td>Kasper Labourée Fossen</td><td>1</td></tr>
-            <tr><td>Nikolai Rypdal</td><td>1</td></tr>
-            <tr><td>Sverre Futsæter</td><td>1</td></tr>
-            <tr><td>Tor Olav Leksbø</td><td>1</td></tr>
-            <tr><td>Torkel Mellin-Olsen</td><td>1</td></tr>
-            <tr><td>Sverre Nodland</td><td>0</td></tr>
-            <tr><td>Bastian Ole Paus Råmunddal</td><td>0</td></tr>
+            <tr class="leader">
+                <td class="leader-pos">1</td>
+                <td>Felix Blom</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Julius Råmunddal</td>
+                <td>3.5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Aleksander Vikenes</td>
+                <td>2.5</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Marcus Bentzen</td>
+                <td>2.5</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Anders Hatlo Nedrelid</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Henrik Nielsen</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Jens Christian Willas Syverstad</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Kasper Labourée Fossen</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Nikolai Rypdal</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Sverre Futsæter</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Tor Olav Leksbø</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Torkel Mellin-Olsen</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Sverre Nodland</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Bastian Ole Paus Råmunddal</td>
+                <td>0</td>
+            </tr>
         </tbody>
     </table>
 
@@ -113,48 +187,82 @@
             </tr>
         </thead>
         <tbody>
-            <tr><td>Runde 1</td><td>Marcus, Bastian, Julius, Aleksander (2.5)</td></tr>
-            <tr><td>Runde 2</td><td>Felix (10)</td></tr>
-            <tr><td>Runde 3</td><td>Nikolai, Torkel, Julius, Felix, Jens, Tor Olav, Henrik, Sverre, Kasper, Anders (1)</td></tr>
-            <tr><td>Runde 4</td><td></td></tr>
-            <tr><td>Runde 5</td><td></td></tr>
-            <tr><td>Runde 6</td><td></td></tr>
-            <tr><td>Runde 7</td><td></td></tr>
-            <tr><td>Runde 8</td><td></td></tr>
-            <tr><td>Runde 9</td><td></td></tr>
-            <tr><td>Runde 10</td><td></td></tr>
-            <tr><td>Runde 11</td><td></td></tr>
-            <tr><td>Runde 12</td><td></td></tr>
-            <tr><td>Runde 13</td><td></td></tr>
-            <tr><td>Runde 14</td><td></td></tr>
-            <tr><td>Runde 15</td><td></td></tr>
-            <tr><td>Runde 16</td><td></td></tr>
-            <tr><td>Runde 17</td><td></td></tr>
-            <tr><td>Runde 18</td><td></td></tr>
-            <tr><td>Runde 19</td><td></td></tr>
-            <tr><td>Runde 20</td><td></td></tr>
-            <tr><td>Runde 21</td><td></td></tr>
-            <tr><td>Runde 22</td><td></td></tr>
-            <tr><td>Runde 23</td><td></td></tr>
-            <tr><td>Runde 24</td><td></td></tr>
-            <tr><td>Runde 25</td><td></td></tr>
-            <tr><td>Runde 26</td><td></td></tr>
-            <tr><td>Runde 27</td><td></td></tr>
-            <tr><td>Runde 28</td><td></td></tr>
-            <tr><td>Runde 29</td><td></td></tr>
-            <tr><td>Runde 30</td><td></td></tr>
-            <tr><td>Runde 31</td><td></td></tr>
-            <tr><td>Runde 32</td><td></td></tr>
-            <tr><td>Runde 33</td><td></td></tr>
-            <tr><td>Runde 34</td><td></td></tr>
-            <tr><td>Runde 35</td><td></td></tr>
-            <tr><td>Runde 36</td><td></td></tr>
-            <tr><td>Runde 37</td><td></td></tr>
-            <tr><td>Runde 38</td><td></td></tr>
-        </tbody>
-    </table>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+            <tr>
+                <td>Runde 1</td>
+                <td>Marcus, Bastian, Julius, Aleksander (2.5)</td>
+            </tr>
+            <tr>
+                <td>Runde 2</td>
+                <td>Felix (10)</td>
+            </tr>
+            <tr>
+                <td>Runde 3</td>
+                <td>Nikolai, Torkel, Julius, Felix, Jens, Tor Olav, Henrik, Sverre, Kasper, Anders (1)</td>
+            </tr>
+            <tr>
+                <td>Runde 4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 7</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 10</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 11</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 12</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 13</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 14</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 15</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 16</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 17</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 18</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 19</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Runde 20</td>
+                <td></td>
