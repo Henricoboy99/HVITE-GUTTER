@@ -9,15 +9,16 @@
         body {
             background-color: #f8f9fa;
             font-family: Arial, sans-serif;
+            margin: 0;
         }
         .navbar {
             background-color: #343a40; /* Gråfarge for menyen */
         }
         .navbar-nav .nav-link {
-            color: #fff;
+            color: #fff !important;
         }
         .container {
-            margin-top: 30px;
+            margin-top: 80px; /* juster marginen for å matche navigasjonsbarens høyde */
         }
         .card {
             border-radius: 10px;
@@ -56,9 +57,9 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">HVITE GUTTER</a>
+        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -75,6 +76,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="deltakere.html">Deltakere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="live-oppdatering.html">Live Oppdatering</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="kontakt.html">Kontakt</a>
