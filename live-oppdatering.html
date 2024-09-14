@@ -9,53 +9,60 @@
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-            background-color: #f8f9fa;
+            background: linear-gradient(135deg, #f8f9fa, #e2e2e2);
         }
         .navbar {
-            background-color: #343a40;
+            background: linear-gradient(90deg, #343a40, #6c757d);
         }
         .navbar-nav .nav-link {
             color: #fff !important;
+            font-weight: bold;
         }
         h1, h2 {
             margin-top: 20px;
             color: #343a40;
         }
         .table {
-            border-radius: 10px;
+            border-radius: 12px;
             overflow: hidden;
             margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         .table thead th {
             background-color: #343a40;
             color: white;
             font-weight: bold;
             border: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         .table tbody tr:nth-of-type(odd) {
-            background-color: #e9ecef;
+            background-color: #f5f5f5;
         }
         .table tbody tr:nth-of-type(even) {
             background-color: #ffffff;
         }
-        .table td, .table th {
-            text-align: center;
-            vertical-align: middle;
-        }
-        .table .leader {
-            background-color: #ffd700; /* Gold color */
+        .table tbody tr.leader {
+            background: linear-gradient(135deg, #ffd700 0%, #ffa500 100%);
             color: #000;
             font-weight: bold;
         }
-        .leader-pos {
+        .table tbody tr.leader td {
+            border: 2px solid #ffdf00;
+            border-width: 2px 2px 4px 2px;
+        }
+        .table .leader-pos {
             color: #d4af37; /* Gold color for rank */
             font-weight: bold;
         }
-        .table td {
+        .table td, .table th {
+            text-align: center;
+            vertical-align: middle;
+            padding: 15px;
             border: 1px solid #dee2e6;
         }
         .container {
-            margin-top: 70px; /* Adjusted for fixed navbar */
+            margin-top: 80px; /* Adjusted for fixed navbar */
         }
     </style>
 </head>
