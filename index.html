@@ -8,35 +8,25 @@
   <style>
     :root { --nav-h: 64px; }
     body { margin:0; padding-top: var(--nav-h); background:#0f0e0d; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-
-    /* Navbar */
-    .navbar { background-color:#343a40; }
+    .navbar { background:#343a40; }
     .navbar .nav-link { color:#fff !important; }
-
-    /* HERO som viser hele plakaten (ikke beskåret) */
-    .hero { padding: 0; }
+    .hero { padding:0; }
     .hero-img {
-      width: 100%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-      max-width: 1400px;           /* valgfritt: begrens maks bredde */
-      box-shadow: 0 10px 40px rgba(0,0,0,.35);
+      width:100%;
+      height:auto;
+      display:block;
+      margin:0 auto;
+      max-width:1400px;
+      box-shadow:0 10px 40px rgba(0,0,0,.35);
     }
-
-    /* Enkel seksjon under (kan slettes) */
-    .wrap { max-width: 1100px; margin: 0 auto; padding: 32px 16px; }
-    .muted { color: #d0d0d0; }
   </style>
 </head>
 <body>
 
-  <!-- Toppmeny -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold" href="index.html">HVITE GUTTER</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Veksle navigasjon">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Veksle navigasjon">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,18 +42,13 @@
     </div>
   </nav>
 
-  <!-- HERO: viser hele plakaten -->
+  <!-- HERO: viser hele plakaten fra assets/img/FORSIDE.png -->
   <section class="hero" aria-label="HVITE GUTTER – Fantasy Premier League, sesongen 25/26">
     <img src="assets/img/FORSIDE.png"
          alt="HVITE GUTTER – Fantasy Premier League, sesongen 25/26"
          class="hero-img">
   </section>
 
-  <!-- (valgfritt) kort intro-seksjon -->
-  <div class="wrap">
-    <h2>Velkommen til ligaen</h2>
-    <p class="muted">Vi er 12 stykker med i ligaen. Måtte den beste manageren vinne i sesongen 25/26!</p>
-  </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+</body>
+</html>
