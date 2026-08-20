@@ -136,6 +136,14 @@
       cursor: pointer;
     }
     .hero-video-controls button:hover { background: rgba(0,0,0,.8); }
+    .hero-video-controls button.pulse {
+      animation: pulseGlow 1.6s ease-in-out infinite;
+      border-color: var(--hg-gold-bright);
+    }
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(255,215,0,.5); }
+      50% { box-shadow: 0 0 0 8px rgba(255,215,0,0); }
+    }
 
     .section-strip {
       max-width: 980px;
@@ -193,6 +201,16 @@
     <div class="hero-particles" id="heroParticles"></div>
     <div class="hero-scrim"></div>
 
+    <!-- Skjult videoelement som kun brukes til å spille av det episke kor/vikinglåt-lydsporet -->
+    <video
+      id="heroAudioTrack"
+      src="https://media.viewmax.io/users/pxjRqQBolXLl3CXRuVLQAtF85yeh3VR1/sora-videos/919372935121473575/562fb712-ab20-4c82-b29e-6c18b3360c34.mp4"
+      loop
+      playsinline
+      preload="auto"
+      style="position:absolute; width:1px; height:1px; opacity:0; pointer-events:none;"
+    ></video>
+
     <div class="hero-content">
       <div class="hero-eyebrow">Fantasy Premier League</div>
       <h1 class="hero-title">HVITE GUTTER <span class="accent">26/27</span></h1>
@@ -201,6 +219,10 @@
         <a href="deltakere.html" class="btn-gold"><i class="fas fa-users"></i> Se deltakerne</a>
         <a href="ligakode.html" class="btn-outline-gold"><i class="fas fa-key"></i> Bli med</a>
       </div>
+    </div>
+
+    <div class="hero-video-controls">
+      <button type="button" id="musicToggle">🔊 Musikk</button>
     </div>
   </section>
 
@@ -251,6 +273,41 @@
         s.style.setProperty('--drift-x', driftX);
         wrap.appendChild(s);
       }
+    })();
+
+    (function () {
+      // Prøver å spille av episk kor/vikinglåt automatisk. Nettlesere blokkerer
+      // ofte lyd-autoplay før besøkende har interagert med siden – da viser vi
+      // heller en pulserende "Musikk"-knapp de kan trykke på med én gang.
+      const track = document.getElementById('heroAudioTrack');
+      const btn = document.getElementById('musicToggle');
+      if (!track || !btn) return;
+
+      function setPlayingUI() {
+        btn.textContent = '🔊 Musikk';
+        btn.classList.remove('pulse');
+      }
+      function setPausedUI() {
+        btn.textContent = '🔈 Spill musikk';
+      }
+
+      track.volume = 0.85;
+      const playPromise = track.play();
+      if (playPromise && playPromise.then) {
+        playPromise.then(setPlayingUI).catch(function () {
+          setPausedUI();
+          btn.classList.add('pulse');
+        });
+      }
+
+      btn.addEventListener('click', function () {
+        if (track.paused) {
+          track.play().then(setPlayingUI).catch(function () {});
+        } else {
+          track.pause();
+          setPausedUI();
+        }
+      });
     })();
   </script>
 </body>

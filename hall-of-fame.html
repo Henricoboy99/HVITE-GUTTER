@@ -41,6 +41,73 @@
         .icon-bronze { color: #cd7f32; }
         .icon-h2h { color: #4ea8de; }
         .icon-cup { color: #ff6b6b; }
+
+        /* Portrett-ramme til sammenlagtvinneren av hver sesong */
+        .winner-block {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 18px;
+        }
+        .winner-portrait {
+            position: relative;
+            flex: 0 0 auto;
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid var(--hg-gold-bright);
+            box-shadow:
+                0 0 0 3px #0b0a08,
+                0 0 0 5px rgba(212,175,55,0.55),
+                0 6px 20px rgba(0,0,0,0.55),
+                0 0 22px rgba(255,215,0,0.25);
+            background: radial-gradient(circle at 30% 20%, #2a2117, #0f0d0a);
+        }
+        .winner-portrait img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            filter: sepia(0.4) saturate(1.25) contrast(1.08) brightness(0.98);
+        }
+        .winner-portrait .placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(212,175,55,0.45);
+            font-size: 2rem;
+        }
+        .winner-portrait .crown-badge {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #0b0a08;
+            color: var(--hg-gold-bright);
+            border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .75rem;
+            border: 2px solid var(--hg-gold-bright);
+            box-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+        .winner-info .winner-name {
+            font-family: var(--font-head);
+            font-size: 1.25rem;
+            color: #fff;
+            font-weight: 700;
+        }
+        .winner-info .winner-caption {
+            color: var(--hg-text-muted);
+            font-size: .85rem;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -71,6 +138,16 @@
 
     <div class="hg-card">
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2025/2026</div>
+        <div class="winner-block">
+            <div class="winner-portrait">
+                <img id="portrait-2025-2026" src="images/winners/tor-olav.jpg" alt="Tor Olav Leksbø">
+                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+            </div>
+            <div class="winner-info">
+                <div class="winner-name">Tor Olav Leksbø</div>
+                <div class="winner-caption">Sammenlagtvinner 2025/2026</div>
+            </div>
+        </div>
         <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Tor Olav Leksbø</span></div>
         <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Christoffer Jensen</span></div>
         <div class="award-row"><i class="fas fa-medal icon-bronze"></i><span class="award-label">3. plass</span><span class="award-name">Henrik Nielsen</span></div>
@@ -80,6 +157,16 @@
 
     <div class="hg-card">
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2024/2025</div>
+        <div class="winner-block">
+            <div class="winner-portrait">
+                <img id="portrait-2024-2025" src="images/winners/torkel.jpg" alt="Torkel Mellin-Olsen">
+                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+            </div>
+            <div class="winner-info">
+                <div class="winner-name">Torkel Mellin-Olsen</div>
+                <div class="winner-caption">Sammenlagtvinner 2024/2025</div>
+            </div>
+        </div>
         <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Torkel Mellin-Olsen</span></div>
         <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Henrik Nielsen</span></div>
         <div class="award-row"><i class="fas fa-people-arrows icon-h2h"></i><span class="award-label">H2H-liga</span><span class="award-name">Henrik Nielsen</span></div>
@@ -88,6 +175,16 @@
 
     <div class="hg-card">
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2023/2024</div>
+        <div class="winner-block">
+            <div class="winner-portrait">
+                <img id="portrait-2023-2024" src="images/winners/julius.jpg" alt="Julius Råmunddal">
+                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+            </div>
+            <div class="winner-info">
+                <div class="winner-name">Julius Råmunddal</div>
+                <div class="winner-caption">Sammenlagtvinner 2023/2024</div>
+            </div>
+        </div>
         <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Julius Råmunddal</span></div>
         <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Felix Blom</span></div>
         <div class="award-row"><i class="fas fa-medal icon-bronze"></i><span class="award-label">3. plass</span><span class="award-name">Sverre Futsæter</span></div>
@@ -97,12 +194,32 @@
 
     <div class="hg-card">
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2022/2023</div>
+        <div class="winner-block">
+            <div class="winner-portrait">
+                <img id="portrait-2022-2023" src="images/winners/julius.jpg" alt="Julius Råmunddal">
+                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+            </div>
+            <div class="winner-info">
+                <div class="winner-name">Julius Råmunddal</div>
+                <div class="winner-caption">Sammenlagtvinner 2022/2023</div>
+            </div>
+        </div>
         <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Julius Råmunddal</span></div>
         <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Dian Cindahl</span></div>
     </div>
 
     <div class="hg-card">
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2021/2022</div>
+        <div class="winner-block">
+            <div class="winner-portrait">
+                <img id="portrait-2021-2022" src="images/winners/sverre.jpg" alt="Sverre Futsæter">
+                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+            </div>
+            <div class="winner-info">
+                <div class="winner-name">Sverre Futsæter</div>
+                <div class="winner-caption">Sammenlagtvinner 2021/2022</div>
+            </div>
+        </div>
         <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Sverre Futsæter</span></div>
     </div>
 </div>
