@@ -28,6 +28,9 @@
       padding: 0;
       display: grid;
       place-items: center;
+      position: relative;
+      background: #1a1410;
+      overflow: hidden;
     }
     .hero-img {
       width: 100%;
@@ -36,6 +39,52 @@
       max-width: 1400px;                 /* fin maks-bredde på store skjermer */
       box-shadow: 0 10px 40px rgba(0,0,0,.35);
       background: #1a1410;               /* pent bakteppe mens bildet laster */
+    }
+
+    /* Intro-video som spilles av over plakaten før den viser seg */
+    .hero-video-wrap {
+      position: absolute;
+      inset: 0;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000;
+      opacity: 1;
+      transition: opacity 1.2s ease;
+    }
+    .hero-video-wrap.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .hero-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .hero-video-controls {
+      position: absolute;
+      bottom: 18px;
+      right: 18px;
+      z-index: 6;
+      display: flex;
+      gap: 10px;
+    }
+    .hero-video-controls button {
+      background: rgba(0,0,0,.55);
+      border: 1px solid rgba(255,255,255,.5);
+      color: #fff;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: .85rem;
+      backdrop-filter: blur(4px);
+      cursor: pointer;
+    }
+    .hero-video-controls button:hover {
+      background: rgba(0,0,0,.8);
     }
 
     /* Enkel seksjon under (kan slettes) */
@@ -59,6 +108,7 @@
           <li class="nav-item"><a class="nav-link" href="premier.html">Premier</a></li>
           <li class="nav-item"><a class="nav-link" href="deltakere.html">Deltakere</a></li>
           <li class="nav-item"><a class="nav-link" href="live-oppdatering.html">Live oppdatering</a></li>
+          <li class="nav-item"><a class="nav-link" href="hall-of-fame.html">Hall of Fame</a></li>
           <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
         </ul>
       </div>
@@ -69,7 +119,48 @@
   <section class="hero" aria-label="HVITE GUTTER – Fantasy Premier League, sesongen 26/27">
     <!-- Bildet ligger i rotmappa som FORSIDE.png -->
     <img src="FORSIDE.png" alt="HVITE GUTTER – Fantasy Premier League 26/27" class="hero-img">
+
+    <!-- Intro-film som spilles av først, så tones den ut og viser plakaten -->
+    <div class="hero-video-wrap" id="heroVideoWrap">
+      <video
+        id="heroVideo"
+        class="hero-video"
+        src="https://media.viewmax.io/users/pxjRqQBolXLl3CXRuVLQAtF85yeh3VR1/sora-videos/919348258898579541/7ba6a91f-9670-4ac2-8af9-61ff3c9c1005.mp4"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+      ></video>
+      <div class="hero-video-controls">
+        <button type="button" id="soundToggle">🔇 Skru på lyd</button>
+        <button type="button" id="skipIntro">Hopp over ⏭</button>
+      </div>
+    </div>
   </section>
+
+  <script>
+    (function () {
+      const wrap = document.getElementById('heroVideoWrap');
+      const video = document.getElementById('heroVideo');
+      const soundBtn = document.getElementById('soundToggle');
+      const skipBtn = document.getElementById('skipIntro');
+
+      function hideIntro() {
+        wrap.classList.add('hidden');
+        setTimeout(() => { video.pause(); }, 1300);
+      }
+
+      video.addEventListener('ended', hideIntro);
+      skipBtn.addEventListener('click', hideIntro);
+      soundBtn.addEventListener('click', function () {
+        video.muted = !video.muted;
+        soundBtn.textContent = video.muted ? '🔇 Skru på lyd' : '🔊 Lyd på';
+      });
+
+      // Om videoen ikke klarer å spille av (nettverksfeil e.l.), vis plakaten direkte
+      video.addEventListener('error', hideIntro);
+    })();
+  </script>
 
   <!-- Valgfri tekst under (slett hvis du ikke vil ha den) -->
   <div class="wrap">

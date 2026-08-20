@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall of Fame - HVITE GUTTER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background: radial-gradient(circle at top, #1a1410 0%, #0f0e0d 60%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #f4e9d8;
+            margin: 0;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .container {
+            margin-top: 100px;
+            margin-bottom: 60px;
+            max-width: 900px;
+        }
+        .hof-title {
+            text-align: center;
+            font-weight: 800;
+            letter-spacing: 4px;
+            color: #ffd700;
+            text-shadow: 0 0 18px rgba(255, 215, 0, 0.45);
+            margin-bottom: 4px;
+        }
+        .hof-subtitle {
+            text-align: center;
+            color: #b7ac98;
+            margin-bottom: 45px;
+            font-style: italic;
+        }
+        .season-card {
+            background: linear-gradient(135deg, #1f1a15, #14100c);
+            border: 1px solid rgba(255, 215, 0, 0.25);
+            border-radius: 14px;
+            padding: 24px 28px;
+            margin-bottom: 28px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .season-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(255, 215, 0, 0.15);
+        }
+        .season-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffd700;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.25);
+            padding-bottom: 10px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .award-row {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            font-size: 1.05rem;
+        }
+        .award-row i {
+            width: 34px;
+            text-align: center;
+            font-size: 1.3rem;
+            margin-right: 14px;
+        }
+        .award-label {
+            color: #b7ac98;
+            font-weight: 600;
+            margin-right: 6px;
+            min-width: 150px;
+            display: inline-block;
+        }
+        .award-name {
+            color: #fff;
+            font-weight: 600;
+        }
+        .icon-gold { color: #ffd700; }
+        .icon-silver { color: #c0c0c0; }
+        .icon-bronze { color: #cd7f32; }
+        .icon-h2h { color: #4ea8de; }
+        .icon-cup { color: #ff6b6b; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">HVITE GUTTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Hjem</a></li>
+                <li class="nav-item"><a class="nav-link" href="ligakode.html">Ligakode</a></li>
+                <li class="nav-item"><a class="nav-link" href="premier.html">Premier</a></li>
+                <li class="nav-item"><a class="nav-link" href="deltakere.html">Deltakere</a></li>
+                <li class="nav-item"><a class="nav-link" href="live-oppdatering.html">Live oppdatering</a></li>
+                <li class="nav-item"><a class="nav-link active" href="hall-of-fame.html">Hall of Fame</a></li>
+                <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="hof-title"><i class="fas fa-crown"></i> HALL OF FAME <i class="fas fa-crown"></i></h1>
+    <p class="hof-subtitle">Alle tiders vinnere i HVITE GUTTER</p>
+
+    <!-- 2025/2026 -->
+    <div class="season-card">
+        <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2025/2026</div>
+        <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Tor Olav Leksbø</span></div>
+        <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Christoffer Jensen</span></div>
+        <div class="award-row"><i class="fas fa-medal icon-bronze"></i><span class="award-label">3. plass</span><span class="award-name">Henrik Nielsen</span></div>
+        <div class="award-row"><i class="fas fa-people-arrows icon-h2h"></i><span class="award-label">H2H-liga</span><span class="award-name">Henrik Nielsen</span></div>
+        <div class="award-row"><i class="fas fa-futbol icon-cup"></i><span class="award-label">Cup</span><span class="award-name">Henrik Nielsen</span></div>
+    </div>
+
+    <!-- 2024/2025 -->
+    <div class="season-card">
+        <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2024/2025</div>
+        <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Torkel Mellin-Olsen</span></div>
+        <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Henrik Nielsen</span></div>
+        <div class="award-row"><i class="fas fa-people-arrows icon-h2h"></i><span class="award-label">H2H-liga</span><span class="award-name">Henrik Nielsen</span></div>
+        <div class="award-row"><i class="fas fa-futbol icon-cup"></i><span class="award-label">Cup</span><span class="award-name">Anders Hatlo Nedrelid</span></div>
+    </div>
+
+    <!-- 2023/2024 -->
+    <div class="season-card">
+        <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2023/2024</div>
+        <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Julius Råmunddal</span></div>
+        <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Felix Blom</span></div>
+        <div class="award-row"><i class="fas fa-medal icon-bronze"></i><span class="award-label">3. plass</span><span class="award-name">Sverre Futsæter</span></div>
+        <div class="award-row"><i class="fas fa-futbol icon-cup"></i><span class="award-label">Cup</span><span class="award-name">Julius Råmunddal</span></div>
+        <div class="award-row"><i class="fas fa-people-arrows icon-h2h"></i><span class="award-label">H2H-liga</span><span class="award-name">Felix Blom</span></div>
+    </div>
+
+    <!-- 2022/2023 -->
+    <div class="season-card">
+        <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2022/2023</div>
+        <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Julius Råmunddal</span></div>
+        <div class="award-row"><i class="fas fa-medal icon-silver"></i><span class="award-label">2. plass</span><span class="award-name">Dian Cindahl</span></div>
+    </div>
+
+    <!-- 2021/2022 -->
+    <div class="season-card">
+        <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2021/2022</div>
+        <div class="award-row"><i class="fas fa-trophy icon-gold"></i><span class="award-label">Sammenlagtvinner</span><span class="award-name">Sverre Futsæter</span></div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
