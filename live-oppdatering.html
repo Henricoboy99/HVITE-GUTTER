@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live oppdatering - HVITE GUTTER</title>
+    <title>Live oppdatering - HVITE GUTTER 26/27</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -82,6 +82,17 @@
             border: 1px solid #dee2e6;
             text-align: center;
         }
+        /* Sesongfaner */
+        .season-tabs {
+            margin-top: 20px;
+        }
+        .season-tabs .nav-link {
+            font-weight: bold;
+        }
+        .archive-note {
+            color: #6c757d;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -107,7 +118,7 @@
                     <a class="nav-link" href="deltakere.html">Deltakere</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="live-oppdatering.html">Live oppdatering</a>
+                    <a class="nav-link active" href="live-oppdatering.html">Live oppdatering</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="kontakt.html">Kontakt</a>
@@ -120,304 +131,263 @@
 <div class="container">
     <h1 class="text-center">Live oppdatering</h1>
 
-    <!-- Månedens Manager-tabellen -->
-    <h2>Månedens Manager</h2>
-    <div class="table-responsive">
-        <table class="table manager-table">
-            <thead>
-                <tr>
-                    <th>Måned</th>
-                    <th>Manager</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>August</td>
-                    <td>Christoffer (197p)</td>
-                </tr>
-                <tr>
-                    <td>September</td>
-                    <td>Tor Olav (224p)</td>
-                </tr>
-                <tr>
-                    <td>Oktober</td>
-                    <td>Torkel (223p)</td>
-                </tr>
-                <tr>
-                    <td>November</td>
-                    <td> Tor Olav (251p) </td>
-                </tr>
-                <tr>
-                    <td>Desember</td>
-                    <td>Jens (394p)</td>
-                </tr>
-                <tr>
-                    <td>Januar</td>
-                    <td>Henrik & Robert (261p)</td>
-                </tr>
-                <tr>
-                    <td>Februar</td>
-                    <td>Christoffer (323p)</td>
-                </tr>
-                <tr>
-                    <td>Mars</td>
-                    <td>Henrik (201p)</td>
-                </tr>
-                <tr>
-                    <td>April</td>
-                    <td>Sverre (255p)</td>
-                </tr>
-                <tr>
-                    <td>Mai</td>
-                    <td>TBC (p)</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <!-- Sesongfaner -->
+    <ul class="nav nav-tabs season-tabs" id="seasonTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="s2627-tab" data-bs-toggle="tab" data-bs-target="#s2627" type="button" role="tab" aria-controls="s2627" aria-selected="true">Sesong 26/27</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="s2526-tab" data-bs-toggle="tab" data-bs-target="#s2526" type="button" role="tab" aria-controls="s2526" aria-selected="false">Sesong 25/26 (Arkiv)</button>
+        </li>
+    </ul>
 
-    <h2>Flest poeng på kaptein</h2>
-    <div class="table-responsive">
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Posisjon</th>
-                    <th>Navn</th>
-                    <th>Poeng</th>
-                </tr>
-            </thead>
-            <tbody>
-             <tr class="leader">
-<tr>
-    <td>1</td>
-    <td>Christoffer</td>
-    <td>18</td>
-</tr>
-<tr>
-    <td>2</td>
-    <td>Amund</td>
-    <td>17</td>
-</tr>
-<tr>
-    <td>3</td>
-    <td>Robert</td>
-    <td>16</td>
-</tr>
-<tr>
-    <td>4</td>
-    <td>Henrik</td>
-    <td>15</td>
-</tr>
-<tr>
-    <td>5</td>
-    <td>Tor Olav</td>
-    <td>13</td>
-</tr>
-<tr>
-    <td>5</td>
-    <td>Kasper</td>
-    <td>13</td>
-</tr>
-<tr>
-    <td>5</td>
-    <td>Anders</td>
-    <td>13</td>
-</tr>
-<tr>
-    <td>5</td>
-    <td>Jens</td>
-    <td>13</td>
-</tr>
-<tr>
-    <td>9</td>
-    <td>Sverre</td>
-    <td>12</td>
-</tr>
-<tr>
-    <td>10</td>
-    <td>Ulrik</td>
-    <td>11</td>
-</tr>
-<tr>
-    <td>11</td>
-    <td>Torkel</td>
-    <td>10</td>
-</tr>
-<tr>
-    <td>12</td>
-    <td>Nikolai</td>
-    <td>9</td>
-</tr>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <div class="tab-content" id="seasonTabContent">
 
-    <h2>Beste kaptein - runde for runde</h2>
-    <div class="table-responsive">
-        <table class="table round-table">
-            <thead>
-                <tr>
-                    <th>Runde</th>
-                    <th>Fordeling av poeng. Alenevinner gir doble poeng</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Legg inn faktiske data for runde 1-3 -->
-                <tr>
-                    <td>Runde 1</td>
-                    <td>Amund, Christoffer, Jens, Kasper </td>
-                </tr>
-                <tr>
-                    <td>Runde 2</td>
-                    <td>Christoffer (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 3</td>
-                    <td>Anders, Christoffer, Nikolai, Sverre</td>
-                </tr>
-                <!-- Plassholdere for runde 4-38 -->
-                <tr>
-                    <td>Runde 4</td>
-                    <td>Henrik, Robert, Tor Olav</td>
-                </tr>
-                <tr>
-                    <td>Runde 5</td>
-                    <td>Christoffer (DOBBEL) </td>
-                </tr>
-                <tr>
-                    <td>Runde 6</td>
-                    <td>Amund, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Torkel</td>
-                </tr>
-                <tr>
-                    <td>Runde 7</td>
-                    <td>ALLE</td>
-                </tr>
-                <tr>
-                    <td>Runde 8</td>
-                    <td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Sverre, Tor Olav, Torkel, Ulrik </td>
-                </tr>
-                <tr>
-                    <td>Runde 9</td>
-                    <td>Amund (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 10</td>
-                    <td>Anders, Amund, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Ulrik </td>
-                </tr>
-                <tr>
-                    <td>Runde 11</td>
-                    <td>Kasper, Sverre</td>
-                </tr>
-                <tr>
-                    <td>Runde 12</td>
-                    <td>Sverre (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 13</td>
-                    <td>Sverre (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 14</td>
-                    <td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Torkel, Ulrik</td>
-                </tr>
-                <tr>
-                    <td>Runde 15</td>
-                    <td>Amund (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 16</td>
-                    <td>Anders, Henrik, Jens</td>
-                </tr>
-                <tr>
-                    <td>Runde 17</td>
-                    <td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Torkel, Ulrik</td>
-                </tr>
-                <tr>
-                    <td>Runde 18</td>
-                    <td>Amund (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 19</td>
-                    <td>Amund (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 20</td>
-                    <td>Ulrik (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 21</td>
-                    <td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Sverre, Tor Olav, Torkel, Ulrik</td>
-                </tr>
-                <tr>
-                    <td>Runde 22</td>
-                    <td>Robert (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 23</td>
-                    <td>Henrik, Jens, Tor Olav</td>
-                </tr>
-                <tr>
-                    <td>Runde 24</td>
-                    <td>Christoffer, Henrik, Sverre, Torkel</td>
-                </tr>
-                <tr>
-                    <td>Runde 25</td>
-                    <td>Amund (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 26</td>
-                    <td>Christoffer, Henrik, Kasper</td>
-                </tr>
-                <tr>
-                    <td>Runde 27</td>
-                    <td>Anders (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 28</td>
-                    <td>Kasper, Ulrik</td>
-                </tr>
-                <tr>
-                    <td>Runde 29</td>
-                    <td>Robert (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 30</td>
-                    <td>Christoffer, Henrik, Nikolai</td>
-                </tr>
-                <tr>
-                    <td>Runde 31</td>
-                    <td>Sverre, Anders, Nikolai, Christoffer, Torkel, Jens, Ulrik</td>
-                </tr>
-                <tr>
-                    <td>Runde 32</td>
-                    <td>Amund (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 33</td>
-                    <td>Torkel, Kasper</td>
-                </tr>
-                <tr>
-                    <td>Runde 34</td>
-                    <td>Robert (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 35</td>
-                    <td>Henrik, Kasper, Anders, Torkel, Ulrik, Sverre, Robert, Jens, Tor Olav</td>
-                </tr>
-                <tr>
-                    <td>Runde 36</td>
-                    <td>Robert, Tor OLav, Henrik, Anders, Christoffer</td>
-                </tr>
-                <tr>
-                    <td>Runde 37</td>
-                    <td>Tor Olav (DOBBEL)</td>
-                </tr>
-                <tr>
-                    <td>Runde 38</td>
-                    <td>TBC</td>
-                </tr>
-            </tbody>
-        </table>
+        <!-- SESONG 26/27: tom mal, fylles inn utover sesongen -->
+        <div class="tab-pane fade show active" id="s2627" role="tabpanel" aria-labelledby="s2627-tab">
+
+            <h2>Månedens Manager</h2>
+            <div class="table-responsive">
+                <table class="table manager-table">
+                    <thead>
+                        <tr>
+                            <th>Måned</th>
+                            <th>Manager</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>August</td><td>TBC</td></tr>
+                        <tr><td>September</td><td>TBC</td></tr>
+                        <tr><td>Oktober</td><td>TBC</td></tr>
+                        <tr><td>November</td><td>TBC</td></tr>
+                        <tr><td>Desember</td><td>TBC</td></tr>
+                        <tr><td>Januar</td><td>TBC</td></tr>
+                        <tr><td>Februar</td><td>TBC</td></tr>
+                        <tr><td>Mars</td><td>TBC</td></tr>
+                        <tr><td>April</td><td>TBC</td></tr>
+                        <tr><td>Mai</td><td>TBC</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Flest poeng på kaptein</h2>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Posisjon</th>
+                            <th>Navn</th>
+                            <th>Poeng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="3" class="text-center archive-note">Oppdateres når sesongen starter</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Beste kaptein - runde for runde</h2>
+            <div class="table-responsive">
+                <table class="table round-table">
+                    <thead>
+                        <tr>
+                            <th>Runde</th>
+                            <th>Fordeling av poeng. Alenevinner gir doble poeng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="2" class="text-center archive-note">Oppdateres runde for runde utover sesongen</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <!-- SESONG 25/26: arkiv fra fjorårets sesong -->
+        <div class="tab-pane fade" id="s2526" role="tabpanel" aria-labelledby="s2526-tab">
+
+            <h2>Månedens Manager</h2>
+            <div class="table-responsive">
+                <table class="table manager-table">
+                    <thead>
+                        <tr>
+                            <th>Måned</th>
+                            <th>Manager</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>August</td>
+                            <td>Christoffer (197p)</td>
+                        </tr>
+                        <tr>
+                            <td>September</td>
+                            <td>Tor Olav (224p)</td>
+                        </tr>
+                        <tr>
+                            <td>Oktober</td>
+                            <td>Torkel (223p)</td>
+                        </tr>
+                        <tr>
+                            <td>November</td>
+                            <td> Tor Olav (251p) </td>
+                        </tr>
+                        <tr>
+                            <td>Desember</td>
+                            <td>Jens (394p)</td>
+                        </tr>
+                        <tr>
+                            <td>Januar</td>
+                            <td>Henrik & Robert (261p)</td>
+                        </tr>
+                        <tr>
+                            <td>Februar</td>
+                            <td>Christoffer (323p)</td>
+                        </tr>
+                        <tr>
+                            <td>Mars</td>
+                            <td>Henrik (201p)</td>
+                        </tr>
+                        <tr>
+                            <td>April</td>
+                            <td>Sverre (255p)</td>
+                        </tr>
+                        <tr>
+                            <td>Mai</td>
+                            <td>TBC (p)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Flest poeng på kaptein</h2>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Posisjon</th>
+                            <th>Navn</th>
+                            <th>Poeng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Christoffer</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Amund</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Robert</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Henrik</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Tor Olav</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Kasper</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Anders</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Jens</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Sverre</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Ulrik</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Torkel</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Nikolai</td>
+                            <td>9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Beste kaptein - runde for runde</h2>
+            <div class="table-responsive">
+                <table class="table round-table">
+                    <thead>
+                        <tr>
+                            <th>Runde</th>
+                            <th>Fordeling av poeng. Alenevinner gir doble poeng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Runde 1</td><td>Amund, Christoffer, Jens, Kasper </td></tr>
+                        <tr><td>Runde 2</td><td>Christoffer (DOBBEL)</td></tr>
+                        <tr><td>Runde 3</td><td>Anders, Christoffer, Nikolai, Sverre</td></tr>
+                        <tr><td>Runde 4</td><td>Henrik, Robert, Tor Olav</td></tr>
+                        <tr><td>Runde 5</td><td>Christoffer (DOBBEL) </td></tr>
+                        <tr><td>Runde 6</td><td>Amund, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Torkel</td></tr>
+                        <tr><td>Runde 7</td><td>ALLE</td></tr>
+                        <tr><td>Runde 8</td><td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Sverre, Tor Olav, Torkel, Ulrik </td></tr>
+                        <tr><td>Runde 9</td><td>Amund (DOBBEL)</td></tr>
+                        <tr><td>Runde 10</td><td>Anders, Amund, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Ulrik </td></tr>
+                        <tr><td>Runde 11</td><td>Kasper, Sverre</td></tr>
+                        <tr><td>Runde 12</td><td>Sverre (DOBBEL)</td></tr>
+                        <tr><td>Runde 13</td><td>Sverre (DOBBEL)</td></tr>
+                        <tr><td>Runde 14</td><td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Torkel, Ulrik</td></tr>
+                        <tr><td>Runde 15</td><td>Amund (DOBBEL)</td></tr>
+                        <tr><td>Runde 16</td><td>Anders, Henrik, Jens</td></tr>
+                        <tr><td>Runde 17</td><td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Tor Olav, Torkel, Ulrik</td></tr>
+                        <tr><td>Runde 18</td><td>Amund (DOBBEL)</td></tr>
+                        <tr><td>Runde 19</td><td>Amund (DOBBEL)</td></tr>
+                        <tr><td>Runde 20</td><td>Ulrik (DOBBEL)</td></tr>
+                        <tr><td>Runde 21</td><td>Anders, Christoffer, Henrik, Jens, Kasper, Nikolai, Robert, Sverre, Tor Olav, Torkel, Ulrik</td></tr>
+                        <tr><td>Runde 22</td><td>Robert (DOBBEL)</td></tr>
+                        <tr><td>Runde 23</td><td>Henrik, Jens, Tor Olav</td></tr>
+                        <tr><td>Runde 24</td><td>Christoffer, Henrik, Sverre, Torkel</td></tr>
+                        <tr><td>Runde 25</td><td>Amund (DOBBEL)</td></tr>
+                        <tr><td>Runde 26</td><td>Christoffer, Henrik, Kasper</td></tr>
+                        <tr><td>Runde 27</td><td>Anders (DOBBEL)</td></tr>
+                        <tr><td>Runde 28</td><td>Kasper, Ulrik</td></tr>
+                        <tr><td>Runde 29</td><td>Robert (DOBBEL)</td></tr>
+                        <tr><td>Runde 30</td><td>Christoffer, Henrik, Nikolai</td></tr>
+                        <tr><td>Runde 31</td><td>Sverre, Anders, Nikolai, Christoffer, Torkel, Jens, Ulrik</td></tr>
+                        <tr><td>Runde 32</td><td>Amund (DOBBEL)</td></tr>
+                        <tr><td>Runde 33</td><td>Torkel, Kasper</td></tr>
+                        <tr><td>Runde 34</td><td>Robert (DOBBEL)</td></tr>
+                        <tr><td>Runde 35</td><td>Henrik, Kasper, Anders, Torkel, Ulrik, Sverre, Robert, Jens, Tor Olav</td></tr>
+                        <tr><td>Runde 36</td><td>Robert, Tor OLav, Henrik, Anders, Christoffer</td></tr>
+                        <tr><td>Runde 37</td><td>Tor Olav (DOBBEL)</td></tr>
+                        <tr><td>Runde 38</td><td>TBC</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
     </div>
 
 </div>
