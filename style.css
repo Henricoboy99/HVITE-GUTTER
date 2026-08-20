@@ -1,76 +1,250 @@
+/* ==========================================================================
+   HVITE GUTTER — delt designsystem
+   Ett konsistent, mørkt og gyllent tema brukt på tvers av hele siden.
+   ========================================================================== */
+
+:root {
+  --hg-bg: #0b0a08;
+  --hg-bg-elevated: #15120d;
+  --hg-card-from: #1f1a15;
+  --hg-card-to: #14100c;
+  --hg-gold: #d4af37;
+  --hg-gold-bright: #ffd700;
+  --hg-text: #f4e9d8;
+  --hg-text-muted: #b7ac98;
+  --hg-border-gold: rgba(212, 175, 55, 0.28);
+  --hg-shadow: rgba(0, 0, 0, 0.5);
+  --hg-radius: 14px;
+  --hg-nav-h: 68px;
+  --font-head: 'Cinzel', 'Georgia', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  margin: 0;
+  padding-top: var(--hg-nav-h);
+  background: radial-gradient(circle at top, var(--hg-bg-elevated) 0%, var(--hg-bg) 65%);
+  color: var(--hg-text);
+  font-family: var(--font-body);
+  min-height: 100vh;
 }
 
-header {
-    background-color: #000;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+h1, h2, h3, .brand-font {
+  font-family: var(--font-head);
+  letter-spacing: 1px;
 }
 
-header nav ul {
-    list-style-type: none;
-    padding: 0;
+a { color: var(--hg-gold-bright); }
+a:hover { color: #fff; }
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: rgba(10, 9, 7, 0.86) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--hg-border-gold);
+  min-height: var(--hg-nav-h);
+}
+.navbar-brand {
+  font-family: var(--font-head);
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--hg-gold-bright) !important;
+  text-shadow: 0 0 14px rgba(255, 215, 0, 0.35);
+}
+.navbar .nav-link {
+  color: var(--hg-text) !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.9rem !important;
+  position: relative;
+  transition: color .2s ease;
+}
+.navbar .nav-link:hover { color: var(--hg-gold-bright) !important; }
+.navbar .nav-link.active {
+  color: var(--hg-gold-bright) !important;
+}
+.navbar .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 2px;
+  height: 2px;
+  background: var(--hg-gold-bright);
+  border-radius: 2px;
+}
+.navbar-toggler {
+  border-color: var(--hg-border-gold);
+}
+.navbar-toggler-icon {
+  filter: invert(85%) sepia(40%) saturate(400%) hue-rotate(0deg);
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
+/* ---------- Layout helpers ---------- */
+.page-wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 40px 18px 70px;
+}
+.page-title {
+  text-align: center;
+  color: var(--hg-gold-bright);
+  text-shadow: 0 0 18px rgba(255, 215, 0, 0.35);
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+.page-subtitle {
+  text-align: center;
+  color: var(--hg-text-muted);
+  font-style: italic;
+  margin-bottom: 40px;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+/* ---------- Cards (brukes på Premier, Ligakode, Deltakere, Kontakt osv.) ---------- */
+.hg-card {
+  background: linear-gradient(135deg, var(--hg-card-from), var(--hg-card-to));
+  border: 1px solid var(--hg-border-gold);
+  border-radius: var(--hg-radius);
+  box-shadow: 0 8px 24px var(--hg-shadow);
+  padding: 26px 28px;
+  margin-bottom: 24px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.hg-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(255, 215, 0, 0.12);
+}
+.hg-card-header {
+  font-family: var(--font-head);
+  font-size: 1.4rem;
+  color: var(--hg-gold-bright);
+  border-bottom: 1px solid var(--hg-border-gold);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hg-card-footer {
+  border-top: 1px solid var(--hg-border-gold);
+  margin-top: 18px;
+  padding-top: 14px;
+  color: var(--hg-text-muted);
+  font-size: 0.92rem;
 }
 
-main {
-    padding: 20px;
+/* ---------- Buttons ---------- */
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--hg-gold-bright), var(--hg-gold));
+  color: #1a1410 !important;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 22px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(255, 215, 0, 0.25);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4);
+  color: #1a1410 !important;
+}
+.btn-outline-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--hg-gold-bright) !important;
+  font-weight: 700;
+  border: 1px solid var(--hg-border-gold);
+  border-radius: 30px;
+  padding: 10px 22px;
+  text-decoration: none !important;
+  transition: background .15s ease, transform .15s ease;
+}
+.btn-outline-gold:hover {
+  background: rgba(255, 215, 0, 0.08);
+  transform: translateY(-2px);
 }
 
-h2 {
-    color: #000;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
+/* ---------- Deltaker-liste ---------- */
+.participant {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--hg-border-gold);
 }
-
-section {
-    margin-bottom: 40px;
+.participant i {
+  font-size: 1.6rem;
+  color: var(--hg-gold-bright);
 }
+.participant p { margin: 0; font-weight: 600; }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+/* ---------- Tabeller (Live oppdatering) ---------- */
+.table {
+  color: var(--hg-text);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px var(--hg-shadow);
 }
-
-table, th, td {
-    border: 1px solid #ccc;
+.table thead th {
+  background: rgba(212, 175, 55, 0.18);
+  color: var(--hg-gold-bright);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  border-color: var(--hg-border-gold) !important;
 }
-
-th, td {
-    padding: 10px;
-    text-align: left;
+.table tbody td, .table thead th {
+  text-align: center;
+  padding: 12px;
+  border-color: rgba(212, 175, 55, 0.15) !important;
 }
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.table tbody tr { background: rgba(255,255,255,0.02); color: var(--hg-text); }
+.table tbody tr:nth-of-type(even) { background: rgba(255,255,255,0.04); }
+.table tbody tr.leader {
+  background: rgba(255, 215, 0, 0.18) !important;
+  color: #fff;
+  font-weight: 700;
 }
+.season-tabs .nav-link {
+  color: var(--hg-text-muted);
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+.season-tabs .nav-link.active {
+  color: var(--hg-gold-bright) !important;
+  background: rgba(255, 215, 0, 0.08) !important;
+  border-color: var(--hg-border-gold) !important;
+}
+.archive-note { color: var(--hg-text-muted); font-style: italic; }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
+/* ---------- Footer ---------- */
+.hg-footer {
+  border-top: 1px solid var(--hg-border-gold);
+  text-align: center;
+  padding: 28px 16px;
+  color: var(--hg-text-muted);
+  font-size: 0.9rem;
+}
+.hg-footer .brand-font {
+  color: var(--hg-gold-bright);
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.05rem;
 }

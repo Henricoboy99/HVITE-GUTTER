@@ -3,97 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%91%91%3C/text%3E%3C/svg%3E">
+    <meta property="og:title" content="HVITE GUTTER 26/27">
+    <meta property="og:description" content="Fantasy Premier League - HVITE GUTTER, sesong 26/27">
+    <meta property="og:image" content="https://henricoboy99.github.io/HVITE-GUTTER/FORSIDE.png">
+    <meta property="og:type" content="website">
     <title>Live oppdatering - HVITE GUTTER 26/27</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 20px;
-            background: #f5f5f5;
-        }
-        .navbar {
-            background: linear-gradient(90deg, #343a40, #6c757d);
-            border-bottom: 3px solid #ffd700; /* Gold underline */
-        }
-        .navbar-nav .nav-link {
-            color: #fff !important;
-            font-weight: bold;
-        }
-        h1, h2 {
-            margin-top: 20px;
-            color: #343a40;
-        }
-        .table {
-            border-radius: 8px;
-            overflow: hidden;
-            margin-top: 20px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        .table thead th {
-            background: #343a40;
-            color: white;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        .table tbody tr {
-            transition: background-color 0.3s;
-        }
-        .table tbody tr:nth-of-type(odd) {
-            background-color: #ffffff;
-        }
-        .table tbody tr:nth-of-type(even) {
-            background-color: #f8f9fa;
-        }
-        .table tbody tr.leader {
-            background-color: #ffd700; /* Gold background for leader */
-            color: #000;
-            font-weight: bold;
-        }
-        .table tbody td, .table thead th {
-            text-align: center;
-            padding: 12px;
-            border: 1px solid #dee2e6;
-        }
-        .container {
-            margin-top: 80px; /* Adjusted for fixed navbar */
-        }
-        .round-table thead th {
-            background: #007bff;
-            color: white;
-            font-weight: bold;
-        }
-        .round-table tbody tr {
-            background-color: #ffffff;
-        }
-        .round-table tbody tr:nth-of-type(odd) {
-            background-color: #e9ecef;
-        }
-        .round-table tbody td {
-            padding: 10px;
-            border: 1px solid #dee2e6;
-        }
-        .manager-table thead th {
-            background: #28a745;
-            color: white;
-            font-weight: bold;
-        }
-        .manager-table tbody td {
-            padding: 10px;
-            border: 1px solid #dee2e6;
-            text-align: center;
-        }
-        /* Sesongfaner */
-        .season-tabs {
-            margin-top: 20px;
-        }
-        .season-tabs .nav-link {
-            font-weight: bold;
-        }
-        .archive-note {
-            color: #6c757d;
-            font-style: italic;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -105,37 +24,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Hjem</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ligakode.html">Ligakode</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="premier.html">Premier</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="deltakere.html">Deltakere</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="live-oppdatering.html">Live oppdatering</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hall-of-fame.html">Hall of Fame</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html">Kontakt</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Hjem</a></li>
+                <li class="nav-item"><a class="nav-link" href="ligakode.html">Ligakode</a></li>
+                <li class="nav-item"><a class="nav-link" href="premier.html">Premier</a></li>
+                <li class="nav-item"><a class="nav-link" href="deltakere.html">Deltakere</a></li>
+                <li class="nav-item"><a class="nav-link active" href="live-oppdatering.html">Live oppdatering</a></li>
+                <li class="nav-item"><a class="nav-link" href="hall-of-fame.html">Hall of Fame</a></li>
+                <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div class="container">
-    <h1 class="text-center">Live oppdatering</h1>
+<div class="page-wrap">
+    <h1 class="page-title"><i class="fas fa-chart-line"></i> Live oppdatering</h1>
+    <p class="page-subtitle">Følg sesongen fra runde til runde</p>
 
-    <!-- Sesongfaner -->
-    <ul class="nav nav-tabs season-tabs" id="seasonTab" role="tablist">
+    <ul class="nav nav-tabs season-tabs justify-content-center" id="seasonTab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="s2627-tab" data-bs-toggle="tab" data-bs-target="#s2627" type="button" role="tab" aria-controls="s2627" aria-selected="true">Sesong 26/27</button>
         </li>
@@ -144,20 +49,33 @@
         </li>
     </ul>
 
-    <div class="tab-content" id="seasonTabContent">
+    <div class="tab-content pt-4" id="seasonTabContent">
 
-        <!-- SESONG 26/27: tom mal, fylles inn utover sesongen -->
+        <!-- SESONG 26/27: synkes automatisk fra Fantasy Premier League -->
         <div class="tab-pane fade show active" id="s2627" role="tabpanel" aria-labelledby="s2627-tab">
 
-            <h2>Månedens Manager</h2>
+            <div id="syncNote" class="archive-note mb-3" style="text-align:center;"></div>
+
+            <h2 class="h4 mb-3"><i class="fas fa-trophy" style="color:var(--hg-gold-bright);"></i> Ligatabell – Sammenlagt</h2>
+            <div class="table-responsive mb-5">
+                <table class="table" id="classicTable">
+                    <thead><tr><th>Plass</th><th>Manager</th><th>Poeng</th></tr></thead>
+                    <tbody><tr><td colspan="3" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
+                </table>
+            </div>
+
+            <h2 class="h4 mb-3"><i class="fas fa-people-arrows" style="color:#4ea8de;"></i> H2H-liga</h2>
+            <div class="table-responsive mb-5">
+                <table class="table" id="h2hTable">
+                    <thead><tr><th>Plass</th><th>Manager</th><th>V-U-T</th><th>Poeng</th></tr></thead>
+                    <tbody><tr><td colspan="4" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
+                </table>
+            </div>
+
+            <h2 class="h4 mb-3">Månedens Manager</h2>
             <div class="table-responsive">
-                <table class="table manager-table">
-                    <thead>
-                        <tr>
-                            <th>Måned</th>
-                            <th>Manager</th>
-                        </tr>
-                    </thead>
+                <table class="table" id="monthlyTable">
+                    <thead><tr><th>Måned</th><th>Manager</th></tr></thead>
                     <tbody>
                         <tr><td>August</td><td>TBC</td></tr>
                         <tr><td>September</td><td>TBC</td></tr>
@@ -173,180 +91,55 @@
                 </table>
             </div>
 
-            <h2>Flest poeng på kaptein</h2>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Posisjon</th>
-                            <th>Navn</th>
-                            <th>Poeng</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td colspan="3" class="text-center archive-note">Oppdateres når sesongen starter</td></tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <h2>Beste kaptein - runde for runde</h2>
-            <div class="table-responsive">
-                <table class="table round-table">
-                    <thead>
-                        <tr>
-                            <th>Runde</th>
-                            <th>Fordeling av poeng. Alenevinner gir doble poeng</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td colspan="2" class="text-center archive-note">Oppdateres runde for runde utover sesongen</td></tr>
-                    </tbody>
-                </table>
-            </div>
-
         </div>
 
-        <!-- SESONG 25/26: arkiv fra fjorårets sesong -->
+        <!-- SESONG 25/26: arkiv -->
         <div class="tab-pane fade" id="s2526" role="tabpanel" aria-labelledby="s2526-tab">
 
-            <h2>Månedens Manager</h2>
-            <div class="table-responsive">
-                <table class="table manager-table">
-                    <thead>
-                        <tr>
-                            <th>Måned</th>
-                            <th>Manager</th>
-                        </tr>
-                    </thead>
+            <h2 class="h4 mb-3">Månedens Manager</h2>
+            <div class="table-responsive mb-5">
+                <table class="table">
+                    <thead><tr><th>Måned</th><th>Manager</th></tr></thead>
                     <tbody>
-                        <tr>
-                            <td>August</td>
-                            <td>Christoffer (197p)</td>
-                        </tr>
-                        <tr>
-                            <td>September</td>
-                            <td>Tor Olav (224p)</td>
-                        </tr>
-                        <tr>
-                            <td>Oktober</td>
-                            <td>Torkel (223p)</td>
-                        </tr>
-                        <tr>
-                            <td>November</td>
-                            <td> Tor Olav (251p) </td>
-                        </tr>
-                        <tr>
-                            <td>Desember</td>
-                            <td>Jens (394p)</td>
-                        </tr>
-                        <tr>
-                            <td>Januar</td>
-                            <td>Henrik & Robert (261p)</td>
-                        </tr>
-                        <tr>
-                            <td>Februar</td>
-                            <td>Christoffer (323p)</td>
-                        </tr>
-                        <tr>
-                            <td>Mars</td>
-                            <td>Henrik (201p)</td>
-                        </tr>
-                        <tr>
-                            <td>April</td>
-                            <td>Sverre (255p)</td>
-                        </tr>
-                        <tr>
-                            <td>Mai</td>
-                            <td>TBC (p)</td>
-                        </tr>
+                        <tr><td>August</td><td>Christoffer (197p)</td></tr>
+                        <tr><td>September</td><td>Tor Olav (224p)</td></tr>
+                        <tr><td>Oktober</td><td>Torkel (223p)</td></tr>
+                        <tr><td>November</td><td>Tor Olav (251p)</td></tr>
+                        <tr><td>Desember</td><td>Jens (394p)</td></tr>
+                        <tr><td>Januar</td><td>Henrik & Robert (261p)</td></tr>
+                        <tr><td>Februar</td><td>Christoffer (323p)</td></tr>
+                        <tr><td>Mars</td><td>Henrik (201p)</td></tr>
+                        <tr><td>April</td><td>Sverre (255p)</td></tr>
+                        <tr><td>Mai</td><td>TBC (p)</td></tr>
                     </tbody>
                 </table>
             </div>
 
-            <h2>Flest poeng på kaptein</h2>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Posisjon</th>
-                            <th>Navn</th>
-                            <th>Poeng</th>
-                        </tr>
-                    </thead>
+            <h2 class="h4 mb-3">Flest poeng på kaptein</h2>
+            <div class="table-responsive mb-5">
+                <table class="table">
+                    <thead><tr><th>Posisjon</th><th>Navn</th><th>Poeng</th></tr></thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Christoffer</td>
-                            <td>18</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Amund</td>
-                            <td>17</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Robert</td>
-                            <td>16</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Henrik</td>
-                            <td>15</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Tor Olav</td>
-                            <td>13</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Kasper</td>
-                            <td>13</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Anders</td>
-                            <td>13</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Jens</td>
-                            <td>13</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>Sverre</td>
-                            <td>12</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>Ulrik</td>
-                            <td>11</td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                            <td>Torkel</td>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>Nikolai</td>
-                            <td>9</td>
-                        </tr>
+                        <tr><td>1</td><td>Christoffer</td><td>18</td></tr>
+                        <tr><td>2</td><td>Amund</td><td>17</td></tr>
+                        <tr><td>3</td><td>Robert</td><td>16</td></tr>
+                        <tr><td>4</td><td>Henrik</td><td>15</td></tr>
+                        <tr><td>5</td><td>Tor Olav</td><td>13</td></tr>
+                        <tr><td>5</td><td>Kasper</td><td>13</td></tr>
+                        <tr><td>5</td><td>Anders</td><td>13</td></tr>
+                        <tr><td>5</td><td>Jens</td><td>13</td></tr>
+                        <tr><td>9</td><td>Sverre</td><td>12</td></tr>
+                        <tr><td>10</td><td>Ulrik</td><td>11</td></tr>
+                        <tr><td>11</td><td>Torkel</td><td>10</td></tr>
+                        <tr><td>12</td><td>Nikolai</td><td>9</td></tr>
                     </tbody>
                 </table>
             </div>
 
-            <h2>Beste kaptein - runde for runde</h2>
+            <h2 class="h4 mb-3">Beste kaptein - runde for runde</h2>
             <div class="table-responsive">
-                <table class="table round-table">
-                    <thead>
-                        <tr>
-                            <th>Runde</th>
-                            <th>Fordeling av poeng. Alenevinner gir doble poeng</th>
-                        </tr>
-                    </thead>
+                <table class="table">
+                    <thead><tr><th>Runde</th><th>Fordeling av poeng. Alenevinner gir doble poeng</th></tr></thead>
                     <tbody>
                         <tr><td>Runde 1</td><td>Amund, Christoffer, Jens, Kasper </td></tr>
                         <tr><td>Runde 2</td><td>Christoffer (DOBBEL)</td></tr>
@@ -392,9 +185,52 @@
 
         </div>
     </div>
-
 </div>
 
+<footer class="hg-footer">
+    <span class="brand-font">HVITE GUTTER</span>
+    Fantasy Premier League &middot; Sesong 26/27
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+(function () {
+  // Henter automatisk synkede data fra Fantasy Premier League (oppdateres av en GitHub Action, se data/live-data.json)
+  fetch('data/live-data.json', { cache: 'no-store' })
+    .then(function (res) { if (!res.ok) throw new Error('no data yet'); return res.json(); })
+    .then(function (data) {
+      var note = document.getElementById('syncNote');
+      if (note && data.updatedAt) {
+        var d = new Date(data.updatedAt);
+        note.textContent = 'Sist oppdatert automatisk: ' + d.toLocaleDateString('no-NO') + ' kl. ' + d.toLocaleTimeString('no-NO', { hour: '2-digit', minute: '2-digit' });
+      }
+
+      if (Array.isArray(data.classic) && data.classic.length) {
+        var body = document.querySelector('#classicTable tbody');
+        body.innerHTML = data.classic.map(function (row) {
+          return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '><td>' + row.rank + '</td><td>' + row.manager + '</td><td>' + row.points + '</td></tr>';
+        }).join('');
+      }
+
+      if (Array.isArray(data.h2h) && data.h2h.length) {
+        var h2hBody = document.querySelector('#h2hTable tbody');
+        h2hBody.innerHTML = data.h2h.map(function (row) {
+          return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '><td>' + row.rank + '</td><td>' + row.manager + '</td><td>' + row.record + '</td><td>' + row.points + '</td></tr>';
+        }).join('');
+      }
+
+      if (Array.isArray(data.monthlyManager) && data.monthlyManager.length) {
+        var monthBody = document.querySelector('#monthlyTable tbody');
+        monthBody.innerHTML = data.monthlyManager.map(function (row) {
+          return '<tr><td>' + row.month + '</td><td>' + (row.manager || 'TBC') + (row.points ? ' (' + row.points + 'p)' : '') + '</td></tr>';
+        }).join('');
+      }
+    })
+    .catch(function () {
+      var note = document.getElementById('syncNote');
+      if (note) note.textContent = 'Synkroniseringen starter så snart sesongen er i gang.';
+    });
+})();
+</script>
 </body>
 </html>
