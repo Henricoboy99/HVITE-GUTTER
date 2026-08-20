@@ -22,35 +22,60 @@
             color: var(--hg-gold-bright);
             margin-bottom: 24px;
         }
-        .prize-table-wrap { overflow-x: auto; margin-bottom: 8px; }
-        .prize-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: .98rem;
+        .prize-group-label {
+            font-family: var(--font-head);
+            font-size: .78rem;
+            text-transform: uppercase;
+            letter-spacing: .6px;
+            color: var(--hg-gold-bright);
+            margin: 18px 0 4px;
         }
-        .prize-table th {
+        .prize-group-label:first-of-type { margin-top: 4px; }
+        .prize-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 2px;
+            border-bottom: 1px solid rgba(212,175,55,0.12);
+        }
+        .prize-row .prize-place {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--hg-text);
+            font-size: .95rem;
+        }
+        .prize-row .prize-place i { width: 20px; text-align: center; }
+        .prize-row .prize-figures {
+            text-align: right;
+            flex: 0 0 auto;
+        }
+        .prize-row .prize-figures .amount {
+            display: block;
+            color: #fff;
+            font-weight: 700;
+            font-size: .98rem;
+            white-space: nowrap;
+        }
+        .prize-row .prize-figures .pct {
+            display: block;
+            color: var(--hg-text-muted);
+            font-size: .78rem;
+            white-space: nowrap;
+        }
+        .prize-row.total-row {
+            border-top: 2px solid var(--hg-border-gold);
+            border-bottom: none;
+            margin-top: 6px;
+            padding-top: 14px;
+        }
+        .prize-row.total-row .prize-place {
             font-family: var(--font-head);
             color: var(--hg-gold-bright);
-            text-transform: uppercase;
-            font-size: .8rem;
-            letter-spacing: .5px;
-            text-align: left;
-            padding: 10px 12px;
-            border-bottom: 1px solid var(--hg-border-gold);
-        }
-        .prize-table td {
-            padding: 10px 12px;
-            border-bottom: 1px solid rgba(212,175,55,0.12);
-            color: var(--hg-text);
-        }
-        .prize-table tr:last-child td { border-bottom: none; }
-        .prize-table td.amount { color: #fff; font-weight: 700; white-space: nowrap; }
-        .prize-table td.pct { color: var(--hg-text-muted); white-space: nowrap; }
-        .prize-table tr.total-row td {
-            border-top: 2px solid var(--hg-border-gold);
             font-weight: 700;
-            color: var(--hg-gold-bright);
         }
+        .prize-row.total-row .prize-figures .amount { color: var(--hg-gold-bright); }
 
         .prize-item {
             display: flex;
@@ -122,58 +147,41 @@
         <div class="hg-card-header"><i class="fas fa-coins"></i> Premiestruktur</div>
         <p class="prize-total">15 deltakere &times; 1 000 kr = 15 000 kr totalt i premiepotten</p>
 
-        <div class="prize-table-wrap">
-            <table class="prize-table">
-                <thead>
-                    <tr>
-                        <th>Konkurranse</th>
-                        <th>Plassering</th>
-                        <th>Premie</th>
-                        <th>% av totalpott</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="3">Hovedliga</td>
-                        <td><i class="fas fa-trophy icon-gold"></i> 1. plass</td>
-                        <td class="amount">7 000 kr</td>
-                        <td class="pct">46,7%</td>
-                    </tr>
-                    <tr>
-                        <td><i class="fas fa-medal icon-silver"></i> 2. plass</td>
-                        <td class="amount">3 000 kr</td>
-                        <td class="pct">20,0%</td>
-                    </tr>
-                    <tr>
-                        <td><i class="fas fa-medal icon-bronze"></i> 3. plass</td>
-                        <td class="amount">1 000 kr</td>
-                        <td class="pct">6,7%</td>
-                    </tr>
-                    <tr>
-                        <td>H2H-liga</td>
-                        <td>Vinner</td>
-                        <td class="amount">1 000 kr</td>
-                        <td class="pct">6,7%</td>
-                    </tr>
-                    <tr>
-                        <td>Cup</td>
-                        <td>Vinner</td>
-                        <td class="amount">500 kr</td>
-                        <td class="pct">3,3%</td>
-                    </tr>
-                    <tr>
-                        <td>Månedens manager</td>
-                        <td>250 kr &times; 10 mnd</td>
-                        <td class="amount">2 500 kr</td>
-                        <td class="pct">16,7%</td>
-                    </tr>
-                    <tr class="total-row">
-                        <td colspan="2">Totalt</td>
-                        <td class="amount">15 000 kr</td>
-                        <td class="pct">100%</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="prize-group-label">Hovedliga</div>
+        <div class="prize-row">
+            <span class="prize-place"><i class="fas fa-trophy icon-gold"></i> 1. plass</span>
+            <span class="prize-figures"><span class="amount">7 000 kr</span><span class="pct">46,7% av totalpott</span></span>
+        </div>
+        <div class="prize-row">
+            <span class="prize-place"><i class="fas fa-medal icon-silver"></i> 2. plass</span>
+            <span class="prize-figures"><span class="amount">3 000 kr</span><span class="pct">20,0% av totalpott</span></span>
+        </div>
+        <div class="prize-row">
+            <span class="prize-place"><i class="fas fa-medal icon-bronze"></i> 3. plass</span>
+            <span class="prize-figures"><span class="amount">1 000 kr</span><span class="pct">6,7% av totalpott</span></span>
+        </div>
+
+        <div class="prize-group-label">H2H-liga</div>
+        <div class="prize-row">
+            <span class="prize-place"><i class="fas fa-people-arrows icon-h2h"></i> Vinner</span>
+            <span class="prize-figures"><span class="amount">1 000 kr</span><span class="pct">6,7% av totalpott</span></span>
+        </div>
+
+        <div class="prize-group-label">Cup</div>
+        <div class="prize-row">
+            <span class="prize-place"><i class="fas fa-futbol icon-cup"></i> Vinner</span>
+            <span class="prize-figures"><span class="amount">500 kr</span><span class="pct">3,3% av totalpott</span></span>
+        </div>
+
+        <div class="prize-group-label">Månedens manager</div>
+        <div class="prize-row">
+            <span class="prize-place"><i class="fas fa-calendar-star icon-month"></i> 250 kr &times; 10 mnd</span>
+            <span class="prize-figures"><span class="amount">2 500 kr</span><span class="pct">16,7% av totalpott</span></span>
+        </div>
+
+        <div class="prize-row total-row">
+            <span class="prize-place">Totalt</span>
+            <span class="prize-figures"><span class="amount">15 000 kr</span><span class="pct">100%</span></span>
         </div>
     </div>
 
