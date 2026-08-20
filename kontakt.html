@@ -17,6 +17,35 @@
     <style>
         .contact-info { text-align: center; }
         .contact-info p { margin: 10px 0; }
+
+        .contact-portrait {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            padding: 6px;
+            margin: 0 auto 20px;
+            background: conic-gradient(from 220deg, #f6e3a1, #c9932f, #8a6a1f, #f6e3a1 25%, #fff3c4 45%, #b8860b 60%, #f6e3a1 80%, #f6e3a1);
+            box-shadow:
+                0 0 0 2px #0b0a08,
+                0 14px 34px rgba(0,0,0,0.6),
+                0 0 34px rgba(255,215,0,0.28);
+        }
+        .contact-portrait .portrait-inner {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #0b0a08;
+            box-shadow: inset 0 0 14px rgba(0,0,0,0.65);
+            background: radial-gradient(circle at 30% 20%, #2a2117, #0f0d0a);
+        }
+        .contact-portrait img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            filter: sepia(0.4) saturate(1.25) contrast(1.08) brightness(0.98);
+        }
     </style>
 </head>
 <body>
@@ -44,6 +73,11 @@
 <div class="page-wrap">
     <h1 class="page-title"><i class="fas fa-envelope"></i> Kontakt</h1>
     <div class="hg-card contact-info">
+        <div class="contact-portrait">
+            <div class="portrait-inner">
+                <img src="images/misc/hakon.jpg" alt="Håkon Sakariassen">
+            </div>
+        </div>
         <p><strong>The White House</strong></p>
         <p>1600 Pennsylvania Ave NW, Washington, DC 20500</p>
         <p>Håkon Sakariassen besvarer alle henvendelser fortløpende. Normal responstid er 37 sekunder.</p>

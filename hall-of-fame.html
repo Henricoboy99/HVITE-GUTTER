@@ -33,7 +33,7 @@
             padding: 8px 0;
             font-size: 1.02rem;
         }
-        .award-row i { width: 32px; text-align: center; font-size: 1.25rem; margin-right: 12px; }
+        .award-row i { width: 32px; text-align: center; font-size: 1.25rem; margin-right: 22px; }
         .award-label { color: var(--hg-text-muted); font-weight: 600; margin-right: 6px; min-width: 150px; display: inline-block; }
         .award-name { color: #fff; font-weight: 600; }
         .icon-gold { color: #ffd700; }
@@ -46,22 +46,30 @@
         .winner-block {
             display: flex;
             align-items: center;
-            gap: 20px;
-            margin-bottom: 18px;
+            gap: 26px;
+            margin-bottom: 22px;
         }
         .winner-portrait {
             position: relative;
             flex: 0 0 auto;
-            width: 96px;
-            height: 96px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            padding: 6px;
+            /* Metallisk gull-gradient som selve rammen, mer herskapelig enn en enkel strek */
+            background: conic-gradient(from 220deg, #f6e3a1, #c9932f, #8a6a1f, #f6e3a1 25%, #fff3c4 45%, #b8860b 60%, #f6e3a1 80%, #f6e3a1);
+            box-shadow:
+                0 0 0 2px #0b0a08,
+                0 14px 34px rgba(0,0,0,0.6),
+                0 0 34px rgba(255,215,0,0.28);
+        }
+        .winner-portrait .portrait-inner {
+            width: 100%;
+            height: 100%;
             border-radius: 50%;
             overflow: hidden;
-            border: 3px solid var(--hg-gold-bright);
-            box-shadow:
-                0 0 0 3px #0b0a08,
-                0 0 0 5px rgba(212,175,55,0.55),
-                0 6px 20px rgba(0,0,0,0.55),
-                0 0 22px rgba(255,215,0,0.25);
+            border: 2px solid #0b0a08;
+            box-shadow: inset 0 0 14px rgba(0,0,0,0.65);
             background: radial-gradient(circle at 30% 20%, #2a2117, #0f0d0a);
         }
         .winner-portrait img {
@@ -80,26 +88,9 @@
             color: rgba(212,175,55,0.45);
             font-size: 2rem;
         }
-        .winner-portrait .crown-badge {
-            position: absolute;
-            top: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #0b0a08;
-            color: var(--hg-gold-bright);
-            border-radius: 50%;
-            width: 26px;
-            height: 26px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: .75rem;
-            border: 2px solid var(--hg-gold-bright);
-            box-shadow: 0 0 10px rgba(255,215,0,0.5);
-        }
         .winner-info .winner-name {
             font-family: var(--font-head);
-            font-size: 1.25rem;
+            font-size: 1.4rem;
             color: #fff;
             font-weight: 700;
         }
@@ -140,8 +131,9 @@
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2025/2026</div>
         <div class="winner-block">
             <div class="winner-portrait">
-                <img id="portrait-2025-2026" src="images/winners/tor-olav.jpg" alt="Tor Olav Leksbø">
-                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+                <div class="portrait-inner">
+                    <img id="portrait-2025-2026" src="images/winners/tor-olav.jpg" alt="Tor Olav Leksbø">
+                </div>
             </div>
             <div class="winner-info">
                 <div class="winner-name">Tor Olav Leksbø</div>
@@ -159,8 +151,9 @@
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2024/2025</div>
         <div class="winner-block">
             <div class="winner-portrait">
-                <img id="portrait-2024-2025" src="images/winners/torkel.jpg" alt="Torkel Mellin-Olsen">
-                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+                <div class="portrait-inner">
+                    <img id="portrait-2024-2025" src="images/winners/torkel.jpg" alt="Torkel Mellin-Olsen">
+                </div>
             </div>
             <div class="winner-info">
                 <div class="winner-name">Torkel Mellin-Olsen</div>
@@ -177,8 +170,9 @@
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2023/2024</div>
         <div class="winner-block">
             <div class="winner-portrait">
-                <img id="portrait-2023-2024" src="images/winners/julius.jpg" alt="Julius Råmunddal">
-                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+                <div class="portrait-inner">
+                    <img id="portrait-2023-2024" src="images/winners/julius.jpg" alt="Julius Råmunddal">
+                </div>
             </div>
             <div class="winner-info">
                 <div class="winner-name">Julius Råmunddal</div>
@@ -196,8 +190,9 @@
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2022/2023</div>
         <div class="winner-block">
             <div class="winner-portrait">
-                <img id="portrait-2022-2023" src="images/winners/julius.jpg" alt="Julius Råmunddal">
-                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+                <div class="portrait-inner">
+                    <img id="portrait-2022-2023" src="images/winners/julius.jpg" alt="Julius Råmunddal">
+                </div>
             </div>
             <div class="winner-info">
                 <div class="winner-name">Julius Råmunddal</div>
@@ -212,8 +207,9 @@
         <div class="season-title"><i class="fas fa-trophy icon-gold"></i> Sesong 2021/2022</div>
         <div class="winner-block">
             <div class="winner-portrait">
-                <img id="portrait-2021-2022" src="images/winners/sverre.jpg" alt="Sverre Futsæter">
-                <div class="crown-badge"><i class="fas fa-crown"></i></div>
+                <div class="portrait-inner">
+                    <img id="portrait-2021-2022" src="images/winners/sverre.jpg" alt="Sverre Futsæter">
+                </div>
             </div>
             <div class="winner-info">
                 <div class="winner-name">Sverre Futsæter</div>
