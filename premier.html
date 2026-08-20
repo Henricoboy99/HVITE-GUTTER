@@ -14,6 +14,83 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .prize-total {
+            text-align: center;
+            font-family: var(--font-head);
+            font-size: 1.15rem;
+            color: var(--hg-gold-bright);
+            margin-bottom: 24px;
+        }
+        .prize-table-wrap { overflow-x: auto; margin-bottom: 8px; }
+        .prize-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .98rem;
+        }
+        .prize-table th {
+            font-family: var(--font-head);
+            color: var(--hg-gold-bright);
+            text-transform: uppercase;
+            font-size: .8rem;
+            letter-spacing: .5px;
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--hg-border-gold);
+        }
+        .prize-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid rgba(212,175,55,0.12);
+            color: var(--hg-text);
+        }
+        .prize-table tr:last-child td { border-bottom: none; }
+        .prize-table td.amount { color: #fff; font-weight: 700; white-space: nowrap; }
+        .prize-table td.pct { color: var(--hg-text-muted); white-space: nowrap; }
+        .prize-table tr.total-row td {
+            border-top: 2px solid var(--hg-border-gold);
+            font-weight: 700;
+            color: var(--hg-gold-bright);
+        }
+
+        .prize-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(212,175,55,0.12);
+        }
+        .prize-item:last-child { border-bottom: none; }
+        .prize-item i {
+            font-size: 1.6rem;
+            width: 40px;
+            text-align: center;
+            flex: 0 0 auto;
+            margin-top: 2px;
+        }
+        .prize-item .prize-name {
+            font-family: var(--font-head);
+            font-size: 1.05rem;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .prize-item .prize-amount {
+            color: var(--hg-gold-bright);
+            font-weight: 600;
+            font-size: .92rem;
+            margin-bottom: 4px;
+        }
+        .prize-item .prize-desc {
+            color: var(--hg-text-muted);
+            font-size: .92rem;
+        }
+        .icon-gold { color: #ffd700; }
+        .icon-silver { color: #c0c0c0; }
+        .icon-bronze { color: #cd7f32; }
+        .icon-h2h { color: #4ea8de; }
+        .icon-cup { color: #ff6b6b; }
+        .icon-month { color: #b58af0; }
+    </style>
 </head>
 <body>
 
@@ -43,7 +120,119 @@
 
     <div class="hg-card">
         <div class="hg-card-header"><i class="fas fa-coins"></i> Premiestruktur</div>
-        <p>Ny premiestruktur for sesong 26/27 kommer snart!</p>
+        <p class="prize-total">15 deltakere &times; 1 000 kr = 15 000 kr totalt i premiepotten</p>
+
+        <div class="prize-table-wrap">
+            <table class="prize-table">
+                <thead>
+                    <tr>
+                        <th>Konkurranse</th>
+                        <th>Plassering</th>
+                        <th>Premie</th>
+                        <th>% av totalpott</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Hovedliga</td>
+                        <td><i class="fas fa-trophy icon-gold"></i> 1. plass</td>
+                        <td class="amount">7 000 kr</td>
+                        <td class="pct">46,7%</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-medal icon-silver"></i> 2. plass</td>
+                        <td class="amount">3 000 kr</td>
+                        <td class="pct">20,0%</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-medal icon-bronze"></i> 3. plass</td>
+                        <td class="amount">1 000 kr</td>
+                        <td class="pct">6,7%</td>
+                    </tr>
+                    <tr>
+                        <td>H2H-liga</td>
+                        <td>Vinner</td>
+                        <td class="amount">1 000 kr</td>
+                        <td class="pct">6,7%</td>
+                    </tr>
+                    <tr>
+                        <td>Cup</td>
+                        <td>Vinner</td>
+                        <td class="amount">500 kr</td>
+                        <td class="pct">3,3%</td>
+                    </tr>
+                    <tr>
+                        <td>Månedens manager</td>
+                        <td>250 kr &times; 10 mnd</td>
+                        <td class="amount">2 500 kr</td>
+                        <td class="pct">16,7%</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="2">Totalt</td>
+                        <td class="amount">15 000 kr</td>
+                        <td class="pct">100%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="hg-card">
+        <div class="hg-card-header"><i class="fas fa-list"></i> Øvelsene</div>
+
+        <div class="prize-item">
+            <i class="fas fa-trophy icon-gold"></i>
+            <div>
+                <div class="prize-name">Hovedpremie for sammenlagtvinner</div>
+                <div class="prize-amount">7 000 kr (46,7% av premiepotten)</div>
+                <div class="prize-desc">Går til den som vinner hovedligaen sammenlagt.</div>
+            </div>
+        </div>
+
+        <div class="prize-item">
+            <i class="fas fa-medal icon-silver"></i>
+            <div>
+                <div class="prize-name">Andreplass</div>
+                <div class="prize-amount">3 000 kr (20,0% av premiepotten)</div>
+                <div class="prize-desc">Går til den som ender på andreplass sammenlagt i hovedligaen.</div>
+            </div>
+        </div>
+
+        <div class="prize-item">
+            <i class="fas fa-medal icon-bronze"></i>
+            <div>
+                <div class="prize-name">Tredjeplass</div>
+                <div class="prize-amount">1 000 kr (6,7% av premiepotten)</div>
+                <div class="prize-desc">Går til den som ender på tredjeplass sammenlagt i hovedligaen.</div>
+            </div>
+        </div>
+
+        <div class="prize-item">
+            <i class="fas fa-calendar-star icon-month"></i>
+            <div>
+                <div class="prize-name">Månedens manager</div>
+                <div class="prize-amount">2 500 kr totalt (250 kr per måned &times; 10 måneder, 16,7% av premiepotten)</div>
+                <div class="prize-desc">Den som får flest poeng i en enkelt måned vinner 250 kr. Dette gjelder hele sesongen, fra august til mai.</div>
+            </div>
+        </div>
+
+        <div class="prize-item">
+            <i class="fas fa-people-arrows icon-h2h"></i>
+            <div>
+                <div class="prize-name">Vinner av H2H-ligaen</div>
+                <div class="prize-amount">1 000 kr (6,7% av premiepotten)</div>
+                <div class="prize-desc">Går til den som vinner head-to-head ligaen.</div>
+            </div>
+        </div>
+
+        <div class="prize-item">
+            <i class="fas fa-futbol icon-cup"></i>
+            <div>
+                <div class="prize-name">Vinner av cupen</div>
+                <div class="prize-amount">500 kr (3,3% av premiepotten)</div>
+                <div class="prize-desc">Går til den som vinner cupturneringen.</div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -53,5 +242,6 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>
