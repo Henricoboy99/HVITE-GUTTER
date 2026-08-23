@@ -100,30 +100,45 @@
             font-style: italic;
         }
 
-        .hof-music-controls {
+        .hof-music-banner {
             position: fixed;
-            bottom: 18px;
-            right: 18px;
-            z-index: 50;
-        }
-        .hof-music-controls button {
-            background: rgba(0,0,0,.55);
-            border: 1px solid rgba(255,255,255,.5);
-            color: #fff;
-            border-radius: 20px;
-            padding: 6px 14px;
-            font-size: .85rem;
-            backdrop-filter: blur(4px);
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 200;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 14px 18px;
+            background: linear-gradient(90deg, var(--hg-gold), var(--hg-gold-bright), var(--hg-gold));
+            background-size: 200% 100%;
+            color: #1a1204;
+            font-family: var(--font-head);
+            font-weight: 700;
+            font-size: 1rem;
+            border: none;
             cursor: pointer;
+            box-shadow: 0 4px 22px rgba(255, 215, 0, 0.45);
+            animation: hofBannerShimmer 2.4s linear infinite, hofBannerPulse 1.6s ease-in-out infinite;
         }
-        .hof-music-controls button:hover { background: rgba(0,0,0,.8); }
-        .hof-music-controls button.pulse {
-            animation: hofPulseGlow 1.6s ease-in-out infinite;
-            border-color: var(--hg-gold-bright);
+        .hof-music-banner.show { display: flex; }
+        .hof-music-banner:hover { filter: brightness(1.08); }
+        .hof-music-banner .note-icon {
+            font-size: 1.3rem;
+            animation: hofNoteBounce 1s ease-in-out infinite;
         }
-        @keyframes hofPulseGlow {
-            0%, 100% { box-shadow: 0 0 0 0 rgba(255,215,0,.5); }
-            50% { box-shadow: 0 0 0 8px rgba(255,215,0,0); }
+        @keyframes hofBannerShimmer {
+            0% { background-position: 0% 0; }
+            100% { background-position: 200% 0; }
+        }
+        @keyframes hofBannerPulse {
+            0%, 100% { box-shadow: 0 4px 22px rgba(255, 215, 0, 0.45); }
+            50% { box-shadow: 0 4px 32px rgba(255, 215, 0, 0.85); }
+        }
+        @keyframes hofNoteBounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-3px); }
         }
     </style>
 </head>
@@ -158,9 +173,9 @@
     preload="auto"
     style="position:absolute; width:1px; height:1px; opacity:0; pointer-events:none;"
 ></video>
-<div class="hof-music-controls">
-    <button type="button" id="hofMusicToggle">🔊 Musikk</button>
-</div>
+<button type="button" class="hof-music-banner" id="hofMusicToggle">
+    <span class="note-icon">🎵</span> Trykk her for å høre Hall of Fame-sangen
+</button>
 
 <div class="page-wrap">
     <h1 class="page-title"><i class="fas fa-crown"></i> Hall of Fame <i class="fas fa-crown"></i></h1>
@@ -270,35 +285,26 @@
     (function () {
         // Prøver å spille av Hall of Fame-sangen automatisk. Nettlesere blokkerer
         // ofte lyd-autoplay før besøkende har interagert med siden – da viser vi
-        // heller en pulserende "Musikk"-knapp de kan trykke på med én gang.
+        // heller en tydelig, gyllen banner øverst som de kan trykke på med én gang.
         const track = document.getElementById('hofAudioTrack');
-        const btn = document.getElementById('hofMusicToggle');
-        if (!track || !btn) return;
+        const banner = document.getElementById('hofMusicToggle');
+        if (!track || !banner) return;
 
-        function setPlayingUI() {
-            btn.textContent = '🔊 Musikk';
-            btn.classList.remove('pulse');
+        function hideBanner() {
+            banner.classList.remove('show');
         }
-        function setPausedUI() {
-            btn.textContent = '🔈 Spill musikk';
+        function showBanner() {
+            banner.classList.add('show');
         }
 
         track.volume = 0.85;
         const playPromise = track.play();
         if (playPromise && playPromise.then) {
-            playPromise.then(setPlayingUI).catch(function () {
-                setPausedUI();
-                btn.classList.add('pulse');
-            });
+            playPromise.then(hideBanner).catch(showBanner);
         }
 
-        btn.addEventListener('click', function () {
-            if (track.paused) {
-                track.play().then(setPlayingUI).catch(function () {});
-            } else {
-                track.pause();
-                setPausedUI();
-            }
+        banner.addEventListener('click', function () {
+            track.play().then(hideBanner).catch(function () {});
         });
     })();
 </script>
