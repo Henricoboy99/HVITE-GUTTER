@@ -107,26 +107,45 @@
             right: 0;
             z-index: 200;
             display: none;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 12px;
-            padding: 14px 18px;
+            gap: 2px;
+            padding: 22px 18px;
             background: linear-gradient(90deg, var(--hg-gold), var(--hg-gold-bright), var(--hg-gold));
             background-size: 200% 100%;
             color: #1a1204;
             font-family: var(--font-head);
-            font-weight: 700;
-            font-size: 1rem;
             border: none;
             cursor: pointer;
-            box-shadow: 0 4px 22px rgba(255, 215, 0, 0.45);
+            box-shadow: 0 4px 26px rgba(255, 215, 0, 0.55);
             animation: hofBannerShimmer 2.4s linear infinite, hofBannerPulse 1.6s ease-in-out infinite;
         }
         .hof-music-banner.show { display: flex; }
         .hof-music-banner:hover { filter: brightness(1.08); }
+        .hof-music-banner .banner-main {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 800;
+            font-size: 1.5rem;
+            letter-spacing: .5px;
+            text-transform: uppercase;
+        }
+        .hof-music-banner .banner-sub {
+            font-family: var(--font-body);
+            font-weight: 600;
+            font-size: .85rem;
+            text-transform: none;
+            letter-spacing: .2px;
+        }
         .hof-music-banner .note-icon {
-            font-size: 1.3rem;
+            font-size: 1.7rem;
             animation: hofNoteBounce 1s ease-in-out infinite;
+        }
+        @media (max-width: 560px) {
+            .hof-music-banner .banner-main { font-size: 1.15rem; }
+            .hof-music-banner .note-icon { font-size: 1.4rem; }
         }
         @keyframes hofBannerShimmer {
             0% { background-position: 0% 0; }
@@ -174,7 +193,8 @@
     style="position:absolute; width:1px; height:1px; opacity:0; pointer-events:none;"
 ></video>
 <button type="button" class="hof-music-banner" id="hofMusicToggle">
-    <span class="note-icon">🎵</span> Trykk her for å høre Hall of Fame-sangen
+    <span class="banner-main"><span class="note-icon">🎺</span> Trykk her for en verdig seremoni</span>
+    <span class="banner-sub">Hall of Fame-sangen venter på deg</span>
 </button>
 
 <div class="page-wrap">
