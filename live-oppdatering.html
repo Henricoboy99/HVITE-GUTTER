@@ -56,11 +56,21 @@
 
             <div id="syncNote" class="archive-note mb-3" style="text-align:center;"></div>
 
-            <h2 class="h4 mb-3"><i class="fas fa-trophy" style="color:var(--hg-gold-bright);"></i> Ligatabell – Sammenlagt</h2>
+            <h2 class="h4 mb-3"><i class="fas fa-trophy" style="color:var(--hg-gold-bright);"></i> Ligatabell – Sammenlagt <span id="roundLabel" class="archive-note" style="font-weight:400;"></span></h2>
             <div class="table-responsive mb-5">
                 <table class="table" id="classicTable">
-                    <thead><tr><th>Plass</th><th>Manager</th><th>Poeng</th></tr></thead>
-                    <tbody><tr><td colspan="3" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
+                    <thead>
+                        <tr>
+                            <th>Plass</th>
+                            <th>Manager</th>
+                            <th>Poeng</th>
+                            <th><i class="fas fa-star" style="color:#ffd700;"></i> Kaptein</th>
+                            <th><i class="fas fa-chart-line" style="color:#4ea8de;"></i> Beste spiller (runden)</th>
+                            <th><i class="fas fa-bolt" style="color:#ff6b6b;"></i> Chip brukt</th>
+                            <th>Chips igjen</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="7" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
                 </table>
             </div>
 
@@ -213,8 +223,23 @@
       if (Array.isArray(data.classic) && data.classic.length) {
         var body = document.querySelector('#classicTable tbody');
         body.innerHTML = data.classic.map(function (row) {
-          return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '><td>' + row.rank + '</td><td>' + row.manager + '</td><td>' + row.points + '</td></tr>';
+          var captain = row.captain || '–';
+          var topScorer = row.topScorer ? row.topScorer + (row.topScorerPoints != null ? ' (' + row.topScorerPoints + 'p)' : '') : '–';
+          var chipUsed = row.chipUsed ? '<strong>' + row.chipUsed + '</strong>' : '–';
+          var chipsLeft = row.chipsLeft || '–';
+          return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
+            '<td>' + row.rank + '</td>' +
+            '<td>' + row.manager + '</td>' +
+            '<td>' + row.points + '</td>' +
+            '<td>' + captain + '</td>' +
+            '<td>' + topScorer + '</td>' +
+            '<td>' + chipUsed + '</td>' +
+            '<td>' + chipsLeft + '</td>' +
+            '</tr>';
         }).join('');
+
+        var roundLabel = document.getElementById('roundLabel');
+        if (roundLabel && data.currentEvent) roundLabel.textContent = '– runde ' + data.currentEvent + ' (foreløpig)';
       }
 
       if (Array.isArray(data.h2h) && data.h2h.length) {
