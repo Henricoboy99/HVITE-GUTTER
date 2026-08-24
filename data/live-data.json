@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T22:16:07.147030+00:00",
+  "updatedAt": "2026-08-24T23:14:35.785539+00:00",
   "classic": [
     {
       "rank": 1,
@@ -51,19 +51,19 @@
     },
     {
       "rank": 7,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "points": 58,
-      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
-    },
-    {
-      "rank": 7,
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
       "points": 58,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 7,
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "points": 58,
+      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
       "rank": 9,
@@ -107,17 +107,17 @@
     },
     {
       "rank": 14,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
       "points": 46,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 14,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
       "points": 46,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     }
@@ -291,19 +291,19 @@
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
-        "5833200": {
-          "roundPoints": 58,
-          "captain": "B.Fernandes",
-          "chipUsed": "bboost",
-          "topScorer": "M.Sangaré",
-          "topScorerPoints": 14
-        },
         "2212762": {
           "roundPoints": 58,
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
+        },
+        "5833200": {
+          "roundPoints": 58,
+          "captain": "B.Fernandes",
+          "chipUsed": "bboost",
+          "topScorer": "M.Sangaré",
+          "topScorerPoints": 14
         },
         "2039136": {
           "roundPoints": 57,
@@ -340,16 +340,16 @@
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
-        "653804": {
+        "1224394": {
           "roundPoints": 46,
-          "captain": "Haaland",
+          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
-        "1224394": {
+        "653804": {
           "roundPoints": 46,
-          "captain": "B.Fernandes",
+          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
