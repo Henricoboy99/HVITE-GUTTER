@@ -1,0 +1,44 @@
+name: Synk Fantasy Premier League-data
+
+on:
+  schedule:
+    # Kjører hver time. FPL-poeng oppdateres uansett ikke øyeblikkelig etter
+    # kamper (BPS/bonus tar litt tid), så en gang i timen er mer enn nok.
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+    paths:
+      - "scripts/sync_fpl.py"
+      - ".github/workflows/sync-fpl.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Hent FPL-data
+        env:
+          CLASSIC_LEAGUE_ID: ${{ vars.CLASSIC_LEAGUE_ID }}
+          H2H_LEAGUE_ID: ${{ vars.H2H_LEAGUE_ID }}
+        run: python3 scripts/sync_fpl.py
+
+      - name: Commit og push om noe endret seg
+        run: |
+          git config user.name "hvite-gutter-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/live-data.json
+          if git diff --cached --quiet; then
+            echo "Ingen endringer i dataene."
+          else
+            git commit -m "Automatisk synk av FPL-data [skip ci]"
+            git push
+          fi
