@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T14:32:37.618618+00:00",
+  "updatedAt": "2026-08-24T15:29:51.523038+00:00",
   "classic": [
     {
       "rank": 1,
@@ -43,6 +43,14 @@
     },
     {
       "rank": 6,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "points": 46,
+      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 6,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
@@ -58,11 +66,11 @@
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
-      "rank": 6,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "points": 46,
+      "rank": 9,
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
+      "points": 42,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
@@ -70,14 +78,6 @@
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
-      "points": 42,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 9,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
       "points": 42,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -284,6 +284,13 @@
           "topScorer": "M.Sangaré",
           "topScorerPoints": 14
         },
+        "7147920": {
+          "roundPoints": 46,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Ødegaard",
+          "topScorerPoints": 11
+        },
         "302482": {
           "roundPoints": 46,
           "captain": "B.Fernandes",
@@ -298,12 +305,12 @@
           "topScorer": "Calafiori",
           "topScorerPoints": 9
         },
-        "7147920": {
-          "roundPoints": 46,
+        "5667657": {
+          "roundPoints": 42,
           "captain": "Haaland",
           "chipUsed": null,
-          "topScorer": "Ødegaard",
-          "topScorerPoints": 11
+          "topScorer": "Calafiori",
+          "topScorerPoints": 9
         },
         "2817046": {
           "roundPoints": 42,
@@ -311,13 +318,6 @@
           "chipUsed": null,
           "topScorer": "White",
           "topScorerPoints": 11
-        },
-        "5667657": {
-          "roundPoints": 42,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Calafiori",
-          "topScorerPoints": 9
         },
         "3326579": {
           "roundPoints": 37,
