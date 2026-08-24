@@ -323,6 +323,75 @@ a:hover { color: #fff; }
 }
 .archive-note { color: var(--hg-text-muted); font-style: italic; }
 
+/* ---------- Mobilvisning av live-tabellene: kort i stedet for bred tabell med sideveis scroll ---------- */
+@media (max-width: 767px) {
+  #classicTable, #h2hTable {
+    box-shadow: none;
+  }
+  #classicTable thead, #h2hTable thead {
+    display: none;
+  }
+  #classicTable, #classicTable tbody, #classicTable tr,
+  #h2hTable, #h2hTable tbody, #h2hTable tr {
+    display: block;
+    width: 100%;
+  }
+  #classicTable tr, #h2hTable tr {
+    margin-bottom: 12px;
+    border: 1px solid var(--hg-border-gold);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.02);
+  }
+  #classicTable tr.leader, #h2hTable tr.leader {
+    border-color: var(--hg-gold-bright);
+  }
+  #classicTable td, #h2hTable td {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: right;
+    padding: 8px 12px;
+    border: none !important;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.12) !important;
+  }
+  #classicTable td:last-child, #h2hTable td:last-child {
+    border-bottom: none !important;
+  }
+  #classicTable td::before, #h2hTable td::before {
+    content: attr(data-label);
+    font-family: var(--font-head);
+    font-size: .68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    color: var(--hg-gold-bright);
+    text-align: left;
+    flex: 0 0 auto;
+  }
+  /* Plass + Manager slås sammen til en tydelig "kort-header" øverst i hvert kort */
+  #classicTable td:nth-child(1), #h2hTable td:nth-child(1) {
+    display: none;
+  }
+  #classicTable td:nth-child(2), #h2hTable td:nth-child(2) {
+    background: rgba(212, 175, 55, 0.10);
+    padding: 10px 12px;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2) !important;
+  }
+  #classicTable td:nth-child(2)::before, #h2hTable td:nth-child(2)::before {
+    content: "#" attr(data-rank);
+    color: var(--hg-gold-bright);
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: .95rem;
+  }
+  #classicTable td:nth-child(2) > div, #h2hTable td:nth-child(2) > div {
+    text-align: left;
+  }
+}
+
 /* ---------- Footer ---------- */
 .hg-footer {
   border-top: 1px solid var(--hg-border-gold);

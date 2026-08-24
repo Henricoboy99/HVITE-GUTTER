@@ -25,11 +25,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Hjem</a></li>
+                <li class="nav-item"><a class="nav-link active" href="live-oppdatering.html">Live oppdatering</a></li>
+                <li class="nav-item"><a class="nav-link" href="hall-of-fame.html">Hall of Fame</a></li>
                 <li class="nav-item"><a class="nav-link" href="ligakode.html">Ligakode</a></li>
                 <li class="nav-item"><a class="nav-link" href="premier.html">Premier</a></li>
                 <li class="nav-item"><a class="nav-link" href="deltakere.html">Deltakere</a></li>
-                <li class="nav-item"><a class="nav-link active" href="live-oppdatering.html">Live oppdatering</a></li>
-                <li class="nav-item"><a class="nav-link" href="hall-of-fame.html">Hall of Fame</a></li>
                 <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
             </ul>
         </div>
@@ -74,7 +74,7 @@
                             <th><i class="fas fa-star" style="color:#ffd700;"></i> Kaptein</th>
                             <th><i class="fas fa-chart-line" style="color:#4ea8de;"></i> Rundens stjernespiller</th>
                             <th>Chips igjen</th>
-                            <th>Totalt poeng</th>
+                            <th>Poeng totalt</th>
                         </tr>
                     </thead>
                     <tbody><tr><td colspan="7" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
@@ -234,8 +234,9 @@
         '3xc':    { icon: '👑', text: 'TRIPPEL CAPTAIN AKTIVERT', cls: 'chip-3xc' }
       };
 
-      if (Array.isArray(data.classic) && data.classic.length && data.rounds) {
-        var roundIds = Object.keys(data.rounds).map(Number).sort(function (a, b) { return a - b; });
+      if (Array.isArray(data.classic) && data.classic.length) {
+        var rounds = data.rounds || {};
+        var roundIds = Object.keys(rounds).map(Number).sort(function (a, b) { return a - b; });
 
         if (roundIds.length) {
           var switcher = document.getElementById('roundSwitcher');
@@ -245,7 +246,7 @@
 
           var renderRound = function () {
             var roundId = roundIds[selectedIndex];
-            var roundData = data.rounds[String(roundId)] || {};
+            var roundData = rounds[String(roundId)] || {};
             var entries = roundData.entries || {};
 
             document.getElementById('roundNumber').textContent = roundId;
@@ -270,13 +271,13 @@
               var chipsLeft = row.chipsLeft || '–';
 
               return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
-                '<td>' + row.rank + '</td>' +
-                '<td>' + managerCell + '</td>' +
-                '<td>' + roundPoints + '</td>' +
-                '<td>' + captain + '</td>' +
-                '<td>' + topScorer + '</td>' +
-                '<td>' + chipsLeft + '</td>' +
-                '<td><strong>' + row.points + '</strong></td>' +
+                '<td data-label="Plass">' + row.rank + '</td>' +
+                '<td data-label="Manager" data-rank="' + row.rank + '">' + managerCell + '</td>' +
+                '<td data-label="Poeng (runde)">' + roundPoints + '</td>' +
+                '<td data-label="Kaptein">' + captain + '</td>' +
+                '<td data-label="Stjernespiller">' + topScorer + '</td>' +
+                '<td data-label="Chips igjen">' + chipsLeft + '</td>' +
+                '<td data-label="Poeng totalt"><strong>' + row.points + '</strong></td>' +
                 '</tr>';
             }).join('');
           };
@@ -293,15 +294,28 @@
           // Ingen runder har startet ennå – vis bare sesong-totalen
           var body = document.querySelector('#classicTable tbody');
           body.innerHTML = data.classic.map(function (row) {
-            return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '><td>' + row.rank + '</td><td>' + row.manager + '</td><td>–</td><td>–</td><td>–</td><td>' + (row.chipsLeft || '–') + '</td><td><strong>' + row.points + '</strong></td></tr>';
+            return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
+              '<td data-label="Plass">' + row.rank + '</td>' +
+              '<td data-label="Manager" data-rank="' + row.rank + '">' + row.manager + '</td>' +
+              '<td data-label="Poeng (runde)">–</td>' +
+              '<td data-label="Kaptein">–</td>' +
+              '<td data-label="Stjernespiller">–</td>' +
+              '<td data-label="Chips igjen">' + (row.chipsLeft || '–') + '</td>' +
+              '<td data-label="Poeng totalt"><strong>' + row.points + '</strong></td>' +
+              '</tr>';
           }).join('');
         }
       }
 
       if (Array.isArray(data.h2h) && data.h2h.length) {
         var h2hBody = document.querySelector('#h2hTable tbody');
-        h2hBody.innerHTML = data.h2h.map(function (row) {
-          return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '><td>' + row.rank + '</td><td>' + row.manager + '</td><td>' + row.record + '</td><td>' + row.points + '</td></tr>';
+        h2hBody.innerHTML = data.h2h.slice(0, 3).map(function (row) {
+          return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
+            '<td data-label="Plass">' + row.rank + '</td>' +
+            '<td data-label="Manager" data-rank="' + row.rank + '">' + row.manager + '</td>' +
+            '<td data-label="V-U-T">' + row.record + '</td>' +
+            '<td data-label="Poeng">' + row.points + '</td>' +
+            '</tr>';
         }).join('');
       }
 
