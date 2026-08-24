@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T12:27:49.456080+00:00",
+  "updatedAt": "2026-08-24T12:32:04.741855+00:00",
   "classic": [
     {
       "rank": 1,
@@ -38,13 +38,6 @@
     },
     {
       "rank": 6,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "points": 46
-    },
-    {
-      "rank": 6,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
@@ -58,17 +51,24 @@
       "points": 46
     },
     {
-      "rank": 9,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
-      "points": 42
+      "rank": 6,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "points": 46
     },
     {
       "rank": 9,
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
+      "points": 42
+    },
+    {
+      "rank": 9,
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
       "points": 42
     },
     {
@@ -94,16 +94,16 @@
     },
     {
       "rank": 14,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
       "points": 35
     },
     {
       "rank": 14,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
       "points": 35
     }
   ],
