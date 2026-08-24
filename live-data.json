@@ -3,5 +3,6 @@
   "classic": [],
   "h2h": [],
   "monthlyManager": [],
-  "currentEvent": null
+  "currentEvent": null,
+  "rounds": {}
 }

@@ -232,6 +232,57 @@ a:hover { color: #fff; }
   opacity: .7;
 }
 
+/* Runde-velger over ligatabellen, så man kan bla mellom runder */
+.round-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+.round-switcher button {
+  background: rgba(212, 175, 55, 0.10);
+  border: 1px solid var(--hg-border-gold);
+  color: var(--hg-gold-bright);
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+.round-switcher button:hover:not(:disabled) { background: rgba(212, 175, 55, 0.22); }
+.round-switcher button:disabled { opacity: .3; cursor: default; }
+.round-switcher-label {
+  font-family: var(--font-head);
+  font-weight: 700;
+  color: #fff;
+  min-width: 150px;
+  text-align: center;
+}
+.round-switcher-label #roundStatus {
+  color: var(--hg-text-muted);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+/* Chip-merke ved siden av manager-navnet i ligatabellen */
+.chip-badge {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .4px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.chip-badge.chip-wildcard { background: rgba(78, 168, 222, 0.16); color: #4ea8de; border: 1px solid rgba(78, 168, 222, 0.4); }
+.chip-badge.chip-freehit  { background: rgba(255, 165, 0, 0.16); color: #ffa500; border: 1px solid rgba(255, 165, 0, 0.4); }
+.chip-badge.chip-bboost   { background: rgba(255, 107, 107, 0.16); color: #ff6b6b; border: 1px solid rgba(255, 107, 107, 0.4); }
+.chip-badge.chip-3xc      { background: rgba(255, 215, 0, 0.16); color: #ffd700; border: 1px solid rgba(255, 215, 0, 0.4); }
+
 /* Foreløpig leder av Månedens Manager, mens måneden pågår */
 .current-month-leader {
   text-align: center;

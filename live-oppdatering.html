@@ -56,18 +56,25 @@
 
             <div id="syncNote" class="archive-note mb-3" style="text-align:center;"></div>
 
-            <h2 class="h4 mb-3"><i class="fas fa-trophy" style="color:var(--hg-gold-bright);"></i> Ligatabell – Sammenlagt <span id="roundLabel" class="archive-note" style="font-weight:400;"></span></h2>
+            <h2 class="h4 mb-3"><i class="fas fa-trophy" style="color:var(--hg-gold-bright);"></i> Ligatabell – Sammenlagt</h2>
+
+            <div class="round-switcher" id="roundSwitcher" style="display:none;">
+                <button type="button" id="roundPrev" aria-label="Forrige runde">&laquo;</button>
+                <span class="round-switcher-label">Runde <span id="roundNumber">–</span> <span id="roundStatus"></span></span>
+                <button type="button" id="roundNext" aria-label="Neste runde">&raquo;</button>
+            </div>
+
             <div class="table-responsive mb-5">
                 <table class="table" id="classicTable">
                     <thead>
                         <tr>
                             <th>Plass</th>
                             <th>Manager</th>
-                            <th>Poeng</th>
+                            <th>Poeng (runde)</th>
                             <th><i class="fas fa-star" style="color:#ffd700;"></i> Kaptein</th>
-                            <th><i class="fas fa-chart-line" style="color:#4ea8de;"></i> Beste spiller (runden)</th>
-                            <th><i class="fas fa-bolt" style="color:#ff6b6b;"></i> Chip brukt</th>
+                            <th><i class="fas fa-chart-line" style="color:#4ea8de;"></i> Rundens stjernespiller</th>
                             <th>Chips igjen</th>
+                            <th>Totalt poeng</th>
                         </tr>
                     </thead>
                     <tbody><tr><td colspan="7" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
@@ -220,26 +227,75 @@
         note.textContent = 'Sist oppdatert automatisk: ' + d.toLocaleDateString('no-NO') + ' kl. ' + d.toLocaleTimeString('no-NO', { hour: '2-digit', minute: '2-digit' });
       }
 
-      if (Array.isArray(data.classic) && data.classic.length) {
-        var body = document.querySelector('#classicTable tbody');
-        body.innerHTML = data.classic.map(function (row) {
-          var captain = row.captain || '–';
-          var topScorer = row.topScorer ? row.topScorer + (row.topScorerPoints != null ? ' (' + row.topScorerPoints + 'p)' : '') : '–';
-          var chipUsed = row.chipUsed ? '<strong>' + row.chipUsed + '</strong>' : '–';
-          var chipsLeft = row.chipsLeft || '–';
-          return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
-            '<td>' + row.rank + '</td>' +
-            '<td>' + row.manager + '</td>' +
-            '<td>' + row.points + '</td>' +
-            '<td>' + captain + '</td>' +
-            '<td>' + topScorer + '</td>' +
-            '<td>' + chipUsed + '</td>' +
-            '<td>' + chipsLeft + '</td>' +
-            '</tr>';
-        }).join('');
+      var CHIP_META = {
+        wildcard: { icon: '🃏', text: 'WILDCARD AKTIVERT', cls: 'chip-wildcard' },
+        freehit:  { icon: '🎯', text: 'FREE HIT AKTIVERT', cls: 'chip-freehit' },
+        bboost:   { icon: '🚀', text: 'BENCH BOOST AKTIVERT', cls: 'chip-bboost' },
+        '3xc':    { icon: '👑', text: 'TRIPPEL CAPTAIN AKTIVERT', cls: 'chip-3xc' }
+      };
 
-        var roundLabel = document.getElementById('roundLabel');
-        if (roundLabel && data.currentEvent) roundLabel.textContent = '– runde ' + data.currentEvent + ' (foreløpig)';
+      if (Array.isArray(data.classic) && data.classic.length && data.rounds) {
+        var roundIds = Object.keys(data.rounds).map(Number).sort(function (a, b) { return a - b; });
+
+        if (roundIds.length) {
+          var switcher = document.getElementById('roundSwitcher');
+          if (switcher) switcher.style.display = 'flex';
+
+          var selectedIndex = roundIds.length - 1; // starter på siste (gjeldende) runde
+
+          var renderRound = function () {
+            var roundId = roundIds[selectedIndex];
+            var roundData = data.rounds[String(roundId)] || {};
+            var entries = roundData.entries || {};
+
+            document.getElementById('roundNumber').textContent = roundId;
+            document.getElementById('roundStatus').textContent = roundData.finished ? '' : '(pågår)';
+            document.getElementById('roundPrev').disabled = selectedIndex <= 0;
+            document.getElementById('roundNext').disabled = selectedIndex >= roundIds.length - 1;
+
+            var body = document.querySelector('#classicTable tbody');
+            body.innerHTML = data.classic.map(function (row) {
+              var rd = entries[String(row.entry)] || {};
+
+              var chipBadge = '';
+              if (rd.chipUsed && CHIP_META[rd.chipUsed]) {
+                var meta = CHIP_META[rd.chipUsed];
+                chipBadge = '<span class="chip-badge ' + meta.cls + '">' + meta.icon + ' ' + meta.text + '</span>';
+              }
+              var managerCell = '<div>' + row.manager + '</div>' + chipBadge;
+
+              var roundPoints = (rd.roundPoints != null) ? rd.roundPoints : '–';
+              var captain = rd.captain || '–';
+              var topScorer = rd.topScorer ? rd.topScorer + (rd.topScorerPoints != null ? ' (' + rd.topScorerPoints + 'p)' : '') : '–';
+              var chipsLeft = row.chipsLeft || '–';
+
+              return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
+                '<td>' + row.rank + '</td>' +
+                '<td>' + managerCell + '</td>' +
+                '<td>' + roundPoints + '</td>' +
+                '<td>' + captain + '</td>' +
+                '<td>' + topScorer + '</td>' +
+                '<td>' + chipsLeft + '</td>' +
+                '<td><strong>' + row.points + '</strong></td>' +
+                '</tr>';
+            }).join('');
+          };
+
+          document.getElementById('roundPrev').addEventListener('click', function () {
+            if (selectedIndex > 0) { selectedIndex--; renderRound(); }
+          });
+          document.getElementById('roundNext').addEventListener('click', function () {
+            if (selectedIndex < roundIds.length - 1) { selectedIndex++; renderRound(); }
+          });
+
+          renderRound();
+        } else {
+          // Ingen runder har startet ennå – vis bare sesong-totalen
+          var body = document.querySelector('#classicTable tbody');
+          body.innerHTML = data.classic.map(function (row) {
+            return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '><td>' + row.rank + '</td><td>' + row.manager + '</td><td>–</td><td>–</td><td>–</td><td>' + (row.chipsLeft || '–') + '</td><td><strong>' + row.points + '</strong></td></tr>';
+          }).join('');
+        }
       }
 
       if (Array.isArray(data.h2h) && data.h2h.length) {
