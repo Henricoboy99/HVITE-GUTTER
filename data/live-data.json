@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T16:24:09.489043+00:00",
+  "updatedAt": "2026-08-24T17:22:49.602804+00:00",
   "classic": [
     {
       "rank": 1,
@@ -51,19 +51,19 @@
     },
     {
       "rank": 6,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
-      "points": 46,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 6,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
       "points": 46,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 6,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
+      "points": 46,
+      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 9,
@@ -291,18 +291,18 @@
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
-        "2039136": {
-          "roundPoints": 46,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Calafiori",
-          "topScorerPoints": 9
-        },
         "302482": {
           "roundPoints": 46,
           "captain": "B.Fernandes",
           "chipUsed": "bboost",
           "topScorer": "Ndiaye",
+          "topScorerPoints": 9
+        },
+        "2039136": {
+          "roundPoints": 46,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Calafiori",
           "topScorerPoints": 9
         },
         "5667657": {
