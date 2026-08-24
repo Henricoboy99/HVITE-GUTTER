@@ -323,6 +323,24 @@ a:hover { color: #fff; }
 }
 .archive-note { color: var(--hg-text-muted); font-style: italic; }
 
+/* Kort forklaring av kaptein vs. rundens stjernespiller, over ligatabellen */
+.live-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: var(--hg-text-muted);
+  font-size: .78rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.live-legend i { width: 16px; text-align: center; margin-right: 3px; }
+
+/* Fremhev totalpoeng-kolonnen i desktop-tabellen */
+#classicTable td[data-label="Poeng totalt"] strong {
+  color: var(--hg-gold-bright);
+  font-size: 1.05em;
+}
+
 /* ---------- Mobilvisning av live-tabellene: kompakt liste i stedet for bred tabell ---------- */
 @media (max-width: 767px) {
   .desktop-table-wrap { display: none; }
@@ -334,7 +352,7 @@ a:hover { color: #fff; }
 
 .mobile-manager-list {
   flex-direction: column;
-  gap: 8px;
+  gap: 7px;
   margin-bottom: 8px;
 }
 .manager-row {
@@ -342,7 +360,7 @@ a:hover { color: #fff; }
   border: 1px solid var(--hg-border-gold);
   border-radius: 10px;
   background: rgba(255,255,255,0.03);
-  padding: 10px 12px;
+  padding: 8px 10px;
 }
 .manager-row.leader {
   border-color: var(--hg-gold-bright);
@@ -361,15 +379,15 @@ a:hover { color: #fff; }
   min-width: 0;
   color: #ffffff;
   font-weight: 700;
-  font-size: .92rem;
-  line-height: 1.25;
+  font-size: .9rem;
+  line-height: 1.2;
 }
 .manager-row .mr-name .mr-rank {
   flex: 0 0 auto;
   color: var(--hg-gold-bright);
   font-family: var(--font-head);
   font-weight: 800;
-  font-size: .82rem;
+  font-size: .8rem;
 }
 .manager-row .mr-name .mr-namee {
   overflow-wrap: anywhere;
@@ -379,28 +397,49 @@ a:hover { color: #fff; }
   text-align: right;
   color: #ffffff;
   font-weight: 800;
-  font-size: 1.05rem;
+  font-size: 1rem;
   white-space: nowrap;
+  line-height: 1.15;
 }
 .manager-row .mr-points .mr-points-sub {
   display: block;
   color: var(--hg-text-muted);
   font-weight: 600;
-  font-size: .64rem;
+  font-size: .6rem;
   text-transform: uppercase;
   letter-spacing: .3px;
 }
 .manager-row .mr-meta {
-  margin-top: 6px;
+  margin-top: 3px;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px 10px;
+  align-items: baseline;
+  gap: 3px 10px;
   color: var(--hg-text);
-  font-size: .74rem;
-  line-height: 1.5;
+  font-size: .72rem;
+  line-height: 1.4;
+}
+.manager-row .mr-meta.mr-meta-bottom {
+  margin-top: 5px;
+  justify-content: space-between;
+  border-top: 1px solid rgba(212, 175, 55, 0.12);
+  padding-top: 4px;
 }
 .manager-row .mr-meta .mr-item { white-space: nowrap; }
-.manager-row .mr-meta .mr-item i { width: 14px; color: var(--hg-gold-bright); margin-right: 2px; }
+.manager-row .mr-meta .mr-item i { width: 13px; color: var(--hg-gold-bright); margin-right: 1px; }
+.manager-row .mr-meta .mr-item-label {
+  color: var(--hg-text-muted);
+  font-size: .62rem;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  margin-right: 2px;
+}
+.manager-row .mr-total {
+  color: var(--hg-gold-bright);
+  font-weight: 800;
+  font-size: .82rem;
+  white-space: nowrap;
+}
 .manager-row .mr-chips {
   margin-top: 4px;
   color: var(--hg-text-muted);
@@ -408,8 +447,8 @@ a:hover { color: #fff; }
 }
 .manager-row .mr-chip-badge {
   display: inline-block;
-  margin-top: 6px;
-  font-size: .62rem;
+  margin-top: 5px;
+  font-size: .6rem;
   font-weight: 700;
   letter-spacing: .3px;
   padding: 2px 7px;

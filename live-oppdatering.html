@@ -56,7 +56,11 @@
 
             <div id="syncNote" class="archive-note mb-3" style="text-align:center;"></div>
 
-            <h2 class="h4 mb-3"><i class="fas fa-trophy" style="color:var(--hg-gold-bright);"></i> Ligatabell – Sammenlagt</h2>
+            <h2 class="h4 mb-2"><i class="fas fa-trophy" style="color:var(--hg-gold-bright);"></i> Livetabell</h2>
+            <p class="live-legend">
+                <span><i class="fas fa-star" style="color:#ffd700;"></i> Kaptein = spilleren du satte som kaptein denne runden (dobbel poengsum)</span>
+                <span><i class="fas fa-chart-line" style="color:#4ea8de;"></i> Stjernespiller = spilleren i laget ditt som scoret flest poeng denne runden</span>
+            </p>
 
             <div class="round-switcher" id="roundSwitcher" style="display:none;">
                 <button type="button" id="roundPrev" aria-label="Forrige runde">&laquo;</button>
@@ -286,12 +290,12 @@
                     '<div class="mr-points">' + roundPoints + '<span class="mr-points-sub">runde</span></div>' +
                   '</div>' +
                   '<div class="mr-meta">' +
-                    '<span class="mr-item"><i class="fas fa-star"></i>' + captain + '</span>' +
-                    '<span class="mr-item"><i class="fas fa-chart-line"></i>' + topScorer + '</span>' +
+                    '<span class="mr-item"><i class="fas fa-star"></i><span class="mr-item-label">Kaptein</span> ' + captain + '</span>' +
+                    '<span class="mr-item"><i class="fas fa-chart-line"></i><span class="mr-item-label">Stjernespiller</span> ' + topScorer + '</span>' +
                   '</div>' +
-                  '<div class="mr-meta">' +
+                  '<div class="mr-meta mr-meta-bottom">' +
                     '<span class="mr-item"><i class="fas fa-bolt"></i>' + chipsLeft + '</span>' +
-                    '<span class="mr-item"><i class="fas fa-medal"></i>' + row.points + ' totalt</span>' +
+                    '<span class="mr-total">' + row.points + ' totalt</span>' +
                   '</div>' +
                   mobileChipBadge +
                 '</div>'
