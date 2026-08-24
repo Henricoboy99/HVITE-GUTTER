@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T21:19:56.986250+00:00",
+  "updatedAt": "2026-08-24T22:16:07.147030+00:00",
   "classic": [
     {
       "rank": 1,
@@ -19,17 +19,17 @@
     },
     {
       "rank": 3,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
       "points": 70,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
       "rank": 3,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
       "points": 70,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
@@ -75,14 +75,6 @@
     },
     {
       "rank": 10,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "points": 53,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 10,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
@@ -90,11 +82,11 @@
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
-      "rank": 12,
-      "manager": "Ulrik Windingstad",
-      "team": "KB club",
-      "entry": 3326579,
-      "points": 48,
+      "rank": 10,
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "points": 53,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
@@ -102,6 +94,14 @@
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
+      "points": 48,
+      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 12,
+      "manager": "Ulrik Windingstad",
+      "team": "KB club",
+      "entry": 3326579,
       "points": 48,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -240,7 +240,7 @@
     {
       "month": "August",
       "manager": "Christoffer Jensen",
-      "points": 65,
+      "points": 89,
       "inProgress": true
     }
   ],
@@ -250,105 +250,105 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 65,
+          "roundPoints": 89,
           "captain": "B.Fernandes",
           "chipUsed": "bboost",
           "topScorer": "De Cuyper",
           "topScorerPoints": 17
         },
         "3529226": {
-          "roundPoints": 60,
+          "roundPoints": 84,
           "captain": "Haaland",
           "chipUsed": "bboost",
           "topScorer": "Palmer",
           "topScorerPoints": 13
         },
-        "1676621": {
-          "roundPoints": 59,
-          "captain": "Haaland",
-          "chipUsed": "bboost",
-          "topScorer": "João Pedro",
-          "topScorerPoints": 11
-        },
         "302482": {
-          "roundPoints": 46,
+          "roundPoints": 70,
           "captain": "B.Fernandes",
           "chipUsed": "bboost",
           "topScorer": "Palmer",
           "topScorerPoints": 13
         },
+        "1676621": {
+          "roundPoints": 70,
+          "captain": "Haaland",
+          "chipUsed": "bboost",
+          "topScorer": "João Pedro",
+          "topScorerPoints": 11
+        },
         "6097974": {
-          "roundPoints": 50,
+          "roundPoints": 69,
           "captain": "Haaland",
           "chipUsed": "bboost",
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
         "7147920": {
-          "roundPoints": 46,
+          "roundPoints": 65,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
         "5833200": {
-          "roundPoints": 47,
+          "roundPoints": 58,
           "captain": "B.Fernandes",
           "chipUsed": "bboost",
           "topScorer": "M.Sangaré",
           "topScorerPoints": 14
         },
         "2212762": {
-          "roundPoints": 36,
+          "roundPoints": 58,
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
         "2039136": {
-          "roundPoints": 46,
+          "roundPoints": 57,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "João Pedro",
+          "topScorerPoints": 11
+        },
+        "5667657": {
+          "roundPoints": 53,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
         "2817046": {
-          "roundPoints": 42,
+          "roundPoints": 53,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "White",
           "topScorerPoints": 11
         },
-        "5667657": {
-          "roundPoints": 42,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "João Pedro",
-          "topScorerPoints": 11
-        },
-        "3326579": {
-          "roundPoints": 37,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "João Pedro",
-          "topScorerPoints": 11
-        },
         "2677347": {
-          "roundPoints": 37,
+          "roundPoints": 48,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
+        "3326579": {
+          "roundPoints": 48,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "João Pedro",
+          "topScorerPoints": 11
+        },
         "653804": {
-          "roundPoints": 35,
+          "roundPoints": 46,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
         "1224394": {
-          "roundPoints": 35,
+          "roundPoints": 46,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "João Pedro",
