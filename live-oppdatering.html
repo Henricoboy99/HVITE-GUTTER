@@ -64,7 +64,7 @@
                 <button type="button" id="roundNext" aria-label="Neste runde">&raquo;</button>
             </div>
 
-            <div class="table-responsive mb-5">
+            <div class="table-responsive mb-3 desktop-table-wrap">
                 <table class="table" id="classicTable">
                     <thead>
                         <tr>
@@ -80,13 +80,19 @@
                     <tbody><tr><td colspan="7" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
                 </table>
             </div>
+            <div class="mobile-manager-list mb-5" id="classicMobileList">
+                <p class="archive-note">Laster inn / venter på sesongstart …</p>
+            </div>
 
             <h2 class="h4 mb-3"><i class="fas fa-people-arrows" style="color:#4ea8de;"></i> H2H-liga</h2>
-            <div class="table-responsive mb-5">
+            <div class="table-responsive mb-3 desktop-table-wrap">
                 <table class="table" id="h2hTable">
                     <thead><tr><th>Plass</th><th>Manager</th><th>V-U-T</th><th>Poeng</th></tr></thead>
                     <tbody><tr><td colspan="4" class="archive-note">Laster inn / venter på sesongstart …</td></tr></tbody>
                 </table>
+            </div>
+            <div class="mobile-manager-list mb-5" id="h2hMobileList">
+                <p class="archive-note">Laster inn / venter på sesongstart …</p>
             </div>
 
             <h2 class="h4 mb-3">Månedens Manager</h2>
@@ -255,13 +261,16 @@
             document.getElementById('roundNext').disabled = selectedIndex >= roundIds.length - 1;
 
             var body = document.querySelector('#classicTable tbody');
+            var mobileRows = [];
             body.innerHTML = data.classic.map(function (row) {
               var rd = entries[String(row.entry)] || {};
 
               var chipBadge = '';
+              var mobileChipBadge = '';
               if (rd.chipUsed && CHIP_META[rd.chipUsed]) {
                 var meta = CHIP_META[rd.chipUsed];
                 chipBadge = '<span class="chip-badge ' + meta.cls + '">' + meta.icon + ' ' + meta.text + '</span>';
+                mobileChipBadge = '<span class="mr-chip-badge ' + meta.cls + '">' + meta.icon + ' ' + meta.text + '</span>';
               }
               var managerCell = '<div>' + row.manager + '</div>' + chipBadge;
 
@@ -269,6 +278,24 @@
               var captain = rd.captain || '–';
               var topScorer = rd.topScorer ? rd.topScorer + (rd.topScorerPoints != null ? ' (' + rd.topScorerPoints + 'p)' : '') : '–';
               var chipsLeft = row.chipsLeft || '–';
+
+              mobileRows.push(
+                '<div class="manager-row' + (row.rank === 1 ? ' leader' : '') + '">' +
+                  '<div class="mr-top">' +
+                    '<div class="mr-name"><span class="mr-rank">#' + row.rank + '</span><span class="mr-namee">' + row.manager + '</span></div>' +
+                    '<div class="mr-points">' + roundPoints + '<span class="mr-points-sub">runde</span></div>' +
+                  '</div>' +
+                  '<div class="mr-meta">' +
+                    '<span class="mr-item"><i class="fas fa-star"></i>' + captain + '</span>' +
+                    '<span class="mr-item"><i class="fas fa-chart-line"></i>' + topScorer + '</span>' +
+                  '</div>' +
+                  '<div class="mr-meta">' +
+                    '<span class="mr-item"><i class="fas fa-bolt"></i>' + chipsLeft + '</span>' +
+                    '<span class="mr-item"><i class="fas fa-medal"></i>' + row.points + ' totalt</span>' +
+                  '</div>' +
+                  mobileChipBadge +
+                '</div>'
+              );
 
               return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
                 '<td data-label="Plass">' + row.rank + '</td>' +
@@ -280,6 +307,8 @@
                 '<td data-label="Poeng totalt"><strong>' + row.points + '</strong></td>' +
                 '</tr>';
             }).join('');
+            var mobileList = document.getElementById('classicMobileList');
+            if (mobileList) mobileList.innerHTML = mobileRows.join('');
           };
 
           document.getElementById('roundPrev').addEventListener('click', function () {
@@ -304,12 +333,25 @@
               '<td data-label="Poeng totalt"><strong>' + row.points + '</strong></td>' +
               '</tr>';
           }).join('');
+          var mobileListFallback = document.getElementById('classicMobileList');
+          if (mobileListFallback) {
+            mobileListFallback.innerHTML = data.classic.map(function (row) {
+              return '<div class="manager-row' + (row.rank === 1 ? ' leader' : '') + '">' +
+                '<div class="mr-top">' +
+                  '<div class="mr-name"><span class="mr-rank">#' + row.rank + '</span><span class="mr-namee">' + row.manager + '</span></div>' +
+                  '<div class="mr-points">' + row.points + '<span class="mr-points-sub">totalt</span></div>' +
+                '</div>' +
+                '<div class="mr-meta"><span class="mr-item"><i class="fas fa-bolt"></i>' + (row.chipsLeft || '–') + '</span></div>' +
+                '</div>';
+            }).join('');
+          }
         }
       }
 
       if (Array.isArray(data.h2h) && data.h2h.length) {
+        var h2hTop = data.h2h.slice(0, 3);
         var h2hBody = document.querySelector('#h2hTable tbody');
-        h2hBody.innerHTML = data.h2h.slice(0, 3).map(function (row) {
+        h2hBody.innerHTML = h2hTop.map(function (row) {
           return '<tr' + (row.rank === 1 ? ' class="leader"' : '') + '>' +
             '<td data-label="Plass">' + row.rank + '</td>' +
             '<td data-label="Manager" data-rank="' + row.rank + '">' + row.manager + '</td>' +
@@ -317,6 +359,18 @@
             '<td data-label="Poeng">' + row.points + '</td>' +
             '</tr>';
         }).join('');
+        var h2hMobileList = document.getElementById('h2hMobileList');
+        if (h2hMobileList) {
+          h2hMobileList.innerHTML = h2hTop.map(function (row) {
+            return '<div class="manager-row' + (row.rank === 1 ? ' leader' : '') + '">' +
+              '<div class="mr-top">' +
+                '<div class="mr-name"><span class="mr-rank">#' + row.rank + '</span><span class="mr-namee">' + row.manager + '</span></div>' +
+                '<div class="mr-points">' + row.points + '<span class="mr-points-sub">poeng</span></div>' +
+              '</div>' +
+              '<div class="mr-meta"><span class="mr-item"><i class="fas fa-people-arrows"></i>' + row.record + '</span></div>' +
+              '</div>';
+          }).join('');
+        }
       }
 
       if (Array.isArray(data.monthlyManager) && data.monthlyManager.length) {

@@ -323,74 +323,103 @@ a:hover { color: #fff; }
 }
 .archive-note { color: var(--hg-text-muted); font-style: italic; }
 
-/* ---------- Mobilvisning av live-tabellene: kort i stedet for bred tabell med sideveis scroll ---------- */
+/* ---------- Mobilvisning av live-tabellene: kompakt liste i stedet for bred tabell ---------- */
 @media (max-width: 767px) {
-  #classicTable, #h2hTable {
-    box-shadow: none;
-  }
-  #classicTable thead, #h2hTable thead {
-    display: none;
-  }
-  #classicTable, #classicTable tbody, #classicTable tr,
-  #h2hTable, #h2hTable tbody, #h2hTable tr {
-    display: block;
-    width: 100%;
-  }
-  #classicTable tr, #h2hTable tr {
-    margin-bottom: 12px;
-    border: 1px solid var(--hg-border-gold);
-    border-radius: 10px;
-    overflow: hidden;
-    background: rgba(255,255,255,0.02);
-  }
-  #classicTable tr.leader, #h2hTable tr.leader {
-    border-color: var(--hg-gold-bright);
-  }
-  #classicTable td, #h2hTable td {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    text-align: right;
-    padding: 8px 12px;
-    border: none !important;
-    border-bottom: 1px solid rgba(212, 175, 55, 0.12) !important;
-  }
-  #classicTable td:last-child, #h2hTable td:last-child {
-    border-bottom: none !important;
-  }
-  #classicTable td::before, #h2hTable td::before {
-    content: attr(data-label);
-    font-family: var(--font-head);
-    font-size: .68rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .4px;
-    color: var(--hg-gold-bright);
-    text-align: left;
-    flex: 0 0 auto;
-  }
-  /* Plass + Manager slås sammen til en tydelig "kort-header" øverst i hvert kort */
-  #classicTable td:nth-child(1), #h2hTable td:nth-child(1) {
-    display: none;
-  }
-  #classicTable td:nth-child(2), #h2hTable td:nth-child(2) {
-    background: rgba(212, 175, 55, 0.10);
-    padding: 10px 12px;
-    justify-content: flex-start;
-    border-bottom: 1px solid rgba(212, 175, 55, 0.2) !important;
-  }
-  #classicTable td:nth-child(2)::before, #h2hTable td:nth-child(2)::before {
-    content: "#" attr(data-rank);
-    color: var(--hg-gold-bright);
-    font-family: var(--font-head);
-    font-weight: 800;
-    font-size: .95rem;
-  }
-  #classicTable td:nth-child(2) > div, #h2hTable td:nth-child(2) > div {
-    text-align: left;
-  }
+  .desktop-table-wrap { display: none; }
+  .mobile-manager-list { display: flex; }
 }
+@media (min-width: 768px) {
+  .mobile-manager-list { display: none !important; }
+}
+
+.mobile-manager-list {
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.manager-row {
+  display: block;
+  border: 1px solid var(--hg-border-gold);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+  padding: 10px 12px;
+}
+.manager-row.leader {
+  border-color: var(--hg-gold-bright);
+  background: rgba(255, 215, 0, 0.10);
+}
+.manager-row .mr-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+.manager-row .mr-name {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: .92rem;
+  line-height: 1.25;
+}
+.manager-row .mr-name .mr-rank {
+  flex: 0 0 auto;
+  color: var(--hg-gold-bright);
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: .82rem;
+}
+.manager-row .mr-name .mr-namee {
+  overflow-wrap: anywhere;
+}
+.manager-row .mr-points {
+  flex: 0 0 auto;
+  text-align: right;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+.manager-row .mr-points .mr-points-sub {
+  display: block;
+  color: var(--hg-text-muted);
+  font-weight: 600;
+  font-size: .64rem;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+}
+.manager-row .mr-meta {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+  color: var(--hg-text);
+  font-size: .74rem;
+  line-height: 1.5;
+}
+.manager-row .mr-meta .mr-item { white-space: nowrap; }
+.manager-row .mr-meta .mr-item i { width: 14px; color: var(--hg-gold-bright); margin-right: 2px; }
+.manager-row .mr-chips {
+  margin-top: 4px;
+  color: var(--hg-text-muted);
+  font-size: .68rem;
+}
+.manager-row .mr-chip-badge {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .3px;
+  padding: 2px 7px;
+  border-radius: 9px;
+  white-space: nowrap;
+}
+.manager-row .mr-chip-badge.chip-wildcard { background: rgba(78, 168, 222, 0.16); color: #4ea8de; border: 1px solid rgba(78, 168, 222, 0.4); }
+.manager-row .mr-chip-badge.chip-freehit  { background: rgba(255, 165, 0, 0.16); color: #ffa500; border: 1px solid rgba(255, 165, 0, 0.4); }
+.manager-row .mr-chip-badge.chip-bboost   { background: rgba(255, 107, 107, 0.16); color: #ff6b6b; border: 1px solid rgba(255, 107, 107, 0.4); }
+.manager-row .mr-chip-badge.chip-3xc      { background: rgba(255, 215, 0, 0.16); color: #ffd700; border: 1px solid rgba(255, 215, 0, 0.4); }
 
 /* ---------- Footer ---------- */
 .hg-footer {
