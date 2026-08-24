@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T15:29:51.523038+00:00",
+  "updatedAt": "2026-08-24T16:24:09.489043+00:00",
   "classic": [
     {
       "rank": 1,
@@ -51,19 +51,19 @@
     },
     {
       "rank": 6,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
-      "points": 46,
-      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
-    },
-    {
-      "rank": 6,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
       "points": 46,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 6,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
+      "points": 46,
+      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
       "rank": 9,
@@ -107,17 +107,17 @@
     },
     {
       "rank": 14,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
       "points": 35,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 14,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
       "points": 35,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     }
@@ -291,18 +291,18 @@
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
-        "302482": {
-          "roundPoints": 46,
-          "captain": "B.Fernandes",
-          "chipUsed": "bboost",
-          "topScorer": "Ndiaye",
-          "topScorerPoints": 9
-        },
         "2039136": {
           "roundPoints": 46,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Calafiori",
+          "topScorerPoints": 9
+        },
+        "302482": {
+          "roundPoints": 46,
+          "captain": "B.Fernandes",
+          "chipUsed": "bboost",
+          "topScorer": "Ndiaye",
           "topScorerPoints": 9
         },
         "5667657": {
@@ -340,16 +340,16 @@
           "topScorer": "Gvardiol",
           "topScorerPoints": 9
         },
-        "653804": {
+        "1224394": {
           "roundPoints": 35,
-          "captain": "Haaland",
+          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "Calafiori",
           "topScorerPoints": 9
         },
-        "1224394": {
+        "653804": {
           "roundPoints": 35,
-          "captain": "B.Fernandes",
+          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Calafiori",
           "topScorerPoints": 9
