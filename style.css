@@ -227,6 +227,39 @@ a:hover { color: #fff; }
   color: #fff;
   font-weight: 700;
 }
+.table tbody tr.in-progress td:last-child::after {
+  content: " ⏳";
+  opacity: .7;
+}
+
+/* Foreløpig leder av Månedens Manager, mens måneden pågår */
+.current-month-leader {
+  text-align: center;
+  border: 1px solid var(--hg-border-gold);
+  border-radius: var(--hg-radius);
+  background: linear-gradient(160deg, rgba(255,215,0,0.10), rgba(255,215,0,0.02));
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+.current-month-leader .cml-label {
+  font-family: var(--font-head);
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  color: var(--hg-gold-bright);
+  margin-bottom: 6px;
+}
+.current-month-leader .cml-name {
+  font-family: var(--font-head);
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 700;
+}
+.current-month-leader .cml-points {
+  color: var(--hg-text-muted);
+  font-size: .92rem;
+  margin-top: 2px;
+}
 .season-tabs .nav-link {
   color: var(--hg-text-muted);
   font-weight: 700;

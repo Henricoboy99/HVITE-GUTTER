@@ -25,8 +25,12 @@ API_BASE = "https://fantasy.premierleague.com/api"
 # direkte her som fallback. Numerisk liga-ID finner du i URL-en når du åpner
 # ligaens "Standings"-side på fantasy.premierleague.com, f.eks.
 # .../leagues/123456/standings/c -> ID-en er 123456.
-CLASSIC_LEAGUE_ID = os.environ.get("CLASSIC_LEAGUE_ID", "1460798")
-H2H_LEAGUE_ID = os.environ.get("H2H_LEAGUE_ID", "1461019")
+# Merk: bruker "or" i stedet for os.environ.get(..., default) fordi GitHub
+# Actions setter miljøvariabelen til en TOM STRENG (ikke usatt) når
+# ${{ vars.X }} ikke finnes i repoet — da hopper .get()-default over, og en
+# tom liga-ID sendt til FPL sitt API gir en feil som stopper hele synken.
+CLASSIC_LEAGUE_ID = os.environ.get("CLASSIC_LEAGUE_ID") or "1460798"
+H2H_LEAGUE_ID = os.environ.get("H2H_LEAGUE_ID") or "1461019"
 
 MONTH_NAMES_NO = {
     1: "Januar", 2: "Februar", 3: "Mars", 4: "April", 5: "Mai", 6: "Juni",
@@ -52,16 +56,20 @@ def fetch_json(url, retries=3):
 
 
 def get_event_month_map():
-    """event_id -> (year, month) basert på deadline_time for runden."""
+    """event_id -> (year, month) basert på deadline_time for runden, samt
+    event_id -> om runden er ferdigspilt (finished), slik at vi kan skille
+    mellom avsluttede måneder og måneden som pågår akkurat nå."""
     data = fetch_json(f"{API_BASE}/bootstrap-static/")
     mapping = {}
+    finished = {}
     for ev in data.get("events", []):
         deadline = ev.get("deadline_time")
         if not deadline:
             continue
         dt = datetime.fromisoformat(deadline.replace("Z", "+00:00"))
         mapping[ev["id"]] = (dt.year, dt.month)
-    return mapping
+        finished[ev["id"]] = bool(ev.get("finished"))
+    return mapping, finished
 
 
 def get_classic_standings(league_id):
@@ -98,13 +106,17 @@ def get_h2h_standings(league_id):
     return out
 
 
-def get_monthly_manager(entries, event_month_map):
-    """entries: liste av {entry, manager}. Returnerer liste med månedsvinner."""
+def get_monthly_manager(entries, event_month_map, event_finished_map):
+    """entries: liste av {entry, manager}. Returnerer liste med månedsvinner.
+    Hver rad har også "inProgress": True hvis ikke alle rundene i den måneden
+    er ferdigspilt ennå (dvs. det er en foreløpig ledelse, ikke en endelig vinner)."""
     # entry_id -> manager navn
     id_to_name = {e["entry"]: e["manager"] for e in entries if e.get("entry")}
 
     # måned -> {entry_id: sum_points}
     month_totals = {}
+    # måned -> settes til False så snart vi finner en runde i måneden som ikke er ferdig
+    month_finished = {}
 
     for entry_id in id_to_name:
         try:
@@ -119,6 +131,9 @@ def get_monthly_manager(entries, event_month_map):
                 continue
             month_totals.setdefault(ym, {})
             month_totals[ym][entry_id] = month_totals[ym].get(entry_id, 0) + pts
+            month_finished.setdefault(ym, True)
+            if not event_finished_map.get(event_id, False):
+                month_finished[ym] = False
 
     # Bygg resultatliste i sesong-rekkefølge (aug -> mai), kun for måneder vi har data for
     result = []
@@ -132,6 +147,7 @@ def get_monthly_manager(entries, event_month_map):
             "month": MONTH_NAMES_NO[ym[1]],
             "manager": id_to_name.get(winner_entry, "Ukjent"),
             "points": totals[winner_entry],
+            "inProgress": not month_finished.get(ym, True),
         })
     return result
 
@@ -148,8 +164,8 @@ def main():
 
     classic = get_classic_standings(CLASSIC_LEAGUE_ID)
     h2h = get_h2h_standings(H2H_LEAGUE_ID)
-    event_month_map = get_event_month_map()
-    monthly = get_monthly_manager(classic, event_month_map)
+    event_month_map, event_finished_map = get_event_month_map()
+    monthly = get_monthly_manager(classic, event_month_map, event_finished_map)
 
     out = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),

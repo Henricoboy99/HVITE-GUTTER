@@ -73,6 +73,11 @@
             </div>
 
             <h2 class="h4 mb-3">Månedens Manager</h2>
+            <div id="currentMonthLeader" class="current-month-leader" style="display:none;">
+                <div class="cml-label"><i class="fas fa-hourglass-half"></i> Foreløpig leder – <span id="cmlMonth"></span></div>
+                <div class="cml-name" id="cmlManager"></div>
+                <div class="cml-points" id="cmlPoints"></div>
+            </div>
             <div class="table-responsive">
                 <table class="table" id="monthlyTable">
                     <thead><tr><th>Måned</th><th>Manager</th></tr></thead>
@@ -222,8 +227,20 @@
       if (Array.isArray(data.monthlyManager) && data.monthlyManager.length) {
         var monthBody = document.querySelector('#monthlyTable tbody');
         monthBody.innerHTML = data.monthlyManager.map(function (row) {
-          return '<tr><td>' + row.month + '</td><td>' + (row.manager || 'TBC') + (row.points ? ' (' + row.points + 'p)' : '') + '</td></tr>';
+          var cls = row.inProgress ? ' class="in-progress"' : '';
+          var label = (row.manager || 'TBC') + (row.points ? ' (' + row.points + 'p)' : '') + (row.inProgress ? ' – foreløpig' : '');
+          return '<tr' + cls + '><td>' + row.month + '</td><td>' + label + '</td></tr>';
         }).join('');
+
+        // Vis en tydelig "foreløpig leder"-boks for måneden som pågår akkurat nå
+        var current = data.monthlyManager.filter(function (r) { return r.inProgress; }).pop();
+        var box = document.getElementById('currentMonthLeader');
+        if (current && box) {
+          document.getElementById('cmlMonth').textContent = current.month;
+          document.getElementById('cmlManager').textContent = current.manager || 'TBC';
+          document.getElementById('cmlPoints').textContent = current.points ? current.points + ' poeng så langt denne måneden' : '';
+          box.style.display = 'block';
+        }
       }
     })
     .catch(function () {
