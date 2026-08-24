@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T17:22:49.602804+00:00",
+  "updatedAt": "2026-08-24T18:25:51.417986+00:00",
   "classic": [
     {
       "rank": 1,
@@ -43,9 +43,9 @@
     },
     {
       "rank": 6,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
       "points": 46,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -59,9 +59,9 @@
     },
     {
       "rank": 6,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
       "points": 46,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -83,17 +83,17 @@
     },
     {
       "rank": 11,
-      "manager": "Ulrik Windingstad",
-      "team": "KB club",
-      "entry": 3326579,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
       "points": 37,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 11,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
+      "manager": "Ulrik Windingstad",
+      "team": "KB club",
+      "entry": 3326579,
       "points": 37,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -107,17 +107,17 @@
     },
     {
       "rank": 14,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
       "points": 35,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 14,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
       "points": 35,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     }
@@ -284,12 +284,12 @@
           "topScorer": "M.Sangaré",
           "topScorerPoints": 14
         },
-        "7147920": {
+        "2039136": {
           "roundPoints": 46,
           "captain": "Haaland",
           "chipUsed": null,
-          "topScorer": "Ødegaard",
-          "topScorerPoints": 11
+          "topScorer": "Calafiori",
+          "topScorerPoints": 9
         },
         "302482": {
           "roundPoints": 46,
@@ -298,12 +298,12 @@
           "topScorer": "Ndiaye",
           "topScorerPoints": 9
         },
-        "2039136": {
+        "7147920": {
           "roundPoints": 46,
           "captain": "Haaland",
           "chipUsed": null,
-          "topScorer": "Calafiori",
-          "topScorerPoints": 9
+          "topScorer": "Ødegaard",
+          "topScorerPoints": 11
         },
         "5667657": {
           "roundPoints": 42,
@@ -319,16 +319,16 @@
           "topScorer": "White",
           "topScorerPoints": 11
         },
-        "3326579": {
+        "2677347": {
           "roundPoints": 37,
-          "captain": "Haaland",
+          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "Calafiori",
           "topScorerPoints": 9
         },
-        "2677347": {
+        "3326579": {
           "roundPoints": 37,
-          "captain": "B.Fernandes",
+          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Calafiori",
           "topScorerPoints": 9
@@ -340,16 +340,16 @@
           "topScorer": "Gvardiol",
           "topScorerPoints": 9
         },
-        "1224394": {
+        "653804": {
           "roundPoints": 35,
-          "captain": "B.Fernandes",
+          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Calafiori",
           "topScorerPoints": 9
         },
-        "653804": {
+        "1224394": {
           "roundPoints": 35,
-          "captain": "Haaland",
+          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "Calafiori",
           "topScorerPoints": 9
