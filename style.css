@@ -335,10 +335,132 @@ a:hover { color: #fff; }
 }
 .live-legend i { width: 16px; text-align: center; margin-right: 3px; }
 
-/* Fremhev totalpoeng-kolonnen i desktop-tabellen */
+/* Fremhev totalpoeng-kolonnen i desktop-tabellen med en tydelig pille, uansett bakgrunn på raden */
 #classicTable td[data-label="Poeng totalt"] strong {
+  display: inline-block;
+  background: rgba(20, 14, 4, 0.55);
   color: var(--hg-gold-bright);
-  font-size: 1.05em;
+  border: 1px solid rgba(255, 215, 0, 0.35);
+  padding: 4px 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* ---------- Musikkbanner + sang-velger på Live oppdatering ---------- */
+.live-music-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 22px 18px;
+  background: linear-gradient(90deg, var(--hg-gold), var(--hg-gold-bright), var(--hg-gold));
+  background-size: 200% 100%;
+  color: #1a1204;
+  font-family: var(--font-head);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 26px rgba(255, 215, 0, 0.55);
+  animation: liveBannerShimmer 2.4s linear infinite, liveBannerPulse 1.6s ease-in-out infinite;
+}
+.live-music-banner.show { display: flex; }
+.live-music-banner:hover { filter: brightness(1.08); }
+.live-music-banner .banner-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.live-music-banner .banner-sub {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: .85rem;
+  text-transform: none;
+  letter-spacing: .2px;
+}
+.live-music-banner .note-icon {
+  font-size: 1.7rem;
+  animation: liveNoteBounce 1s ease-in-out infinite;
+}
+@media (max-width: 560px) {
+  .live-music-banner .banner-main { font-size: 1.15rem; }
+  .live-music-banner .note-icon { font-size: 1.4rem; }
+}
+@keyframes liveBannerShimmer {
+  0% { background-position: 0% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes liveBannerPulse {
+  0%, 100% { box-shadow: 0 4px 22px rgba(255, 215, 0, 0.45); }
+  50% { box-shadow: 0 4px 32px rgba(255, 215, 0, 0.85); }
+}
+@keyframes liveNoteBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+/* Liten sang-velger, plassert øverst på siden */
+.song-picker {
+  max-width: 480px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.song-picker-toggle {
+  background: rgba(212, 175, 55, 0.10);
+  border: 1px solid var(--hg-border-gold);
+  color: var(--hg-gold-bright);
+  border-radius: 999px;
+  padding: 7px 18px;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: .85rem;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+.song-picker-toggle:hover { background: rgba(212, 175, 55, 0.22); }
+.song-picker-list {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid var(--hg-border-gold);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+  text-align: left;
+}
+.song-picker-list.open { display: flex; }
+.song-picker-list button {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: var(--hg-text);
+  font-size: .85rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease;
+}
+.song-picker-list button:hover {
+  background: rgba(212, 175, 55, 0.12);
+  color: var(--hg-gold-bright);
+}
+.song-picker-list button.playing {
+  background: rgba(255, 215, 0, 0.16);
+  color: var(--hg-gold-bright);
+  font-weight: 700;
+  border-color: var(--hg-border-gold);
+}
+.song-picker-list button.playing::before {
+  content: "▶ ";
 }
 
 /* ---------- Mobilvisning av live-tabellene: kompakt liste i stedet for bred tabell ---------- */
