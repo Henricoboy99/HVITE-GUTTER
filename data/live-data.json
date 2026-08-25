@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T02:12:55.094619+00:00",
+  "updatedAt": "2026-08-25T03:40:02.120918+00:00",
   "classic": [
     {
       "rank": 1,
@@ -75,14 +75,6 @@
     },
     {
       "rank": 10,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "points": 53,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 10,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
@@ -90,11 +82,11 @@
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
-      "rank": 12,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "points": 48,
+      "rank": 10,
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "points": 53,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
@@ -102,6 +94,14 @@
       "manager": "Ulrik Windingstad",
       "team": "KB club",
       "entry": 3326579,
+      "points": 48,
+      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 12,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
       "points": 48,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -312,6 +312,13 @@
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
+        "5667657": {
+          "roundPoints": 53,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "João Pedro",
+          "topScorerPoints": 11
+        },
         "2817046": {
           "roundPoints": 53,
           "captain": "B.Fernandes",
@@ -319,8 +326,8 @@
           "topScorer": "White",
           "topScorerPoints": 11
         },
-        "5667657": {
-          "roundPoints": 53,
+        "3326579": {
+          "roundPoints": 48,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
@@ -329,13 +336,6 @@
         "2677347": {
           "roundPoints": 48,
           "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "João Pedro",
-          "topScorerPoints": 11
-        },
-        "3326579": {
-          "roundPoints": 48,
-          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
