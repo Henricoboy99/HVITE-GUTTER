@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T04:29:48.117869+00:00",
+  "updatedAt": "2026-08-25T05:23:38.194474+00:00",
   "classic": [
     {
       "rank": 1,
@@ -19,17 +19,17 @@
     },
     {
       "rank": 3,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
       "points": 70,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
       "rank": 3,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
       "points": 70,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
@@ -263,19 +263,19 @@
           "topScorer": "Palmer",
           "topScorerPoints": 13
         },
-        "302482": {
-          "roundPoints": 70,
-          "captain": "B.Fernandes",
-          "chipUsed": "bboost",
-          "topScorer": "Palmer",
-          "topScorerPoints": 13
-        },
         "1676621": {
           "roundPoints": 70,
           "captain": "Haaland",
           "chipUsed": "bboost",
           "topScorer": "João Pedro",
           "topScorerPoints": 11
+        },
+        "302482": {
+          "roundPoints": 70,
+          "captain": "B.Fernandes",
+          "chipUsed": "bboost",
+          "topScorer": "Palmer",
+          "topScorerPoints": 13
         },
         "6097974": {
           "roundPoints": 69,
