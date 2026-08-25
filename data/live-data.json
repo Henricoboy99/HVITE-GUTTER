@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T08:30:39.895536+00:00",
+  "updatedAt": "2026-08-25T09:25:35.494296+00:00",
   "classic": [
     {
       "rank": 1,
@@ -19,17 +19,17 @@
     },
     {
       "rank": 3,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
       "points": 70,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
       "rank": 3,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
       "points": 70,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
@@ -91,17 +91,17 @@
     },
     {
       "rank": 12,
-      "manager": "Ulrik Windingstad",
-      "team": "KB club",
-      "entry": 3326579,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
       "points": 48,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 12,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
+      "manager": "Ulrik Windingstad",
+      "team": "KB club",
+      "entry": 3326579,
       "points": 48,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -263,19 +263,19 @@
           "topScorer": "Palmer",
           "topScorerPoints": 13
         },
-        "1676621": {
-          "roundPoints": 70,
-          "captain": "Haaland",
-          "chipUsed": "bboost",
-          "topScorer": "João Pedro",
-          "topScorerPoints": 11
-        },
         "302482": {
           "roundPoints": 70,
           "captain": "B.Fernandes",
           "chipUsed": "bboost",
           "topScorer": "Palmer",
           "topScorerPoints": 13
+        },
+        "1676621": {
+          "roundPoints": 70,
+          "captain": "Haaland",
+          "chipUsed": "bboost",
+          "topScorer": "João Pedro",
+          "topScorerPoints": 11
         },
         "6097974": {
           "roundPoints": 69,
@@ -326,16 +326,16 @@
           "topScorer": "White",
           "topScorerPoints": 11
         },
-        "3326579": {
+        "2677347": {
           "roundPoints": 48,
-          "captain": "Haaland",
+          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
         },
-        "2677347": {
+        "3326579": {
           "roundPoints": 48,
-          "captain": "B.Fernandes",
+          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 11
