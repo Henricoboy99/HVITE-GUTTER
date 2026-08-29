@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T02:37:38.376114+00:00",
+  "updatedAt": "2026-08-29T09:34:23.796498+00:00",
   "classic": [
     {
       "rank": 1,
@@ -35,14 +35,6 @@
     },
     {
       "rank": 5,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
-      "points": 83,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 5,
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
@@ -50,11 +42,11 @@
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
-      "rank": 7,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "points": 82,
+      "rank": 5,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
+      "points": 83,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
@@ -64,6 +56,14 @@
       "entry": 6097974,
       "points": 82,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 7,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "points": 82,
+      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 9,
@@ -107,17 +107,17 @@
     },
     {
       "rank": 14,
-      "manager": "Ulrik Windingstad",
-      "team": "KB club",
-      "entry": 3326579,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
       "points": 61,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 14,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
+      "manager": "Ulrik Windingstad",
+      "team": "KB club",
+      "entry": 3326579,
       "points": 61,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -395,6 +395,13 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
+        "1676621": {
+          "roundPoints": 13,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
+          "topScorer": "Haaland",
+          "topScorerPoints": 13
+        },
         "2039136": {
           "roundPoints": 26,
           "captain": "Haaland",
@@ -402,7 +409,7 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "1676621": {
+        "6097974": {
           "roundPoints": 13,
           "captain": "B.Fernandes",
           "chipUsed": null,
@@ -412,13 +419,6 @@
         "7147920": {
           "roundPoints": 18,
           "captain": "Isak",
-          "chipUsed": null,
-          "topScorer": "Haaland",
-          "topScorerPoints": 13
-        },
-        "6097974": {
-          "roundPoints": 13,
-          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
@@ -458,14 +458,14 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "3326579": {
+        "2677347": {
           "roundPoints": 13,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "2677347": {
+        "3326579": {
           "roundPoints": 13,
           "captain": "B.Fernandes",
           "chipUsed": null,
