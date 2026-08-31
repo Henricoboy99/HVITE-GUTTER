@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T00:02:18.137884+00:00",
+  "updatedAt": "2026-08-31T06:25:15.029807+00:00",
   "classic": [
     {
       "rank": 1,
@@ -19,17 +19,17 @@
     },
     {
       "rank": 3,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
       "points": 165,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
       "rank": 3,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
       "points": 165,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
@@ -91,17 +91,17 @@
     },
     {
       "rank": 12,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
       "points": 142,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 12,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
       "points": 142,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
@@ -381,17 +381,17 @@
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
-        "1676621": {
-          "roundPoints": 95,
-          "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
         "653804": {
           "roundPoints": 117,
           "captain": "B.Fernandes",
           "chipUsed": "bboost",
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "1676621": {
+          "roundPoints": 95,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
@@ -444,15 +444,15 @@
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
-        "2817046": {
-          "roundPoints": 89,
+        "2677347": {
+          "roundPoints": 94,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
-        "2677347": {
-          "roundPoints": 94,
+        "2817046": {
+          "roundPoints": 89,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
