@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T10:47:13.156338+00:00",
+  "updatedAt": "2026-09-01T15:18:40.698410+00:00",
   "classic": [
     {
       "rank": 1,
@@ -27,17 +27,17 @@
     },
     {
       "rank": 4,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
       "points": 176,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
       "rank": 4,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
       "points": 176,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
@@ -136,95 +136,95 @@
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "record": "1-0-0",
-      "points": 3
+      "record": "2-0-0",
+      "points": 6
     },
     {
       "rank": 2,
-      "manager": "Robert Fossen",
-      "team": "FuzzyBear",
-      "entry": 3529226,
-      "record": "1-0-0",
-      "points": 3
-    },
-    {
-      "rank": 3,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "record": "1-0-0",
-      "points": 3
+      "record": "2-0-0",
+      "points": 6
     },
     {
       "rank": 3,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
-      "record": "1-0-0",
+      "manager": "Oliver Obst",
+      "team": "PrøverIgjen",
+      "entry": 2212762,
+      "record": "2-0-0",
+      "points": 6
+    },
+    {
+      "rank": 4,
+      "manager": "Marius Høyland",
+      "team": "Skruf slim bror",
+      "entry": 6097974,
+      "record": "1-0-1",
       "points": 3
     },
     {
       "rank": 5,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "record": "1-0-0",
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
+      "record": "1-0-1",
       "points": 3
     },
     {
-      "rank": 6,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
-      "record": "1-0-0",
+      "rank": 5,
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
+      "record": "1-0-1",
       "points": 3
     },
     {
       "rank": 7,
-      "manager": "Oliver Obst",
-      "team": "PrøverIgjen",
-      "entry": 2212762,
-      "record": "1-0-0",
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "record": "1-0-1",
       "points": 3
     },
     {
       "rank": 8,
-      "manager": "Marius Høyland",
-      "team": "Skruf slim bror",
-      "entry": 6097974,
-      "record": "0-0-1",
-      "points": 0
+      "manager": "Robert Fossen",
+      "team": "FuzzyBear",
+      "entry": 3529226,
+      "record": "1-0-1",
+      "points": 3
     },
     {
       "rank": 9,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "record": "0-0-1",
-      "points": 0
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
+      "record": "1-0-1",
+      "points": 3
     },
     {
       "rank": 10,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
-      "record": "0-0-1",
-      "points": 0
+      "record": "1-0-1",
+      "points": 3
     },
     {
       "rank": 11,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "record": "1-0-1",
+      "points": 3
+    },
+    {
+      "rank": 12,
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
-      "record": "0-0-1",
-      "points": 0
-    },
-    {
-      "rank": 11,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
-      "record": "0-0-1",
+      "record": "0-0-2",
       "points": 0
     },
     {
@@ -232,15 +232,15 @@
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
-      "record": "0-0-1",
+      "record": "0-0-2",
       "points": 0
     },
     {
       "rank": 14,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
-      "record": "0-0-1",
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
+      "record": "0-0-2",
       "points": 0
     }
   ],
@@ -249,7 +249,7 @@
       "month": "August",
       "manager": "Christoffer Jensen",
       "points": 196,
-      "inProgress": true
+      "inProgress": false
     }
   ],
   "currentEvent": 2,
@@ -365,7 +365,7 @@
       }
     },
     "2": {
-      "finished": false,
+      "finished": true,
       "entries": {
         "893431": {
           "roundPoints": 107,
@@ -388,17 +388,17 @@
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
-        "1676621": {
-          "roundPoints": 106,
-          "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
         "653804": {
           "roundPoints": 130,
           "captain": "B.Fernandes",
           "chipUsed": "bboost",
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "1676621": {
+          "roundPoints": 106,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
