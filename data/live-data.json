@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T20:29:28.951201+00:00",
+  "updatedAt": "2026-09-01T00:12:31.523811+00:00",
   "classic": [
     {
       "rank": 1,
@@ -19,6 +19,14 @@
     },
     {
       "rank": 3,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
+      "points": 178,
+      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 4,
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
@@ -26,18 +34,10 @@
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "points": 176,
-      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
-    },
-    {
-      "rank": 3,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
       "points": 176,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
@@ -54,7 +54,7 @@
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 172,
+      "points": 174,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
     },
     {
@@ -78,7 +78,7 @@
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
-      "points": 160,
+      "points": 161,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
-      "points": 127,
+      "points": 129,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     }
   ],
@@ -248,7 +248,7 @@
     {
       "month": "August",
       "manager": "Christoffer Jensen",
-      "points": 178,
+      "points": 196,
       "inProgress": true
     }
   ],
@@ -368,112 +368,112 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 89,
-          "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
-        "6097974": {
-          "roundPoints": 105,
-          "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
-        "1676621": {
-          "roundPoints": 95,
-          "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
-        "653804": {
-          "roundPoints": 117,
-          "captain": "B.Fernandes",
-          "chipUsed": "bboost",
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
-        "302482": {
-          "roundPoints": 94,
-          "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
-        "5833200": {
-          "roundPoints": 104,
-          "captain": "B.Fernandes",
-          "chipUsed": null,
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
-        "2212762": {
-          "roundPoints": 97,
-          "captain": "Mbeumo",
-          "chipUsed": "bboost",
-          "topScorer": "B.Fernandes",
-          "topScorerPoints": 23
-        },
-        "3529226": {
-          "roundPoints": 67,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Haaland",
-          "topScorerPoints": 13
-        },
-        "3326579": {
           "roundPoints": 107,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
+        "6097974": {
+          "roundPoints": 116,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "302482": {
+          "roundPoints": 108,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "1676621": {
+          "roundPoints": 106,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "653804": {
+          "roundPoints": 130,
+          "captain": "B.Fernandes",
+          "chipUsed": "bboost",
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "5833200": {
+          "roundPoints": 117,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "2212762": {
+          "roundPoints": 116,
+          "captain": "Mbeumo",
+          "chipUsed": "bboost",
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
+        "3529226": {
+          "roundPoints": 85,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Haaland",
+          "topScorerPoints": 13
+        },
+        "3326579": {
+          "roundPoints": 120,
+          "captain": "B.Fernandes",
+          "chipUsed": null,
+          "topScorer": "B.Fernandes",
+          "topScorerPoints": 23
+        },
         "1224394": {
-          "roundPoints": 86,
+          "roundPoints": 98,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
         "2039136": {
-          "roundPoints": 91,
+          "roundPoints": 102,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
         "2817046": {
-          "roundPoints": 89,
+          "roundPoints": 102,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
         "2677347": {
-          "roundPoints": 94,
+          "roundPoints": 105,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
         "3513207": {
-          "roundPoints": 91,
+          "roundPoints": 105,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "B.Fernandes",
           "topScorerPoints": 23
         },
         "7147920": {
-          "roundPoints": 57,
+          "roundPoints": 71,
           "captain": "Isak",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "5667657": {
-          "roundPoints": 57,
+          "roundPoints": 76,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
