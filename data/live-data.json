@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T21:57:24.215912+00:00",
+  "updatedAt": "2026-09-04T23:40:48.656489+00:00",
   "classic": [
     {
       "rank": 1,
@@ -254,7 +254,7 @@
     {
       "month": "September",
       "manager": "Sverre Futsæter",
-      "points": 0,
+      "points": 22,
       "inProgress": true
     }
   ],
@@ -491,7 +491,7 @@
       "finished": false,
       "entries": {
         "302482": {
-          "roundPoints": 0,
+          "roundPoints": 22,
           "captain": "Haaland",
           "chipUsed": "freehit",
           "topScorer": "Isak",
@@ -505,7 +505,7 @@
           "topScorerPoints": 0
         },
         "2212762": {
-          "roundPoints": 0,
+          "roundPoints": 21,
           "captain": "Haaland",
           "chipUsed": "freehit",
           "topScorer": "Isak",
@@ -519,21 +519,21 @@
           "topScorerPoints": 0
         },
         "3529226": {
-          "roundPoints": 0,
+          "roundPoints": 13,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "1676621": {
-          "roundPoints": 0,
+          "roundPoints": 3,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Szoboszlai",
           "topScorerPoints": 3
         },
         "653804": {
-          "roundPoints": 0,
+          "roundPoints": 3,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Szoboszlai",
@@ -547,35 +547,35 @@
           "topScorerPoints": 0
         },
         "3326579": {
-          "roundPoints": 0,
+          "roundPoints": 3,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Szoboszlai",
           "topScorerPoints": 3
         },
         "2677347": {
-          "roundPoints": 0,
+          "roundPoints": 16,
           "captain": "Haaland",
           "chipUsed": "wildcard",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "1224394": {
-          "roundPoints": 0,
+          "roundPoints": 3,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Szoboszlai",
           "topScorerPoints": 3
         },
         "2039136": {
-          "roundPoints": 0,
+          "roundPoints": 3,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Szoboszlai",
           "topScorerPoints": 3
         },
         "2817046": {
-          "roundPoints": 0,
+          "roundPoints": 3,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Szoboszlai",
@@ -589,14 +589,14 @@
           "topScorerPoints": 0
         },
         "7147920": {
-          "roundPoints": 0,
+          "roundPoints": 16,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "5667657": {
-          "roundPoints": 0,
+          "roundPoints": 3,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Szoboszlai",
