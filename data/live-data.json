@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:42:54.374126+00:00",
+  "updatedAt": "2026-09-05T21:48:02.773611+00:00",
   "classic": [
     {
       "rank": 1,
@@ -62,7 +62,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 212,
+      "points": 210,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -253,8 +253,8 @@
     },
     {
       "month": "September",
-      "manager": "Sverre Futsæter",
-      "points": 22,
+      "manager": "Kasper Fossen",
+      "points": 77,
       "inProgress": true
     }
   ],
@@ -491,112 +491,112 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 0,
+          "roundPoints": 41,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "302482": {
-          "roundPoints": 22,
+          "roundPoints": 53,
           "captain": "Haaland",
           "chipUsed": "freehit",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "2212762": {
-          "roundPoints": 21,
+          "roundPoints": 54,
           "captain": "Haaland",
           "chipUsed": "freehit",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "6097974": {
-          "roundPoints": 0,
+          "roundPoints": 37,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "3529226": {
-          "roundPoints": 13,
+          "roundPoints": 46,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "5833200": {
-          "roundPoints": 0,
+          "roundPoints": 39,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "1676621": {
-          "roundPoints": 3,
+          "roundPoints": 37,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "7147920": {
-          "roundPoints": 16,
+          "roundPoints": 77,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "2677347": {
-          "roundPoints": 16,
+          "roundPoints": 53,
           "captain": "Haaland",
           "chipUsed": "wildcard",
           "topScorer": "Isak",
           "topScorerPoints": 13
         },
         "653804": {
-          "roundPoints": 3,
+          "roundPoints": 29,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "1224394": {
-          "roundPoints": 3,
+          "roundPoints": 41,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "3326579": {
-          "roundPoints": 3,
+          "roundPoints": 33,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "2039136": {
-          "roundPoints": 3,
+          "roundPoints": 40,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "3513207": {
-          "roundPoints": 0,
+          "roundPoints": 37,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "2817046": {
-          "roundPoints": 3,
+          "roundPoints": 31,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 9
         },
         "5667657": {
-          "roundPoints": 3,
+          "roundPoints": 53,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
