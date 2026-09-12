@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T21:06:53.206110+00:00",
+  "updatedAt": "2026-09-12T23:34:34.843994+00:00",
   "classic": [
     {
       "rank": 1,
@@ -254,7 +254,7 @@
     {
       "month": "September",
       "manager": "Kasper Fossen",
-      "points": 87,
+      "points": 131,
       "inProgress": true
     }
   ],
@@ -608,112 +608,112 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 0,
+          "roundPoints": 47,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "302482": {
-          "roundPoints": 0,
+          "roundPoints": 59,
           "captain": "Palmer",
           "chipUsed": "3xc",
           "topScorer": "Raya",
           "topScorerPoints": 14
         },
         "3529226": {
-          "roundPoints": 0,
+          "roundPoints": 60,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Schade",
           "topScorerPoints": 15
         },
         "2212762": {
-          "roundPoints": 0,
+          "roundPoints": 47,
           "captain": "Isak",
           "chipUsed": "wildcard",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "3326579": {
-          "roundPoints": 0,
+          "roundPoints": 57,
           "captain": "Palmer",
           "chipUsed": "freehit",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "6097974": {
-          "roundPoints": 0,
+          "roundPoints": 39,
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "5833200": {
-          "roundPoints": 0,
+          "roundPoints": 48,
           "captain": "João Pedro",
           "chipUsed": "wildcard",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "1676621": {
-          "roundPoints": 0,
+          "roundPoints": 38,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "7147920": {
-          "roundPoints": 0,
+          "roundPoints": 44,
           "captain": "Isak",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "2039136": {
-          "roundPoints": 0,
+          "roundPoints": 45,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "653804": {
-          "roundPoints": 0,
+          "roundPoints": 32,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "1224394": {
-          "roundPoints": 0,
+          "roundPoints": 40,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "2817046": {
-          "roundPoints": 0,
+          "roundPoints": 44,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Raya",
           "topScorerPoints": 14
         },
         "3513207": {
-          "roundPoints": 0,
+          "roundPoints": 36,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "2677347": {
-          "roundPoints": 0,
+          "roundPoints": 29,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "5667657": {
-          "roundPoints": 0,
+          "roundPoints": 42,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
