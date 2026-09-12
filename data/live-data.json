@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T09:48:00.902637+00:00",
+  "updatedAt": "2026-09-12T13:15:16.869465+00:00",
   "classic": [
     {
       "rank": 1,
@@ -15,7 +15,7 @@
       "team": "SviDi Allstars",
       "entry": 302482,
       "points": 233,
-      "chipsLeft": "WC 2 · FH 1 · BB 1 · TC 2"
+      "chipsLeft": "WC 2 · FH 1 · BB 1 · TC 1"
     },
     {
       "rank": 3,
@@ -39,7 +39,7 @@
       "team": "PrøverIgjen",
       "entry": 2212762,
       "points": 230,
-      "chipsLeft": "WC 2 · FH 1 · BB 1 · TC 2"
+      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 2"
     },
     {
       "rank": 6,
@@ -71,7 +71,7 @@
       "team": "Basisvarer",
       "entry": 5833200,
       "points": 221,
-      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 10,
@@ -79,7 +79,7 @@
       "team": "KB club",
       "entry": 3326579,
       "points": 216,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
+      "chipsLeft": "WC 2 · FH 1 · BB 2 · TC 2"
     },
     {
       "rank": 11,
@@ -255,10 +255,10 @@
       "month": "September",
       "manager": "Kasper Fossen",
       "points": 87,
-      "inProgress": false
+      "inProgress": true
     }
   ],
-  "currentEvent": 3,
+  "currentEvent": 4,
   "rounds": {
     "1": {
       "finished": true,
@@ -601,6 +601,123 @@
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 9
+        }
+      }
+    },
+    "4": {
+      "finished": false,
+      "entries": {
+        "893431": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "302482": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": "3xc",
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "6097974": {
+          "roundPoints": 0,
+          "captain": "João Pedro",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "1676621": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "2212762": {
+          "roundPoints": 0,
+          "captain": "Isak",
+          "chipUsed": "wildcard",
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "3529226": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "7147920": {
+          "roundPoints": 0,
+          "captain": "Isak",
+          "chipUsed": null,
+          "topScorer": "Trafford",
+          "topScorerPoints": 0
+        },
+        "653804": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "5833200": {
+          "roundPoints": 0,
+          "captain": "João Pedro",
+          "chipUsed": "wildcard",
+          "topScorer": "Martinez",
+          "topScorerPoints": 0
+        },
+        "3326579": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": "freehit",
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "2039136": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "1224394": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "2677347": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "3513207": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Leno",
+          "topScorerPoints": 0
+        },
+        "2817046": {
+          "roundPoints": 0,
+          "captain": "Palmer",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "5667657": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
         }
       }
     }
