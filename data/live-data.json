@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-14T20:02:57.606692+00:00",
+  "updatedAt": "2026-09-14T23:35:52.199171+00:00",
   "classic": [
     {
       "rank": 1,
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "points": 354,
+      "points": 353,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -14,7 +14,7 @@
       "manager": "Marius Høyland",
       "team": "Skruf slim bror",
       "entry": 6097974,
-      "points": 331,
+      "points": 330,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -30,7 +30,7 @@
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
-      "points": 315,
+      "points": 314,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -46,7 +46,7 @@
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
-      "points": 307,
+      "points": 308,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -54,7 +54,7 @@
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
-      "points": 306,
+      "points": 305,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -75,26 +75,26 @@
     },
     {
       "rank": 10,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "points": 285,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 11,
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
-      "points": 284,
+      "points": 285,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 11,
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "points": 284,
+      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 12,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
-      "points": 283,
+      "points": 282,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -102,7 +102,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 279,
+      "points": 281,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -253,8 +253,8 @@
     },
     {
       "month": "September",
-      "manager": "Robert Fossen",
-      "points": 153,
+      "manager": "Christoffer Jensen",
+      "points": 157,
       "inProgress": true
     }
   ],
@@ -608,112 +608,112 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 83,
+          "roundPoints": 94,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 17
         },
         "6097974": {
-          "roundPoints": 86,
+          "roundPoints": 97,
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 17
         },
         "3529226": {
-          "roundPoints": 93,
+          "roundPoints": 94,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 17
         },
         "1676621": {
-          "roundPoints": 73,
+          "roundPoints": 84,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 17
         },
         "302482": {
-          "roundPoints": 64,
+          "roundPoints": 76,
           "captain": "Palmer",
           "chipUsed": "3xc",
           "topScorer": "Raya",
           "topScorerPoints": 14
         },
         "5833200": {
-          "roundPoints": 84,
+          "roundPoints": 87,
           "captain": "João Pedro",
           "chipUsed": "wildcard",
           "topScorer": "Groß",
           "topScorerPoints": 17
         },
         "3513207": {
-          "roundPoints": 83,
+          "roundPoints": 95,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 17
         },
         "2212762": {
-          "roundPoints": 63,
+          "roundPoints": 64,
           "captain": "Isak",
           "chipUsed": "wildcard",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "3326579": {
-          "roundPoints": 76,
+          "roundPoints": 77,
           "captain": "Palmer",
           "chipUsed": "freehit",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
-        "2817046": {
-          "roundPoints": 69,
-          "captain": "Palmer",
-          "chipUsed": null,
-          "topScorer": "Groß",
-          "topScorerPoints": 17
-        },
         "1224394": {
-          "roundPoints": 68,
+          "roundPoints": 71,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
+        "2817046": {
+          "roundPoints": 80,
+          "captain": "Palmer",
+          "chipUsed": null,
+          "topScorer": "Groß",
+          "topScorerPoints": 17
+        },
         "2039136": {
-          "roundPoints": 55,
+          "roundPoints": 66,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "7147920": {
-          "roundPoints": 55,
+          "roundPoints": 59,
           "captain": "Isak",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "2677347": {
-          "roundPoints": 65,
+          "roundPoints": 67,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "5667657": {
-          "roundPoints": 89,
+          "roundPoints": 91,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 17
         },
         "653804": {
-          "roundPoints": 53,
+          "roundPoints": 55,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
