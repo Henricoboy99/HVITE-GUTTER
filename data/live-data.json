@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T23:50:07.089946+00:00",
+  "updatedAt": "2026-09-14T02:25:11.017541+00:00",
   "classic": [
     {
       "rank": 1,
@@ -83,19 +83,19 @@
     },
     {
       "rank": 11,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "points": 278,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 11,
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
       "points": 278,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 11,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
+      "points": 278,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 13,
@@ -677,16 +677,16 @@
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
-        "2677347": {
-          "roundPoints": 65,
-          "captain": "Haaland",
+        "7147920": {
+          "roundPoints": 55,
+          "captain": "Isak",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
-        "7147920": {
-          "roundPoints": 55,
-          "captain": "Isak",
+        "2677347": {
+          "roundPoints": 65,
+          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
