@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-19T16:54:42.600745+00:00",
+  "updatedAt": "2026-09-19T19:04:52.378901+00:00",
   "classic": [
     {
       "rank": 1,
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "points": 365,
+      "points": 366,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -54,7 +54,7 @@
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
-      "points": 325,
+      "points": 326,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -62,24 +62,24 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 321,
+      "points": 322,
       "chipsLeft": "WC 2 · FH 1 · BB 1 · TC 1"
     },
     {
       "rank": 9,
+      "manager": "Ulrik Windingstad",
+      "team": "KB club",
+      "entry": 3326579,
+      "points": 320,
+      "chipsLeft": "WC 2 · FH 1 · BB 2 · TC 2"
+    },
+    {
+      "rank": 10,
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
       "points": 320,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 10,
-      "manager": "Ulrik Windingstad",
-      "team": "KB club",
-      "entry": 3326579,
-      "points": 318,
-      "chipsLeft": "WC 2 · FH 1 · BB 2 · TC 2"
     },
     {
       "rank": 11,
@@ -99,6 +99,14 @@
     },
     {
       "rank": 13,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
+      "points": 297,
+      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 14,
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
@@ -106,23 +114,15 @@
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
-      "points": 291,
+      "points": 293,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 15,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
-      "points": 288,
-      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 2"
-    },
-    {
-      "rank": 15,
+      "rank": 16,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
@@ -780,19 +780,19 @@
           "topScorer": "Barry",
           "topScorerPoints": 6
         },
-        "3513207": {
-          "roundPoints": 0,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "McGinn",
-          "topScorerPoints": 6
-        },
         "3326579": {
           "roundPoints": 0,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 14
+        },
+        "3513207": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "McGinn",
+          "topScorerPoints": 6
         },
         "2677347": {
           "roundPoints": 2,
@@ -808,6 +808,13 @@
           "topScorer": "Van Hecke",
           "topScorerPoints": 6
         },
+        "653804": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Thomas",
+          "topScorerPoints": 9
+        },
         "1224394": {
           "roundPoints": 2,
           "captain": "Haaland",
@@ -821,13 +828,6 @@
           "chipUsed": null,
           "topScorer": "Ajer",
           "topScorerPoints": 7
-        },
-        "653804": {
-          "roundPoints": 0,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Barry",
-          "topScorerPoints": 6
         },
         "2039136": {
           "roundPoints": 2,
