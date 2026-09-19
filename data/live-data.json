@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T00:47:41.239324+00:00",
+  "updatedAt": "2026-09-19T05:17:49.524266+00:00",
   "classic": [
     {
       "rank": 1,
@@ -99,17 +99,17 @@
     },
     {
       "rank": 13,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
       "points": 284,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 13,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
       "points": 284,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
@@ -808,18 +808,18 @@
           "topScorer": "Ajer",
           "topScorerPoints": 7
         },
-        "2039136": {
-          "roundPoints": 2,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Palmer",
-          "topScorerPoints": 2
-        },
         "7147920": {
           "roundPoints": 2,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Rogers",
+          "topScorerPoints": 2
+        },
+        "2039136": {
+          "roundPoints": 2,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Palmer",
           "topScorerPoints": 2
         },
         "2677347": {
