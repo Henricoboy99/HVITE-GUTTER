@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T19:04:52.378901+00:00",
+  "updatedAt": "2026-09-19T21:56:20.971848+00:00",
   "classic": [
     {
       "rank": 1,
@@ -14,7 +14,7 @@
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "points": 352,
+      "points": 353,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -22,7 +22,7 @@
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
-      "points": 342,
+      "points": 343,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -253,8 +253,8 @@
     },
     {
       "month": "September",
-      "manager": "Christoffer Jensen",
-      "points": 161,
+      "manager": "Robert Fossen",
+      "points": 183,
       "inProgress": true
     }
   ],
@@ -725,112 +725,112 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 0,
+          "roundPoints": 13,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Barry",
           "topScorerPoints": 6
         },
         "3529226": {
-          "roundPoints": 4,
+          "roundPoints": 29,
           "captain": "Haaland",
           "chipUsed": "wildcard",
           "topScorer": "Groß",
           "topScorerPoints": 14
         },
         "5833200": {
-          "roundPoints": 4,
+          "roundPoints": 35,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 14
         },
         "6097974": {
-          "roundPoints": 2,
+          "roundPoints": 10,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Diop",
           "topScorerPoints": 4
         },
         "2212762": {
-          "roundPoints": 2,
+          "roundPoints": 35,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Hall",
-          "topScorerPoints": 12
+          "topScorerPoints": 13
         },
         "2817046": {
-          "roundPoints": 5,
+          "roundPoints": 32,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 14
         },
         "1676621": {
-          "roundPoints": 2,
+          "roundPoints": 12,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Kinsky",
           "topScorerPoints": 2
         },
         "302482": {
-          "roundPoints": 2,
+          "roundPoints": 13,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "Barry",
           "topScorerPoints": 6
         },
         "3326579": {
-          "roundPoints": 0,
+          "roundPoints": 27,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 14
         },
         "3513207": {
-          "roundPoints": 0,
+          "roundPoints": 15,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "McGinn",
           "topScorerPoints": 6
         },
         "2677347": {
-          "roundPoints": 2,
+          "roundPoints": 29,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Hall",
-          "topScorerPoints": 12
+          "topScorerPoints": 13
         },
         "7147920": {
-          "roundPoints": 2,
+          "roundPoints": 16,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Van Hecke",
           "topScorerPoints": 6
         },
         "653804": {
-          "roundPoints": 0,
+          "roundPoints": 20,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Thomas",
           "topScorerPoints": 9
         },
         "1224394": {
-          "roundPoints": 2,
+          "roundPoints": 8,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Kinsky",
           "topScorerPoints": 2
         },
         "5667657": {
-          "roundPoints": 7,
+          "roundPoints": 15,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Ajer",
           "topScorerPoints": 7
         },
         "2039136": {
-          "roundPoints": 2,
+          "roundPoints": 6,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Kinsky",
