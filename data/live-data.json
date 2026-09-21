@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T11:27:35.929902+00:00",
+  "updatedAt": "2026-09-21T17:26:23.326231+00:00",
   "classic": [
     {
       "rank": 1,
@@ -136,95 +136,95 @@
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "record": "4-0-0",
-      "points": 12
+      "record": "5-0-0",
+      "points": 15
     },
     {
       "rank": 2,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
-      "record": "4-0-0",
+      "manager": "Robert Fossen",
+      "team": "FuzzyBear",
+      "entry": 3529226,
+      "record": "4-0-1",
       "points": 12
     },
     {
       "rank": 3,
-      "manager": "Robert Fossen",
-      "team": "FuzzyBear",
-      "entry": 3529226,
-      "record": "3-0-1",
-      "points": 9
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
+      "record": "4-0-1",
+      "points": 12
     },
     {
       "rank": 4,
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "record": "3-0-1",
-      "points": 9
+      "record": "4-0-1",
+      "points": 12
     },
     {
       "rank": 5,
-      "manager": "Marius Høyland",
-      "team": "Skruf slim bror",
-      "entry": 6097974,
-      "record": "2-0-2",
-      "points": 6
-    },
-    {
-      "rank": 6,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
-      "record": "2-0-2",
-      "points": 6
-    },
-    {
-      "rank": 7,
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "record": "2-0-2",
+      "record": "3-0-2",
+      "points": 9
+    },
+    {
+      "rank": 6,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
+      "record": "3-0-2",
+      "points": 9
+    },
+    {
+      "rank": 7,
+      "manager": "Marius Høyland",
+      "team": "Skruf slim bror",
+      "entry": 6097974,
+      "record": "2-0-3",
       "points": 6
     },
     {
       "rank": 8,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "record": "2-0-2",
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
+      "record": "2-0-3",
       "points": 6
     },
     {
       "rank": 9,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
-      "record": "2-0-2",
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "record": "2-0-3",
       "points": 6
     },
     {
       "rank": 10,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "record": "1-0-3",
-      "points": 3
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
+      "record": "2-0-3",
+      "points": 6
     },
     {
       "rank": 11,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
-      "record": "1-0-3",
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "record": "1-0-4",
       "points": 3
     },
     {
       "rank": 12,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
-      "record": "1-0-3",
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
+      "record": "1-0-4",
       "points": 3
     },
     {
@@ -232,16 +232,16 @@
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "record": "1-0-3",
+      "record": "1-0-4",
       "points": 3
     },
     {
       "rank": 14,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "record": "0-0-4",
-      "points": 0
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
+      "record": "1-0-4",
+      "points": 3
     }
   ],
   "monthlyManager": [
@@ -255,7 +255,7 @@
       "month": "September",
       "manager": "Christoffer Jensen",
       "points": 211,
-      "inProgress": true
+      "inProgress": false
     }
   ],
   "currentEvent": 5,
@@ -722,7 +722,7 @@
       }
     },
     "5": {
-      "finished": false,
+      "finished": true,
       "entries": {
         "893431": {
           "roundPoints": 50,
