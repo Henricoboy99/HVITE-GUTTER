@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T20:22:34.666692+00:00",
+  "updatedAt": "2026-10-10T23:58:56.151332+00:00",
   "classic": [
     {
       "rank": 1,
@@ -27,19 +27,19 @@
     },
     {
       "rank": 4,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "points": 413,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
-    },
-    {
-      "rank": 4,
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
       "points": 413,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 4,
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "points": 413,
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 6,
@@ -259,8 +259,8 @@
     },
     {
       "month": "Oktober",
-      "manager": "Christoffer Jensen",
-      "points": 0,
+      "manager": "Robert Fossen",
+      "points": 70,
       "inProgress": true
     }
   ],
@@ -868,16 +868,16 @@
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
-        "5833200": {
-          "roundPoints": 56,
-          "captain": "Saka",
+        "3513207": {
+          "roundPoints": 58,
+          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
-        "3513207": {
-          "roundPoints": 58,
-          "captain": "B.Fernandes",
+        "5833200": {
+          "roundPoints": 56,
+          "captain": "Saka",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
