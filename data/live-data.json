@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-10T16:01:06.097108+00:00",
+  "updatedAt": "2026-10-10T20:22:34.666692+00:00",
   "classic": [
     {
       "rank": 1,
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "points": 458,
+      "points": 460,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -14,7 +14,7 @@
       "manager": "Marius Høyland",
       "team": "Skruf slim bror",
       "entry": 6097974,
-      "points": 444,
+      "points": 446,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -22,7 +22,7 @@
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "points": 442,
+      "points": 445,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -34,11 +34,11 @@
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
-      "points": 410,
+      "points": 413,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -54,7 +54,7 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 398,
+      "points": 400,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -107,17 +107,17 @@
     },
     {
       "rank": 14,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "points": 374,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 14,
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
+      "points": 376,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 15,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
       "points": 374,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
@@ -848,112 +848,112 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 0,
+          "roundPoints": 57,
           "captain": "B.Fernandes",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "6097974": {
-          "roundPoints": 0,
+          "roundPoints": 68,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "3529226": {
-          "roundPoints": 0,
+          "roundPoints": 70,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "5833200": {
-          "roundPoints": 0,
+          "roundPoints": 56,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "3513207": {
-          "roundPoints": 0,
+          "roundPoints": 58,
           "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "2212762": {
-          "roundPoints": 0,
+          "roundPoints": 47,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "302482": {
-          "roundPoints": 0,
+          "roundPoints": 65,
           "captain": "B.Fernandes",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "3326579": {
-          "roundPoints": 0,
+          "roundPoints": 56,
           "captain": "Saka",
           "chipUsed": "wildcard",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "1676621": {
-          "roundPoints": 0,
+          "roundPoints": 48,
           "captain": "Saka",
           "chipUsed": "wildcard",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "653804": {
-          "roundPoints": 0,
+          "roundPoints": 62,
           "captain": "Saka",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "2039136": {
-          "roundPoints": 0,
+          "roundPoints": 69,
           "captain": "Palmer",
           "chipUsed": "wildcard",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
         "1224394": {
-          "roundPoints": 0,
+          "roundPoints": 63,
           "captain": "Haaland",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "5667657": {
-          "roundPoints": 0,
+          "roundPoints": 52,
           "captain": "Saka",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
-        "2677347": {
-          "roundPoints": 0,
-          "captain": "Saka",
-          "chipUsed": null,
-          "topScorer": "Verbruggen",
-          "topScorerPoints": 9
-        },
         "2817046": {
-          "roundPoints": 0,
+          "roundPoints": 33,
           "captain": "Saka",
           "chipUsed": "wildcard",
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
+        "2677347": {
+          "roundPoints": 33,
+          "captain": "Saka",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 9
+        },
         "7147920": {
-          "roundPoints": 0,
+          "roundPoints": 25,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "Calafiori",
