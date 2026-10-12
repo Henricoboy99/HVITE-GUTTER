@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T16:19:19.342630+00:00",
+  "updatedAt": "2026-10-12T23:22:22.995457+00:00",
   "classic": [
     {
       "rank": 1,
@@ -34,11 +34,11 @@
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
-      "points": 419,
+      "points": 421,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -46,7 +46,7 @@
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 413,
+      "points": 415,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 2"
     },
     {
@@ -75,6 +75,14 @@
     },
     {
       "rank": 10,
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "points": 403,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 11,
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
@@ -82,19 +90,11 @@
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 11,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "points": 395,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
-    },
-    {
       "rank": 12,
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
-      "points": 394,
+      "points": 396,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -102,7 +102,7 @@
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "points": 391,
+      "points": 393,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
     },
     {
@@ -118,7 +118,7 @@
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
-      "points": 386,
+      "points": 388,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 368,
+      "points": 370,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     }
   ],
@@ -876,14 +876,14 @@
           "topScorerPoints": 15
         },
         "5833200": {
-          "roundPoints": 62,
+          "roundPoints": 64,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "2212762": {
-          "roundPoints": 55,
+          "roundPoints": 57,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "João Pedro",
@@ -910,6 +910,13 @@
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
+        "2817046": {
+          "roundPoints": 60,
+          "captain": "Saka",
+          "chipUsed": "wildcard",
+          "topScorer": "Dewsbury-Hall",
+          "topScorerPoints": 13
+        },
         "1676621": {
           "roundPoints": 56,
           "captain": "Saka",
@@ -917,22 +924,15 @@
           "topScorer": "João Pedro",
           "topScorerPoints": 12
         },
-        "2817046": {
-          "roundPoints": 52,
-          "captain": "Saka",
-          "chipUsed": "wildcard",
-          "topScorer": "Dewsbury-Hall",
-          "topScorerPoints": 13
-        },
         "1224394": {
-          "roundPoints": 75,
+          "roundPoints": 77,
           "captain": "Haaland",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "653804": {
-          "roundPoints": 68,
+          "roundPoints": 70,
           "captain": "Saka",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
@@ -946,14 +946,14 @@
           "topScorerPoints": 12
         },
         "5667657": {
-          "roundPoints": 58,
+          "roundPoints": 60,
           "captain": "Saka",
           "chipUsed": "wildcard",
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
         "7147920": {
-          "roundPoints": 36,
+          "roundPoints": 38,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "Calafiori",
