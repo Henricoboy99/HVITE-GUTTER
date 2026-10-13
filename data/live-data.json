@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T04:35:02.127945+00:00",
+  "updatedAt": "2026-10-13T12:20:20.943349+00:00",
   "classic": [
     {
       "rank": 1,
@@ -30,11 +30,11 @@
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
-      "points": 421,
+      "points": 425,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
@@ -46,7 +46,7 @@
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 415,
+      "points": 418,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 2"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 370,
+      "points": 373,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     }
   ],
@@ -869,7 +869,7 @@
           "topScorerPoints": 15
         },
         "5833200": {
-          "roundPoints": 64,
+          "roundPoints": 68,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "De Cuyper",
@@ -883,7 +883,7 @@
           "topScorerPoints": 15
         },
         "2212762": {
-          "roundPoints": 57,
+          "roundPoints": 60,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "João Pedro",
@@ -953,7 +953,7 @@
           "topScorerPoints": 15
         },
         "7147920": {
-          "roundPoints": 38,
+          "roundPoints": 41,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "Calafiori",
