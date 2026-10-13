@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T23:22:22.995457+00:00",
+  "updatedAt": "2026-10-13T04:35:02.127945+00:00",
   "classic": [
     {
       "rank": 1,
@@ -27,19 +27,19 @@
     },
     {
       "rank": 4,
-      "manager": "Kasper Eriksson",
-      "team": "kasperse",
-      "entry": 3513207,
-      "points": 421,
-      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 4,
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
       "points": 421,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
+    },
+    {
+      "rank": 4,
+      "manager": "Kasper Eriksson",
+      "team": "kasperse",
+      "entry": 3513207,
+      "points": 421,
+      "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 6,
@@ -868,16 +868,16 @@
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
-        "3513207": {
-          "roundPoints": 67,
-          "captain": "B.Fernandes",
+        "5833200": {
+          "roundPoints": 64,
+          "captain": "Saka",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
         },
-        "5833200": {
-          "roundPoints": 64,
-          "captain": "Saka",
+        "3513207": {
+          "roundPoints": 67,
+          "captain": "B.Fernandes",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 15
