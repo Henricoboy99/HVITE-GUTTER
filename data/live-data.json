@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T12:20:20.943349+00:00",
+  "updatedAt": "2026-10-13T19:39:43.546232+00:00",
   "classic": [
     {
       "rank": 1,
@@ -136,7 +136,7 @@
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "record": "5-0-0",
+      "record": "5-0-1",
       "points": 15
     },
     {
@@ -144,104 +144,104 @@
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "record": "4-0-1",
-      "points": 12
+      "record": "5-0-1",
+      "points": 15
     },
     {
       "rank": 3,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "record": "4-0-1",
+      "record": "4-0-2",
       "points": 12
     },
     {
       "rank": 4,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "record": "4-0-1",
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
+      "record": "4-0-2",
       "points": 12
     },
     {
       "rank": 5,
-      "manager": "Oliver Obst",
-      "team": "PrøverIgjen",
-      "entry": 2212762,
-      "record": "3-0-2",
-      "points": 9
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "record": "4-0-2",
+      "points": 12
     },
     {
       "rank": 6,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
-      "record": "3-0-2",
+      "manager": "Marius Høyland",
+      "team": "Skruf slim bror",
+      "entry": 6097974,
+      "record": "3-0-3",
       "points": 9
     },
     {
       "rank": 7,
-      "manager": "Marius Høyland",
-      "team": "Skruf slim bror",
-      "entry": 6097974,
-      "record": "2-0-3",
-      "points": 6
+      "manager": "Oliver Obst",
+      "team": "PrøverIgjen",
+      "entry": 2212762,
+      "record": "3-0-3",
+      "points": 9
     },
     {
       "rank": 8,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
-      "record": "2-0-3",
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "record": "2-0-4",
       "points": 6
     },
     {
       "rank": 9,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "record": "2-0-3",
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
+      "record": "2-0-4",
       "points": 6
     },
     {
       "rank": 10,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
-      "record": "2-0-3",
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "record": "2-0-4",
       "points": 6
     },
     {
       "rank": 11,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "record": "1-0-4",
-      "points": 3
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
+      "record": "2-0-4",
+      "points": 6
     },
     {
       "rank": 12,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "record": "1-0-4",
-      "points": 3
-    },
-    {
-      "rank": 13,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "record": "1-0-4",
-      "points": 3
+      "record": "2-0-4",
+      "points": 6
     },
     {
-      "rank": 14,
+      "rank": 13,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
-      "record": "1-0-4",
-      "points": 3
+      "record": "2-0-4",
+      "points": 6
+    },
+    {
+      "rank": 14,
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
+      "record": "2-0-4",
+      "points": 6
     }
   ],
   "monthlyManager": [
@@ -261,7 +261,7 @@
       "month": "Oktober",
       "manager": "Marius Høyland",
       "points": 84,
-      "inProgress": true
+      "inProgress": false
     }
   ],
   "currentEvent": 6,
@@ -845,7 +845,7 @@
       }
     },
     "6": {
-      "finished": false,
+      "finished": true,
       "entries": {
         "893431": {
           "roundPoints": 69,
