@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T19:51:17.859670+00:00",
+  "updatedAt": "2026-10-17T21:52:41.232138+00:00",
   "classic": [
     {
       "rank": 1,
@@ -260,7 +260,7 @@
     {
       "month": "Oktober",
       "manager": "Marius Høyland",
-      "points": 84,
+      "points": 118,
       "inProgress": true
     }
   ],
@@ -965,112 +965,112 @@
       "finished": false,
       "entries": {
         "893431": {
-          "roundPoints": 0,
+          "roundPoints": 38,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "6097974": {
-          "roundPoints": 0,
+          "roundPoints": 34,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "3529226": {
-          "roundPoints": 0,
+          "roundPoints": 36,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "2212762": {
-          "roundPoints": 0,
+          "roundPoints": 53,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "3513207": {
-          "roundPoints": 0,
+          "roundPoints": 36,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "5833200": {
-          "roundPoints": 0,
+          "roundPoints": 31,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "3326579": {
-          "roundPoints": 0,
+          "roundPoints": 49,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "2817046": {
-          "roundPoints": 0,
+          "roundPoints": 45,
           "captain": "Haaland",
           "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "2677347": {
-          "roundPoints": 0,
+          "roundPoints": 36,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "1676621": {
-          "roundPoints": 0,
+          "roundPoints": 38,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "653804": {
-          "roundPoints": 0,
+          "roundPoints": 40,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "1224394": {
-          "roundPoints": 0,
+          "roundPoints": 34,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "5667657": {
-          "roundPoints": 0,
+          "roundPoints": 36,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "2039136": {
-          "roundPoints": 0,
+          "roundPoints": 34,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "302482": {
-          "roundPoints": 0,
+          "roundPoints": 16,
           "captain": "Saka",
           "chipUsed": null,
           "topScorer": "Affengruber",
           "topScorerPoints": 6
         },
         "7147920": {
-          "roundPoints": 0,
+          "roundPoints": 36,
           "captain": "Haaland",
           "chipUsed": "wildcard",
           "topScorer": "Haaland",
