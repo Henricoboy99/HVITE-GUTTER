@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T17:38:02.346588+00:00",
+  "updatedAt": "2026-10-17T19:51:17.859670+00:00",
   "classic": [
     {
       "rank": 1,
@@ -22,7 +22,7 @@
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "points": 485,
+      "points": 487,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -30,7 +30,7 @@
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 469,
+      "points": 471,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -70,7 +70,7 @@
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
-      "points": 439,
+      "points": 441,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
     {
@@ -86,7 +86,7 @@
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "points": 432,
+      "points": 433,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
     },
     {
@@ -94,7 +94,15 @@
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
-      "points": 429,
+      "points": 430,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 13,
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
+      "points": 424,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -106,20 +114,12 @@
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
       "points": 422,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
-    },
-    {
-      "rank": 15,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
-      "points": 421,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 16,
@@ -1048,6 +1048,13 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
+        "5667657": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Haaland",
+          "topScorerPoints": 13
+        },
         "2039136": {
           "roundPoints": 0,
           "captain": "Haaland",
@@ -1061,13 +1068,6 @@
           "chipUsed": null,
           "topScorer": "Affengruber",
           "topScorerPoints": 6
-        },
-        "5667657": {
-          "roundPoints": 0,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Haaland",
-          "topScorerPoints": 13
         },
         "7147920": {
           "roundPoints": 0,
