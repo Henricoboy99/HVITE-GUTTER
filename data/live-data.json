@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T07:33:25.631764+00:00",
+  "updatedAt": "2026-10-18T12:17:07.417378+00:00",
   "classic": [
     {
       "rank": 1,
@@ -99,17 +99,17 @@
     },
     {
       "rank": 13,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
       "points": 424,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 13,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
       "points": 424,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
@@ -1048,15 +1048,15 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "5667657": {
-          "roundPoints": 36,
+        "2039136": {
+          "roundPoints": 34,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "2039136": {
-          "roundPoints": 34,
+        "5667657": {
+          "roundPoints": 36,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
