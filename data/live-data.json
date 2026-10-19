@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T05:29:28.346211+00:00",
+  "updatedAt": "2026-10-19T11:35:03.201763+00:00",
   "classic": [
     {
       "rank": 1,
@@ -99,19 +99,19 @@
     },
     {
       "rank": 13,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "points": 458,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 13,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
       "points": 458,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 13,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
+      "points": 458,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 15,
@@ -1048,15 +1048,15 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "2677347": {
-          "roundPoints": 53,
+        "2039136": {
+          "roundPoints": 68,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "2039136": {
-          "roundPoints": 68,
+        "2677347": {
+          "roundPoints": 53,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
