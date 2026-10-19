@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T17:57:57.649696+00:00",
+  "updatedAt": "2026-10-19T21:59:30.401883+00:00",
   "classic": [
     {
       "rank": 1,
@@ -14,7 +14,7 @@
       "manager": "Marius Høyland",
       "team": "Skruf slim bror",
       "entry": 6097974,
-      "points": 522,
+      "points": 524,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -22,7 +22,7 @@
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "points": 516,
+      "points": 518,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -75,6 +75,14 @@
     },
     {
       "rank": 10,
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
+      "points": 465,
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
+    },
+    {
+      "rank": 11,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
@@ -82,7 +90,15 @@
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 11,
+      "rank": 12,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
+      "points": 462,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 12,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
@@ -90,23 +106,7 @@
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
     },
     {
-      "rank": 12,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
-      "points": 461,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
-    },
-    {
-      "rank": 13,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
-      "points": 458,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 13,
+      "rank": 14,
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
@@ -126,7 +126,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 430,
+      "points": 434,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     }
   ],
@@ -1027,20 +1027,6 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "5667657": {
-          "roundPoints": 75,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Haaland",
-          "topScorerPoints": 13
-        },
-        "653804": {
-          "roundPoints": 69,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Haaland",
-          "topScorerPoints": 13
-        },
         "1676621": {
           "roundPoints": 61,
           "captain": "Haaland",
@@ -1048,8 +1034,22 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
+        "5667657": {
+          "roundPoints": 75,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Haaland",
+          "topScorerPoints": 13
+        },
         "2039136": {
           "roundPoints": 68,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Haaland",
+          "topScorerPoints": 13
+        },
+        "653804": {
+          "roundPoints": 69,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
