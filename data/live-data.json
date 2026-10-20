@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T15:28:48.046151+00:00",
+  "updatedAt": "2026-10-20T19:44:49.125826+00:00",
   "classic": [
     {
       "rank": 1,
@@ -35,19 +35,19 @@
     },
     {
       "rank": 5,
-      "manager": "Oliver Obst",
-      "team": "PrøverIgjen",
-      "entry": 2212762,
-      "points": 496,
-      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
-    },
-    {
-      "rank": 5,
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
       "points": 496,
       "chipsLeft": "WC 2 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 5,
+      "manager": "Oliver Obst",
+      "team": "PrøverIgjen",
+      "entry": 2212762,
+      "points": 496,
+      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
       "rank": 7,
@@ -261,7 +261,7 @@
       "month": "Oktober",
       "manager": "Ulrik Windingstad",
       "points": 158,
-      "inProgress": true
+      "inProgress": false
     }
   ],
   "currentEvent": 7,
@@ -962,7 +962,7 @@
       }
     },
     "7": {
-      "finished": false,
+      "finished": true,
       "entries": {
         "893431": {
           "roundPoints": 68,
@@ -992,17 +992,17 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "2212762": {
-          "roundPoints": 78,
-          "captain": "Haaland",
-          "chipUsed": "3xc",
-          "topScorer": "Haaland",
-          "topScorerPoints": 13
-        },
         "3513207": {
           "roundPoints": 75,
           "captain": "Haaland",
           "chipUsed": null,
+          "topScorer": "Haaland",
+          "topScorerPoints": 13
+        },
+        "2212762": {
+          "roundPoints": 78,
+          "captain": "Haaland",
+          "chipUsed": "3xc",
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
