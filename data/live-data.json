@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T05:37:04.286402+00:00",
+  "updatedAt": "2026-10-20T10:39:36.414315+00:00",
   "classic": [
     {
       "rank": 1,
@@ -91,19 +91,19 @@
     },
     {
       "rank": 12,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
-      "points": 462,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 12,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
       "points": 462,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 12,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
+      "points": 462,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 14,
@@ -1041,15 +1041,15 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "2039136": {
-          "roundPoints": 72,
+        "653804": {
+          "roundPoints": 69,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "653804": {
-          "roundPoints": 69,
+        "2039136": {
+          "roundPoints": 72,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
