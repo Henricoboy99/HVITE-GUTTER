@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T21:59:30.401883+00:00",
+  "updatedAt": "2026-10-20T00:56:38.027902+00:00",
   "classic": [
     {
       "rank": 1,
@@ -91,19 +91,19 @@
     },
     {
       "rank": 12,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
-      "points": 462,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 12,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
       "points": 462,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 12,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
+      "points": 462,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 14,
@@ -972,14 +972,14 @@
           "topScorerPoints": 13
         },
         "6097974": {
-          "roundPoints": 60,
+          "roundPoints": 62,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
         "3529226": {
-          "roundPoints": 65,
+          "roundPoints": 67,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
@@ -993,7 +993,7 @@
           "topScorerPoints": 13
         },
         "3513207": {
-          "roundPoints": 73,
+          "roundPoints": 75,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
@@ -1028,7 +1028,7 @@
           "topScorerPoints": 13
         },
         "1676621": {
-          "roundPoints": 61,
+          "roundPoints": 65,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
@@ -1041,15 +1041,15 @@
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "2039136": {
-          "roundPoints": 68,
+        "653804": {
+          "roundPoints": 69,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 13
         },
-        "653804": {
-          "roundPoints": 69,
+        "2039136": {
+          "roundPoints": 72,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
@@ -1070,7 +1070,7 @@
           "topScorerPoints": 9
         },
         "7147920": {
-          "roundPoints": 57,
+          "roundPoints": 61,
           "captain": "Haaland",
           "chipUsed": "wildcard",
           "topScorer": "Haaland",
