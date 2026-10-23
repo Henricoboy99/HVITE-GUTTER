@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T20:48:40.464046+00:00",
+  "updatedAt": "2026-10-23T23:40:25.281869+00:00",
   "classic": [
     {
       "rank": 1,
@@ -1152,14 +1152,14 @@
           "topScorerPoints": 0
         },
         "5667657": {
-          "roundPoints": 0,
+          "roundPoints": 2,
           "captain": "Palmer",
           "chipUsed": "bboost",
           "topScorer": "Davis",
           "topScorerPoints": 2
         },
         "2039136": {
-          "roundPoints": 0,
+          "roundPoints": 2,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Davis",
