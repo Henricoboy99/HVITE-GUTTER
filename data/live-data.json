@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T19:10:05.470134+00:00",
+  "updatedAt": "2026-10-24T22:07:17.270373+00:00",
   "classic": [
     {
       "rank": 1,
@@ -259,8 +259,8 @@
     },
     {
       "month": "Oktober",
-      "manager": "Ulrik Windingstad",
-      "points": 158,
+      "manager": "Marius Høyland",
+      "points": 200,
       "inProgress": true
     }
   ],
@@ -1082,112 +1082,112 @@
       "finished": false,
       "entries": {
         "6097974": {
-          "roundPoints": 0,
+          "roundPoints": 45,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 15
         },
         "893431": {
-          "roundPoints": -4,
+          "roundPoints": 33,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 15
         },
         "3529226": {
-          "roundPoints": 0,
+          "roundPoints": 41,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 15
         },
         "5833200": {
-          "roundPoints": 0,
+          "roundPoints": 43,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 15
         },
         "3513207": {
-          "roundPoints": 0,
+          "roundPoints": 42,
           "captain": "Haaland",
           "chipUsed": "bboost",
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
         "2817046": {
-          "roundPoints": 0,
+          "roundPoints": 49,
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "Gabriel",
           "topScorerPoints": 16
         },
         "3326579": {
-          "roundPoints": 0,
+          "roundPoints": 30,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
         "2212762": {
-          "roundPoints": -4,
+          "roundPoints": 21,
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 15
         },
         "1224394": {
-          "roundPoints": 0,
+          "roundPoints": 31,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 15
         },
         "2039136": {
-          "roundPoints": 2,
+          "roundPoints": 37,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
         "1676621": {
-          "roundPoints": 0,
+          "roundPoints": 26,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
         "5667657": {
-          "roundPoints": 2,
+          "roundPoints": 27,
           "captain": "Palmer",
           "chipUsed": "bboost",
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
         "2677347": {
-          "roundPoints": 0,
+          "roundPoints": 21,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
         "653804": {
-          "roundPoints": 0,
+          "roundPoints": 20,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
         "7147920": {
-          "roundPoints": 0,
+          "roundPoints": 34,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 15
         },
         "302482": {
-          "roundPoints": 0,
+          "roundPoints": 18,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Raya",
