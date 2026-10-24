@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T23:40:25.281869+00:00",
+  "updatedAt": "2026-10-24T02:32:52.605390+00:00",
   "classic": [
     {
       "rank": 1,
@@ -14,7 +14,7 @@
       "manager": "Marius Høyland",
       "team": "Skruf slim bror",
       "entry": 6097974,
-      "points": 524,
+      "points": 533,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -30,7 +30,7 @@
       "manager": "Ulrik Windingstad",
       "team": "KB club",
       "entry": 3326579,
-      "points": 496,
+      "points": 498,
       "chipsLeft": "WC 1 · FH 1 · BB 2 · TC 1"
     },
     {
@@ -46,15 +46,15 @@
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
-      "points": 491,
+      "points": 495,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 491,
+      "points": 492,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -78,11 +78,19 @@
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
-      "points": 465,
+      "points": 469,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 11,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
+      "points": 466,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 12,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
@@ -90,7 +98,7 @@
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
@@ -98,20 +106,12 @@
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
       "points": 462,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
-    },
-    {
-      "rank": 14,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "points": 458,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 15,
@@ -126,7 +126,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 434,
+      "points": 437,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     }
   ],
@@ -1151,6 +1151,13 @@
           "topScorer": "Raya",
           "topScorerPoints": 0
         },
+        "2677347": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
         "5667657": {
           "roundPoints": 2,
           "captain": "Palmer",
@@ -1170,13 +1177,6 @@
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Raya",
-          "topScorerPoints": 0
-        },
-        "2677347": {
-          "roundPoints": 0,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Verbruggen",
           "topScorerPoints": 0
         },
         "302482": {
