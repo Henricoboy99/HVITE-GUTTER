@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T17:58:32.344718+00:00",
+  "updatedAt": "2026-10-25T20:26:07.830120+00:00",
   "classic": [
     {
       "rank": 1,
@@ -70,7 +70,7 @@
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
-      "points": 527,
+      "points": 524,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -94,7 +94,7 @@
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
-      "points": 508,
+      "points": 505,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 476,
+      "points": 479,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     }
   ],
@@ -1191,7 +1191,7 @@
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Muharemović",
-          "topScorerPoints": 8
+          "topScorerPoints": 9
         }
       }
     }
