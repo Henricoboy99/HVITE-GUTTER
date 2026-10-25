@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-24T22:07:17.270373+00:00",
+  "updatedAt": "2026-10-25T00:41:10.704256+00:00",
   "classic": [
     {
       "rank": 1,
       "manager": "Marius Høyland",
       "team": "Skruf slim bror",
       "entry": 6097974,
-      "points": 578,
+      "points": 577,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -14,7 +14,7 @@
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "points": 573,
+      "points": 572,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -22,24 +22,24 @@
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "points": 559,
+      "points": 558,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 4,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "points": 538,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
-    },
-    {
-      "rank": 5,
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
       "points": 538,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
+    },
+    {
+      "rank": 5,
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "points": 537,
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 6,
@@ -62,7 +62,7 @@
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 517,
+      "points": 516,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -70,7 +70,7 @@
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
-      "points": 508,
+      "points": 507,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -118,7 +118,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 471,
+      "points": 470,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -1086,28 +1086,21 @@
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
-          "topScorerPoints": 15
+          "topScorerPoints": 14
         },
         "893431": {
           "roundPoints": 33,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Konsa",
-          "topScorerPoints": 15
+          "topScorerPoints": 14
         },
         "3529226": {
           "roundPoints": 41,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
-          "topScorerPoints": 15
-        },
-        "5833200": {
-          "roundPoints": 43,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Konsa",
-          "topScorerPoints": 15
+          "topScorerPoints": 14
         },
         "3513207": {
           "roundPoints": 42,
@@ -1116,12 +1109,19 @@
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
+        "5833200": {
+          "roundPoints": 43,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Konsa",
+          "topScorerPoints": 14
+        },
         "2817046": {
           "roundPoints": 49,
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "Gabriel",
-          "topScorerPoints": 16
+          "topScorerPoints": 17
         },
         "3326579": {
           "roundPoints": 30,
@@ -1135,14 +1135,14 @@
           "captain": "João Pedro",
           "chipUsed": null,
           "topScorer": "Konsa",
-          "topScorerPoints": 15
+          "topScorerPoints": 14
         },
         "1224394": {
           "roundPoints": 31,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Konsa",
-          "topScorerPoints": 15
+          "topScorerPoints": 14
         },
         "2039136": {
           "roundPoints": 37,
@@ -1184,7 +1184,7 @@
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
-          "topScorerPoints": 15
+          "topScorerPoints": 14
         },
         "302482": {
           "roundPoints": 18,
