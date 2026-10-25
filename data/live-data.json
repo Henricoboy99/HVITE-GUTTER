@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-25T10:23:56.070897+00:00",
+  "updatedAt": "2026-10-25T14:40:59.239181+00:00",
   "classic": [
     {
       "rank": 1,
+      "manager": "Christoffer Jensen",
+      "team": "Ballon d’Orgu",
+      "entry": 893431,
+      "points": 581,
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
+    },
+    {
+      "rank": 2,
       "manager": "Marius Høyland",
       "team": "Skruf slim bror",
       "entry": 6097974,
@@ -10,19 +18,11 @@
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 2,
-      "manager": "Christoffer Jensen",
-      "team": "Ballon d’Orgu",
-      "entry": 893431,
-      "points": 572,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
-    },
-    {
       "rank": 3,
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "points": 558,
+      "points": 573,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -43,27 +43,27 @@
     },
     {
       "rank": 6,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "points": 530,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 7,
-      "manager": "Ulrik Windingstad",
-      "team": "KB club",
-      "entry": 3326579,
-      "points": 528,
-      "chipsLeft": "WC 1 · FH 1 · BB 2 · TC 1"
-    },
-    {
-      "rank": 8,
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 516,
+      "points": 533,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
+    },
+    {
+      "rank": 7,
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "points": 529,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 8,
+      "manager": "Ulrik Windingstad",
+      "team": "KB club",
+      "entry": 3326579,
+      "points": 527,
+      "chipsLeft": "WC 1 · FH 1 · BB 2 · TC 1"
     },
     {
       "rank": 9,
@@ -78,11 +78,19 @@
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
-      "points": 499,
+      "points": 500,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 11,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
+      "points": 496,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
+    },
+    {
+      "rank": 12,
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
@@ -90,35 +98,27 @@
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 12,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
-      "points": 490,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
-    },
-    {
       "rank": 13,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "points": 487,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
-    },
-    {
-      "rank": 14,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "points": 482,
+      "points": 494,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 13,
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
+      "points": 494,
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 15,
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 470,
+      "points": 477,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 468,
+      "points": 469,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     }
   ],
@@ -1081,16 +1081,16 @@
     "8": {
       "finished": false,
       "entries": {
-        "6097974": {
-          "roundPoints": 45,
-          "captain": "Haaland",
+        "893431": {
+          "roundPoints": 33,
+          "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 14
         },
-        "893431": {
-          "roundPoints": 33,
-          "captain": "Palmer",
+        "6097974": {
+          "roundPoints": 45,
+          "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 14
@@ -1116,6 +1116,13 @@
           "topScorer": "Konsa",
           "topScorerPoints": 14
         },
+        "2212762": {
+          "roundPoints": 21,
+          "captain": "João Pedro",
+          "chipUsed": null,
+          "topScorer": "Konsa",
+          "topScorerPoints": 14
+        },
         "2817046": {
           "roundPoints": 49,
           "captain": "João Pedro",
@@ -1129,13 +1136,6 @@
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 8
-        },
-        "2212762": {
-          "roundPoints": 21,
-          "captain": "João Pedro",
-          "chipUsed": null,
-          "topScorer": "Konsa",
-          "topScorerPoints": 14
         },
         "1224394": {
           "roundPoints": 31,
@@ -1151,22 +1151,15 @@
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
-        "1676621": {
-          "roundPoints": 26,
+        "2677347": {
+          "roundPoints": 21,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
-        "5667657": {
-          "roundPoints": 27,
-          "captain": "Palmer",
-          "chipUsed": "bboost",
-          "topScorer": "Haaland",
-          "topScorerPoints": 8
-        },
-        "2677347": {
-          "roundPoints": 21,
+        "1676621": {
+          "roundPoints": 26,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Haaland",
@@ -1176,6 +1169,13 @@
           "roundPoints": 20,
           "captain": "Palmer",
           "chipUsed": null,
+          "topScorer": "Isak",
+          "topScorerPoints": 8
+        },
+        "5667657": {
+          "roundPoints": 27,
+          "captain": "Palmer",
+          "chipUsed": "bboost",
           "topScorer": "Haaland",
           "topScorerPoints": 8
         },
