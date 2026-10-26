@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T11:52:53.393339+00:00",
+  "updatedAt": "2026-10-26T17:55:24.004122+00:00",
   "classic": [
     {
       "rank": 1,
@@ -136,111 +136,111 @@
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "record": "5-0-2",
-      "points": 15
+      "record": "6-0-2",
+      "points": 18
     },
     {
       "rank": 2,
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "record": "5-0-2",
-      "points": 15
+      "record": "6-0-2",
+      "points": 18
     },
     {
       "rank": 3,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
-      "record": "5-0-2",
+      "manager": "Marius Høyland",
+      "team": "Skruf slim bror",
+      "entry": 6097974,
+      "record": "5-0-3",
       "points": 15
     },
     {
       "rank": 4,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "record": "5-0-2",
+      "manager": "Oliver Obst",
+      "team": "PrøverIgjen",
+      "entry": 2212762,
+      "record": "5-0-3",
       "points": 15
     },
     {
       "rank": 5,
-      "manager": "Marius Høyland",
-      "team": "Skruf slim bror",
-      "entry": 6097974,
-      "record": "4-0-3",
-      "points": 12
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
+      "record": "5-0-3",
+      "points": 15
     },
     {
       "rank": 6,
-      "manager": "Oliver Obst",
-      "team": "PrøverIgjen",
-      "entry": 2212762,
-      "record": "4-0-3",
-      "points": 12
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "record": "5-0-3",
+      "points": 15
     },
     {
       "rank": 7,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
-      "record": "4-0-3",
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "record": "4-0-4",
       "points": 12
     },
     {
       "rank": 8,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "record": "3-0-4",
-      "points": 9
-    },
-    {
-      "rank": 9,
-      "manager": "Andre Ubostad",
-      "team": "joga",
-      "entry": 1676621,
-      "record": "3-0-4",
-      "points": 9
-    },
-    {
-      "rank": 10,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
-      "record": "3-0-4",
+      "record": "4-0-4",
+      "points": 12
+    },
+    {
+      "rank": 9,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
+      "record": "4-0-4",
+      "points": 12
+    },
+    {
+      "rank": 10,
+      "manager": "Tor Olav Leksbø",
+      "team": "David N’goggins",
+      "entry": 653804,
+      "record": "3-0-5",
       "points": 9
     },
     {
       "rank": 11,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "record": "2-0-5",
-      "points": 6
+      "manager": "Andre Ubostad",
+      "team": "joga",
+      "entry": 1676621,
+      "record": "3-0-5",
+      "points": 9
     },
     {
       "rank": 12,
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "record": "2-0-6",
+      "points": 6
+    },
+    {
+      "rank": 13,
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
-      "record": "2-0-5",
+      "record": "2-0-6",
       "points": 6
     },
     {
-      "rank": 13,
-      "manager": "Tor Olav Leksbø",
-      "team": "David N’goggins",
-      "entry": 653804,
-      "record": "2-0-5",
-      "points": 6
-    },
-    {
-      "rank": 13,
+      "rank": 14,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
-      "record": "2-0-5",
+      "record": "2-0-6",
       "points": 6
     }
   ],
@@ -261,7 +261,7 @@
       "month": "Oktober",
       "manager": "Tom Erik Jåbæk",
       "points": 208,
-      "inProgress": true
+      "inProgress": false
     }
   ],
   "currentEvent": 8,
@@ -1079,7 +1079,7 @@
       }
     },
     "8": {
-      "finished": false,
+      "finished": true,
       "entries": {
         "893431": {
           "roundPoints": 44,
