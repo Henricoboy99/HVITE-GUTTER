@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-31T18:55:32.229876+00:00",
+  "updatedAt": "2026-10-31T22:04:18.775287+00:00",
   "classic": [
     {
       "rank": 1,
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "points": 633,
+      "points": 651,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -14,7 +14,7 @@
       "manager": "Marius Høyland",
       "team": "Skruf slim bror",
       "entry": 6097974,
-      "points": 623,
+      "points": 632,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -27,14 +27,38 @@
     },
     {
       "rank": 4,
-      "manager": "Oliver Obst",
-      "team": "PrøverIgjen",
-      "entry": 2212762,
-      "points": 590,
-      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "points": 602,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 5,
+      "manager": "Oliver Obst",
+      "team": "PrøverIgjen",
+      "entry": 2212762,
+      "points": 589,
+      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
+    },
+    {
+      "rank": 6,
+      "manager": "Ulrik Windingstad",
+      "team": "KB club",
+      "entry": 3326579,
+      "points": 583,
+      "chipsLeft": "WC 1 · FH 1 · BB 2 · TC 1"
+    },
+    {
+      "rank": 7,
+      "manager": "Anders Hatlo",
+      "team": "Basisvarer",
+      "entry": 5833200,
+      "points": 574,
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
+    },
+    {
+      "rank": 8,
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
@@ -42,75 +66,51 @@
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 6,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "points": 573,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 7,
-      "manager": "Anders Hatlo",
-      "team": "Basisvarer",
-      "entry": 5833200,
-      "points": 572,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
-    },
-    {
-      "rank": 8,
-      "manager": "Ulrik Windingstad",
-      "team": "KB club",
-      "entry": 3326579,
-      "points": 571,
-      "chipsLeft": "WC 1 · FH 1 · BB 2 · TC 1"
-    },
-    {
       "rank": 9,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
-      "points": 567,
+      "points": 571,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 10,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
-      "points": 558,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 11,
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
-      "points": 550,
+      "points": 568,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
-      "rank": 12,
-      "manager": "Julius Ramunddal",
-      "team": "JR",
-      "entry": 2677347,
-      "points": 548,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
+      "rank": 11,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
+      "points": 567,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
-      "points": 534,
+      "points": 552,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 13,
+      "manager": "Julius Ramunddal",
+      "team": "JR",
+      "entry": 2677347,
+      "points": 551,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
     {
       "rank": 14,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "points": 531,
+      "points": 543,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
     },
     {
@@ -118,7 +118,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 518,
+      "points": 529,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 508,
+      "points": 520,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     }
   ],
@@ -1202,8 +1202,8 @@
           "roundPoints": 0,
           "captain": "Haaland",
           "chipUsed": "freehit",
-          "topScorer": "Thiago",
-          "topScorerPoints": 9
+          "topScorer": "Van Hecke",
+          "topScorerPoints": 15
         },
         "6097974": {
           "roundPoints": 0,
@@ -1219,6 +1219,13 @@
           "topScorer": "De Cuyper",
           "topScorerPoints": 9
         },
+        "2817046": {
+          "roundPoints": -4,
+          "captain": "N.Jackson",
+          "chipUsed": null,
+          "topScorer": "Van Hecke",
+          "topScorerPoints": 15
+        },
         "2212762": {
           "roundPoints": -4,
           "captain": "Haaland",
@@ -1226,19 +1233,12 @@
           "topScorer": "Verbruggen",
           "topScorerPoints": 11
         },
-        "3513207": {
+        "3326579": {
           "roundPoints": 0,
           "captain": "Haaland",
           "chipUsed": null,
-          "topScorer": "De Cuyper",
+          "topScorer": "Rogers",
           "topScorerPoints": 9
-        },
-        "2817046": {
-          "roundPoints": -4,
-          "captain": "N.Jackson",
-          "chipUsed": null,
-          "topScorer": "E.Le Fée",
-          "topScorerPoints": 8
         },
         "5833200": {
           "roundPoints": 0,
@@ -1247,11 +1247,11 @@
           "topScorer": "Rogers",
           "topScorerPoints": 9
         },
-        "3326579": {
+        "3513207": {
           "roundPoints": 0,
           "captain": "Haaland",
           "chipUsed": null,
-          "topScorer": "Rogers",
+          "topScorer": "De Cuyper",
           "topScorerPoints": 9
         },
         "5667657": {
@@ -1261,6 +1261,13 @@
           "topScorer": "De Cuyper",
           "topScorerPoints": 9
         },
+        "1676621": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Van Hecke",
+          "topScorerPoints": 15
+        },
         "1224394": {
           "roundPoints": 0,
           "captain": "Palmer",
@@ -1268,12 +1275,12 @@
           "topScorer": "De Cuyper",
           "topScorerPoints": 9
         },
-        "1676621": {
+        "2039136": {
           "roundPoints": 0,
           "captain": "Haaland",
           "chipUsed": null,
-          "topScorer": "Rogers",
-          "topScorerPoints": 9
+          "topScorer": "Van Hecke",
+          "topScorerPoints": 15
         },
         "2677347": {
           "roundPoints": 0,
@@ -1282,19 +1289,12 @@
           "topScorer": "Verbruggen",
           "topScorerPoints": 11
         },
-        "2039136": {
-          "roundPoints": 0,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Rogers",
-          "topScorerPoints": 9
-        },
         "653804": {
           "roundPoints": 0,
           "captain": "Haaland",
           "chipUsed": null,
-          "topScorer": "Palmer",
-          "topScorerPoints": 8
+          "topScorer": "N.Jackson",
+          "topScorerPoints": 9
         },
         "7147920": {
           "roundPoints": 0,
