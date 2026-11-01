@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T19:58:22.539746+00:00",
+  "updatedAt": "2026-11-01T23:22:51.787469+00:00",
   "classic": [
     {
       "rank": 1,
@@ -259,8 +259,8 @@
     },
     {
       "month": "Oktober",
-      "manager": "Tom Erik Jåbæk",
-      "points": 263,
+      "manager": "Marius Høyland",
+      "points": 277,
       "inProgress": true
     }
   ],
@@ -1199,7 +1199,7 @@
       "finished": false,
       "entries": {
         "6097974": {
-          "roundPoints": 50,
+          "roundPoints": 73,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
@@ -1213,56 +1213,56 @@
           "topScorerPoints": 15
         },
         "3529226": {
-          "roundPoints": 38,
+          "roundPoints": 59,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 10
         },
         "2817046": {
-          "roundPoints": 51,
+          "roundPoints": 62,
           "captain": "N.Jackson",
           "chipUsed": null,
           "topScorer": "Van Hecke",
           "topScorerPoints": 15
         },
         "2212762": {
-          "roundPoints": 33,
+          "roundPoints": 54,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Verbruggen",
           "topScorerPoints": 11
         },
         "3326579": {
-          "roundPoints": 46,
+          "roundPoints": 59,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Rogers",
           "topScorerPoints": 9
         },
         "3513207": {
-          "roundPoints": 28,
+          "roundPoints": 49,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "De Cuyper",
           "topScorerPoints": 9
         },
         "5833200": {
-          "roundPoints": 31,
+          "roundPoints": 44,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 10
         },
         "1676621": {
-          "roundPoints": 57,
+          "roundPoints": 70,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Van Hecke",
           "topScorerPoints": 15
         },
         "1224394": {
-          "roundPoints": 52,
+          "roundPoints": 57,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "De Cuyper",
@@ -1276,35 +1276,35 @@
           "topScorerPoints": 9
         },
         "2039136": {
-          "roundPoints": 51,
+          "roundPoints": 67,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Van Hecke",
           "topScorerPoints": 15
         },
         "653804": {
-          "roundPoints": 31,
+          "roundPoints": 46,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "N.Jackson",
           "topScorerPoints": 9
         },
         "2677347": {
-          "roundPoints": 44,
+          "roundPoints": 45,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Verbruggen",
           "topScorerPoints": 11
         },
         "7147920": {
-          "roundPoints": 36,
+          "roundPoints": 49,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 10
         },
         "302482": {
-          "roundPoints": 39,
+          "roundPoints": 46,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Rogers",
