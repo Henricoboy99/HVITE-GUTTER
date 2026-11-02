@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:50:13.617091+00:00",
+  "updatedAt": "2026-11-02T21:05:01.558180+00:00",
   "classic": [
     {
       "rank": 1,
@@ -22,7 +22,7 @@
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "points": 636,
+      "points": 639,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -30,7 +30,7 @@
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
-      "points": 613,
+      "points": 617,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -38,7 +38,7 @@
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 608,
+      "points": 611,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -62,7 +62,7 @@
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
-      "points": 587,
+      "points": 590,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -70,7 +70,7 @@
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
-      "points": 579,
+      "points": 582,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -78,15 +78,15 @@
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
-      "points": 572,
+      "points": 575,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "manager": "Henrik Nielsen",
       "team": "Drinking Goat",
       "entry": 5667657,
-      "points": 571,
+      "points": 575,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -102,7 +102,7 @@
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "points": 556,
+      "points": 557,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
     },
     {
@@ -110,7 +110,7 @@
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
-      "points": 552,
+      "points": 555,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
     {
@@ -118,7 +118,7 @@
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
-      "points": 542,
+      "points": 545,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 527,
+      "points": 528,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     }
   ],
