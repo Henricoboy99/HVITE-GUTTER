@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T03:10:21.487748+00:00",
+  "updatedAt": "2026-11-03T11:28:51.031496+00:00",
   "classic": [
     {
       "rank": 1,
@@ -30,7 +30,7 @@
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
-      "points": 617,
+      "points": 627,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -126,7 +126,7 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 536,
+      "points": 542,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     }
   ],
@@ -260,7 +260,7 @@
     {
       "month": "Oktober",
       "manager": "Tom Erik Jåbæk",
-      "points": 277,
+      "points": 288,
       "inProgress": true
     }
   ],
@@ -1220,7 +1220,7 @@
           "topScorerPoints": 10
         },
         "2817046": {
-          "roundPoints": 65,
+          "roundPoints": 76,
           "captain": "N.Jackson",
           "chipUsed": null,
           "topScorer": "Van Hecke",
@@ -1304,7 +1304,7 @@
           "topScorerPoints": 10
         },
         "302482": {
-          "roundPoints": 55,
+          "roundPoints": 61,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Rogers",
