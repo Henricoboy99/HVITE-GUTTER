@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:29:16.584357+00:00",
+  "updatedAt": "2026-11-06T21:52:43.225885+00:00",
   "classic": [
     {
       "rank": 1,
@@ -14,7 +14,7 @@
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "points": 649,
+      "points": 645,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -30,7 +30,7 @@
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
-      "points": 627,
+      "points": 636,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -43,19 +43,19 @@
     },
     {
       "rank": 6,
+      "manager": "Kasper Eriksson",
+      "team": "kasperse",
+      "entry": 3513207,
+      "points": 599,
+      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
+    },
+    {
+      "rank": 7,
       "manager": "Ulrik Windingstad",
       "team": "KB club",
       "entry": 3326579,
       "points": 594,
       "chipsLeft": "WC 1 · FH 1 · BB 2 · TC 1"
-    },
-    {
-      "rank": 7,
-      "manager": "Kasper Eriksson",
-      "team": "kasperse",
-      "entry": 3513207,
-      "points": 592,
-      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 8,
@@ -99,6 +99,14 @@
     },
     {
       "rank": 13,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
+      "points": 558,
+      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
+    },
+    {
+      "rank": 13,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
@@ -106,7 +114,7 @@
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
@@ -114,20 +122,12 @@
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
       "points": 544,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 16,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
-      "points": 542,
-      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     }
   ],
   "h2h": [
@@ -262,9 +262,15 @@
       "manager": "Tom Erik Jåbæk",
       "points": 288,
       "inProgress": false
+    },
+    {
+      "month": "November",
+      "manager": "Marius Høyland",
+      "points": 0,
+      "inProgress": true
     }
   ],
-  "currentEvent": 9,
+  "currentEvent": 10,
   "rounds": {
     "1": {
       "finished": true,
@@ -1309,6 +1315,123 @@
           "chipUsed": null,
           "topScorer": "Rogers",
           "topScorerPoints": 9
+        }
+      }
+    },
+    "10": {
+      "finished": false,
+      "entries": {
+        "6097974": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "893431": {
+          "roundPoints": -4,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "3529226": {
+          "roundPoints": 0,
+          "captain": "Calafiori",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "2817046": {
+          "roundPoints": 0,
+          "captain": "Gabriel",
+          "chipUsed": null,
+          "topScorer": "Dewsbury-Hall",
+          "topScorerPoints": 9
+        },
+        "2212762": {
+          "roundPoints": 0,
+          "captain": "Isak",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "3513207": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Mykolenko",
+          "topScorerPoints": 7
+        },
+        "3326579": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "5833200": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "1676621": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "5667657": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "1224394": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "2039136": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "302482": {
+          "roundPoints": 0,
+          "captain": "Ødegaard",
+          "chipUsed": null,
+          "topScorer": "Barry",
+          "topScorerPoints": 16
+        },
+        "653804": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "2677347": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "7147920": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": "bboost",
+          "topScorer": "Donnarumma",
+          "topScorerPoints": 0
         }
       }
     }
