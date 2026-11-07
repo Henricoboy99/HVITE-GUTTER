@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T19:44:10.115296+00:00",
+  "updatedAt": "2026-11-07T23:15:32.107306+00:00",
   "classic": [
     {
       "rank": 1,
@@ -266,7 +266,7 @@
     {
       "month": "November",
       "manager": "Sverre Futsæter",
-      "points": 16,
+      "points": 52,
       "inProgress": true
     }
   ],
@@ -1322,112 +1322,112 @@
       "finished": false,
       "entries": {
         "6097974": {
-          "roundPoints": 0,
+          "roundPoints": 33,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Cherki",
           "topScorerPoints": 9
         },
         "2817046": {
-          "roundPoints": 9,
+          "roundPoints": 47,
           "captain": "Gabriel",
           "chipUsed": null,
           "topScorer": "Dewsbury-Hall",
           "topScorerPoints": 9
         },
         "893431": {
-          "roundPoints": -4,
+          "roundPoints": 20,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 8
         },
         "3529226": {
-          "roundPoints": 0,
+          "roundPoints": 28,
           "captain": "Calafiori",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 8
         },
         "2212762": {
-          "roundPoints": 0,
+          "roundPoints": 22,
           "captain": "Isak",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 8
         },
         "3513207": {
-          "roundPoints": 8,
+          "roundPoints": 39,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Cherki",
           "topScorerPoints": 9
         },
         "5833200": {
-          "roundPoints": 0,
+          "roundPoints": 25,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
         "3326579": {
-          "roundPoints": 0,
+          "roundPoints": 20,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Raya",
           "topScorerPoints": 6
         },
         "1676621": {
-          "roundPoints": 0,
+          "roundPoints": 33,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Cherki",
           "topScorerPoints": 9
         },
         "2039136": {
-          "roundPoints": 0,
+          "roundPoints": 31,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
         "1224394": {
-          "roundPoints": 0,
+          "roundPoints": 20,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Raya",
           "topScorerPoints": 6
         },
         "302482": {
-          "roundPoints": 16,
+          "roundPoints": 52,
           "captain": "Ødegaard",
           "chipUsed": null,
           "topScorer": "Barry",
           "topScorerPoints": 16
         },
         "5667657": {
-          "roundPoints": 0,
+          "roundPoints": 18,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Raya",
           "topScorerPoints": 6
         },
         "7147920": {
-          "roundPoints": 0,
+          "roundPoints": 46,
           "captain": "Haaland",
           "chipUsed": "bboost",
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
         "653804": {
-          "roundPoints": 0,
+          "roundPoints": 20,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Raya",
           "topScorerPoints": 6
         },
         "2677347": {
-          "roundPoints": 0,
+          "roundPoints": 23,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Cherki",
