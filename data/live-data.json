@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T21:52:43.225885+00:00",
+  "updatedAt": "2026-11-07T01:27:33.024565+00:00",
   "classic": [
     {
       "rank": 1,
@@ -46,7 +46,7 @@
       "manager": "Kasper Eriksson",
       "team": "kasperse",
       "entry": 3513207,
-      "points": 599,
+      "points": 600,
       "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
     },
     {
@@ -99,19 +99,19 @@
     },
     {
       "rank": 13,
-      "manager": "Sverre Futsæter",
-      "team": "SviDi Allstars",
-      "entry": 302482,
-      "points": 558,
-      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
-    },
-    {
-      "rank": 13,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
       "points": 558,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 2"
+    },
+    {
+      "rank": 13,
+      "manager": "Sverre Futsæter",
+      "team": "SviDi Allstars",
+      "entry": 302482,
+      "points": 558,
+      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
       "rank": 15,
@@ -265,8 +265,8 @@
     },
     {
       "month": "November",
-      "manager": "Marius Høyland",
-      "points": 0,
+      "manager": "Sverre Futsæter",
+      "points": 16,
       "inProgress": true
     }
   ],
@@ -1343,7 +1343,7 @@
           "topScorerPoints": 0
         },
         "2817046": {
-          "roundPoints": 0,
+          "roundPoints": 9,
           "captain": "Gabriel",
           "chipUsed": null,
           "topScorer": "Dewsbury-Hall",
@@ -1357,11 +1357,11 @@
           "topScorerPoints": 0
         },
         "3513207": {
-          "roundPoints": 0,
+          "roundPoints": 8,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Mykolenko",
-          "topScorerPoints": 7
+          "topScorerPoints": 8
         },
         "3326579": {
           "roundPoints": 0,
@@ -1405,19 +1405,19 @@
           "topScorer": "Raya",
           "topScorerPoints": 0
         },
-        "302482": {
-          "roundPoints": 0,
-          "captain": "Ødegaard",
-          "chipUsed": null,
-          "topScorer": "Barry",
-          "topScorerPoints": 16
-        },
         "653804": {
           "roundPoints": 0,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Raya",
           "topScorerPoints": 0
+        },
+        "302482": {
+          "roundPoints": 16,
+          "captain": "Ødegaard",
+          "chipUsed": null,
+          "topScorer": "Barry",
+          "topScorerPoints": 16
         },
         "2677347": {
           "roundPoints": 0,
