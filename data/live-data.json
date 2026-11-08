@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T23:15:32.107306+00:00",
+  "updatedAt": "2026-11-08T03:25:33.873430+00:00",
   "classic": [
     {
       "rank": 1,
@@ -83,19 +83,19 @@
     },
     {
       "rank": 11,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
-      "points": 594,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 11,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
       "points": 594,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
+    },
+    {
+      "rank": 11,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
+      "points": 594,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 13,
@@ -1391,19 +1391,19 @@
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
-        "1224394": {
-          "roundPoints": 20,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Raya",
-          "topScorerPoints": 6
-        },
         "302482": {
           "roundPoints": 52,
           "captain": "Ødegaard",
           "chipUsed": null,
           "topScorer": "Barry",
           "topScorerPoints": 16
+        },
+        "1224394": {
+          "roundPoints": 20,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 6
         },
         "5667657": {
           "roundPoints": 18,
