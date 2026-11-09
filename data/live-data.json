@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T07:27:08.880486+00:00",
+  "updatedAt": "2026-11-09T17:58:48.680527+00:00",
   "classic": [
     {
       "rank": 1,
@@ -126,65 +126,65 @@
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
-      "points": 607,
+      "points": 608,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 2"
     }
   ],
   "h2h": [
     {
       "rank": 1,
-      "manager": "Christoffer Jensen",
-      "team": "Ballon d’Orgu",
-      "entry": 893431,
-      "record": "7-0-2",
-      "points": 21
-    },
-    {
-      "rank": 2,
       "manager": "Robert Fossen",
       "team": "FuzzyBear",
       "entry": 3529226,
-      "record": "7-0-2",
+      "record": "8-0-2",
+      "points": 24
+    },
+    {
+      "rank": 2,
+      "manager": "Marius Høyland",
+      "team": "Skruf slim bror",
+      "entry": 6097974,
+      "record": "7-0-3",
       "points": 21
     },
     {
       "rank": 3,
-      "manager": "Marius Høyland",
-      "team": "Skruf slim bror",
-      "entry": 6097974,
-      "record": "6-0-3",
-      "points": 18
+      "manager": "Christoffer Jensen",
+      "team": "Ballon d’Orgu",
+      "entry": 893431,
+      "record": "7-0-3",
+      "points": 21
     },
     {
       "rank": 4,
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "record": "6-0-3",
+      "record": "6-0-4",
       "points": 18
     },
     {
       "rank": 5,
-      "manager": "Tom Erik Jåbæk",
-      "team": "Tom United",
-      "entry": 2817046,
-      "record": "5-0-4",
-      "points": 15
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "record": "6-0-4",
+      "points": 18
     },
     {
       "rank": 6,
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
-      "record": "5-0-4",
-      "points": 15
+      "record": "6-0-4",
+      "points": 18
     },
     {
       "rank": 7,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "record": "5-0-4",
+      "manager": "Tom Erik Jåbæk",
+      "team": "Tom United",
+      "entry": 2817046,
+      "record": "5-0-5",
       "points": 15
     },
     {
@@ -192,39 +192,39 @@
       "manager": "Andre Ubostad",
       "team": "joga",
       "entry": 1676621,
-      "record": "4-0-5",
-      "points": 12
+      "record": "5-0-5",
+      "points": 15
     },
     {
       "rank": 9,
-      "manager": "Henrik Nielsen",
-      "team": "Drinking Goat",
-      "entry": 5667657,
-      "record": "4-0-5",
-      "points": 12
-    },
-    {
-      "rank": 10,
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "record": "4-0-5",
+      "record": "5-0-5",
+      "points": 15
+    },
+    {
+      "rank": 10,
+      "manager": "Henrik Nielsen",
+      "team": "Drinking Goat",
+      "entry": 5667657,
+      "record": "4-0-6",
       "points": 12
     },
     {
       "rank": 11,
-      "manager": "Jens Christian Willas Syverstad",
-      "team": "bald fraud XI",
-      "entry": 2039136,
-      "record": "3-0-6",
-      "points": 9
-    },
-    {
-      "rank": 12,
       "manager": "Tor Olav Leksbø",
       "team": "David N’goggins",
       "entry": 653804,
-      "record": "3-0-6",
+      "record": "4-0-6",
+      "points": 12
+    },
+    {
+      "rank": 12,
+      "manager": "Jens Christian Willas Syverstad",
+      "team": "bald fraud XI",
+      "entry": 2039136,
+      "record": "3-0-7",
       "points": 9
     },
     {
@@ -232,7 +232,7 @@
       "manager": "Anders Hatlo",
       "team": "Basisvarer",
       "entry": 5833200,
-      "record": "2-0-7",
+      "record": "2-0-8",
       "points": 6
     },
     {
@@ -240,7 +240,7 @@
       "manager": "Julius Ramunddal",
       "team": "JR",
       "entry": 2677347,
-      "record": "2-0-7",
+      "record": "2-0-8",
       "points": 6
     }
   ],
@@ -265,9 +265,9 @@
     },
     {
       "month": "November",
-      "manager": "Sverre Futsæter",
-      "points": 52,
-      "inProgress": true
+      "manager": "Kasper Fossen",
+      "points": 87,
+      "inProgress": false
     }
   ],
   "currentEvent": 10,
@@ -1319,115 +1319,115 @@
       }
     },
     "10": {
-      "finished": false,
+      "finished": true,
       "entries": {
         "6097974": {
-          "roundPoints": 33,
+          "roundPoints": 73,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "N.Jackson",
           "topScorerPoints": 11
         },
         "893431": {
-          "roundPoints": 20,
+          "roundPoints": 59,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 10
         },
         "2817046": {
-          "roundPoints": 47,
+          "roundPoints": 76,
           "captain": "Gabriel",
           "chipUsed": null,
           "topScorer": "N.Jackson",
           "topScorerPoints": 11
         },
         "3529226": {
-          "roundPoints": 28,
+          "roundPoints": 61,
           "captain": "Calafiori",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 10
         },
         "2212762": {
-          "roundPoints": 22,
+          "roundPoints": 56,
           "captain": "Isak",
           "chipUsed": null,
           "topScorer": "Konsa",
           "topScorerPoints": 8
         },
         "3326579": {
-          "roundPoints": 20,
+          "roundPoints": 60,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Vuskovic",
           "topScorerPoints": 12
         },
         "5833200": {
-          "roundPoints": 25,
+          "roundPoints": 62,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Ødegaard",
           "topScorerPoints": 11
         },
         "3513207": {
-          "roundPoints": 39,
+          "roundPoints": 57,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Groß",
           "topScorerPoints": 10
         },
         "1676621": {
-          "roundPoints": 33,
+          "roundPoints": 67,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "N.Jackson",
           "topScorerPoints": 11
         },
         "5667657": {
-          "roundPoints": 18,
+          "roundPoints": 64,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Vuskovic",
           "topScorerPoints": 12
         },
         "2039136": {
-          "roundPoints": 31,
+          "roundPoints": 69,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Vuskovic",
           "topScorerPoints": 12
         },
         "7147920": {
-          "roundPoints": 46,
+          "roundPoints": 87,
           "captain": "Haaland",
           "chipUsed": "bboost",
           "topScorer": "N.Jackson",
           "topScorerPoints": 11
         },
         "1224394": {
-          "roundPoints": 20,
+          "roundPoints": 56,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "N.Jackson",
           "topScorerPoints": 11
         },
         "302482": {
-          "roundPoints": 52,
+          "roundPoints": 82,
           "captain": "Ødegaard",
           "chipUsed": null,
           "topScorer": "Barry",
           "topScorerPoints": 16
         },
         "653804": {
-          "roundPoints": 20,
+          "roundPoints": 60,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "N.Jackson",
           "topScorerPoints": 11
         },
         "2677347": {
-          "roundPoints": 23,
+          "roundPoints": 54,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Cherki",
