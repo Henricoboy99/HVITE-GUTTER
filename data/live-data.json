@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:58:12.476291+00:00",
+  "updatedAt": "2026-11-23T03:30:51.971874+00:00",
   "classic": [
     {
       "rank": 1,
@@ -91,19 +91,19 @@
     },
     {
       "rank": 12,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "points": 665,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
-    },
-    {
-      "rank": 12,
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
       "points": 665,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
+    },
+    {
+      "rank": 12,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "points": 665,
+      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 14,
@@ -1515,19 +1515,19 @@
           "topScorer": "Van Hecke",
           "topScorerPoints": 6
         },
-        "7147920": {
-          "roundPoints": 34,
-          "captain": "Haaland",
-          "chipUsed": null,
-          "topScorer": "Jacquet",
-          "topScorerPoints": 6
-        },
         "1224394": {
           "roundPoints": 35,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Tavernier",
           "topScorerPoints": 8
+        },
+        "7147920": {
+          "roundPoints": 34,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Jacquet",
+          "topScorerPoints": 6
         },
         "653804": {
           "roundPoints": 45,
