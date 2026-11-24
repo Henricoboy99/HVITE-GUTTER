@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T13:51:57.675292+00:00",
+  "updatedAt": "2026-11-24T11:49:07.293342+00:00",
   "classic": [
     {
       "rank": 1,
@@ -30,7 +30,7 @@
       "manager": "Tom Erik Jåbæk",
       "team": "Tom United",
       "entry": 2817046,
-      "points": 731,
+      "points": 733,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -86,7 +86,7 @@
       "manager": "Jens Christian Willas Syverstad",
       "team": "bald fraud XI",
       "entry": 2039136,
-      "points": 665,
+      "points": 666,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
@@ -118,7 +118,7 @@
       "manager": "Sverre Futsæter",
       "team": "SviDi Allstars",
       "entry": 302482,
-      "points": 649,
+      "points": 651,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -1460,7 +1460,7 @@
           "topScorerPoints": 7
         },
         "2817046": {
-          "roundPoints": 28,
+          "roundPoints": 30,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Van Hecke",
@@ -1509,7 +1509,7 @@
           "topScorerPoints": 9
         },
         "2039136": {
-          "roundPoints": 30,
+          "roundPoints": 31,
           "captain": "Haaland",
           "chipUsed": null,
           "topScorer": "Van Hecke",
@@ -1537,7 +1537,7 @@
           "topScorerPoints": 14
         },
         "302482": {
-          "roundPoints": 25,
+          "roundPoints": 27,
           "captain": "Palmer",
           "chipUsed": null,
           "topScorer": "Rogers",
