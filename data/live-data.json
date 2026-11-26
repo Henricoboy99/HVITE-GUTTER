@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:53:50.455643+00:00",
+  "updatedAt": "2026-11-26T05:58:43.208865+00:00",
   "classic": [
     {
       "rank": 1,
@@ -91,19 +91,19 @@
     },
     {
       "rank": 12,
-      "manager": "Torkel Mellin-Olsen",
-      "team": "The Snorkels",
-      "entry": 1224394,
-      "points": 665,
-      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 12,
       "manager": "Kasper Fossen",
       "team": "BryrMegNull",
       "entry": 7147920,
       "points": 665,
       "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
+    },
+    {
+      "rank": 12,
+      "manager": "Torkel Mellin-Olsen",
+      "team": "The Snorkels",
+      "entry": 1224394,
+      "points": 665,
+      "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
     },
     {
       "rank": 14,
