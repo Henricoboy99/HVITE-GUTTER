@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T09:17:29.437947+00:00",
+  "updatedAt": "2026-11-27T19:15:57.893320+00:00",
   "classic": [
     {
       "rank": 1,
@@ -7,14 +7,14 @@
       "team": "Skruf slim bror",
       "entry": 6097974,
       "points": 756,
-      "chipsLeft": "WC 2 · FH 2 · BB 1 · TC 1"
+      "chipsLeft": "WC 2 · FH 1 · BB 1 · TC 1"
     },
     {
       "rank": 2,
       "manager": "Christoffer Jensen",
       "team": "Ballon d’Orgu",
       "entry": 893431,
-      "points": 740,
+      "points": 736,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -38,7 +38,7 @@
       "manager": "Oliver Obst",
       "team": "PrøverIgjen",
       "entry": 2212762,
-      "points": 705,
+      "points": 701,
       "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
     },
     {
@@ -91,19 +91,19 @@
     },
     {
       "rank": 12,
+      "manager": "Kasper Fossen",
+      "team": "BryrMegNull",
+      "entry": 7147920,
+      "points": 665,
+      "chipsLeft": "WC 1 · FH 1 · BB 1 · TC 1"
+    },
+    {
+      "rank": 13,
       "manager": "Torkel Mellin-Olsen",
       "team": "The Snorkels",
       "entry": 1224394,
       "points": 665,
       "chipsLeft": "WC 1 · FH 2 · BB 2 · TC 1"
-    },
-    {
-      "rank": 12,
-      "manager": "Kasper Fossen",
-      "team": "BryrMegNull",
-      "entry": 7147920,
-      "points": 665,
-      "chipsLeft": "WC 1 · FH 2 · BB 1 · TC 1"
     },
     {
       "rank": 14,
@@ -267,10 +267,10 @@
       "month": "November",
       "manager": "Kasper Fossen",
       "points": 121,
-      "inProgress": false
+      "inProgress": true
     }
   ],
-  "currentEvent": 11,
+  "currentEvent": 12,
   "rounds": {
     "1": {
       "finished": true,
@@ -1549,6 +1549,123 @@
           "chipUsed": null,
           "topScorer": "Belloumi",
           "topScorerPoints": 7
+        }
+      }
+    },
+    "12": {
+      "finished": false,
+      "entries": {
+        "6097974": {
+          "roundPoints": 0,
+          "captain": "B.Fernandes",
+          "chipUsed": "freehit",
+          "topScorer": "Trafford",
+          "topScorerPoints": 0
+        },
+        "893431": {
+          "roundPoints": -4,
+          "captain": "De Cuyper",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "3529226": {
+          "roundPoints": 0,
+          "captain": "De Cuyper",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "2817046": {
+          "roundPoints": 0,
+          "captain": "Evanilson",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "2212762": {
+          "roundPoints": -4,
+          "captain": "Calvert-Lewin",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "3326579": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "5833200": {
+          "roundPoints": 0,
+          "captain": "Isak",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "1676621": {
+          "roundPoints": 0,
+          "captain": "Wirtz",
+          "chipUsed": null,
+          "topScorer": "Kinsky",
+          "topScorerPoints": 0
+        },
+        "3513207": {
+          "roundPoints": 0,
+          "captain": "Calvert-Lewin",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "5667657": {
+          "roundPoints": 0,
+          "captain": "De Cuyper",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "2039136": {
+          "roundPoints": 0,
+          "captain": "Calvert-Lewin",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "7147920": {
+          "roundPoints": 0,
+          "captain": "Calvert-Lewin",
+          "chipUsed": "freehit",
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
+        },
+        "1224394": {
+          "roundPoints": 0,
+          "captain": "De Cuyper",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "653804": {
+          "roundPoints": 0,
+          "captain": "N.Jackson",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "302482": {
+          "roundPoints": 0,
+          "captain": "Mbeumo",
+          "chipUsed": null,
+          "topScorer": "Raya",
+          "topScorerPoints": 0
+        },
+        "2677347": {
+          "roundPoints": 0,
+          "captain": "Haaland",
+          "chipUsed": null,
+          "topScorer": "Verbruggen",
+          "topScorerPoints": 0
         }
       }
     }
